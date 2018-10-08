@@ -1,0 +1,377 @@
+@media (min-width: 1400px){
+	
+}
+@media (max-width: 1400px){
+	.date {
+    	font-size: 31px;
+	}
+	.month {
+		font-size: 20px;
+	}
+
+	.solution-section .card .card-body{     min-height: 280px; } 
+}
+@media (max-width: 1300px){
+	.locationtabs_img{ max-width: 300px; }
+	.footer_top .contact_info{ font-size: 13px; }
+	.solution-section .card .card-body{ min-height: 300px; }
+	.solutions_page .solution-section .no-gutters-mob > .col-lg-3{ padding:0px 5px !important; }
+}
+@media (max-width: 1200px){
+	.solution-section .frameworks_section .card .card-body{      min-height: 108px;
+}
+	.solution-section .card .card-body{     min-height: 360px; }
+	.solutions_page .solution-section .no-gutters-mob > .col-lg-3{ padding:0px 2px !important; }
+	
+	.innerpage_banner .banner_title{font-size: 40px;}
+	.locationtabs_img{ max-width: 220px; }
+	.footer_top .contact_info{ font-size: 12px; }
+	.page_left_section{ width: 160px;	 }
+	.page_right_section  {padding-left: 159px;}
+	.text_blue{ font-size:13px; }
+	.dskTopImg{width: 90px;
+    margin: auto;  }
+	.dskTopImg img{ width:100%; }
+
+	.banner_section .banner_title {
+		font-size: 24px;
+
+	}
+	.count_no {
+		font-size: 45px;
+	}
+	.section_title {
+		font-size: 30px;
+	}
+	.card_title {
+		font-size: 30px;	
+	}
+	.table_th {
+		font-size: 22px;
+	}
+	.more_link, .more_link:hover {
+		font-size: 24px;
+	}
+	.table_desc {
+		margin-bottom: 0px;
+	}
+	.date {
+		font-size: 26px;
+	}
+	.month {
+		font-size: 17px;
+		font-weight: normal;
+	}
+	.subscribe_block .subscription_title {
+		font-size: 30px;
+	}
+	.news_events  {
+		margin:50px 0px !important;
+	}
+	
+}@media (max-width: 1100px){
+	.footer{    padding: 52px 28px 22px 39px;}
+	.foot_list_subtitle{     padding-right: 1px; }
+	.foot_list_title{ font-size: 14px; }
+	.locationtabs_img{ max-width: 166px; }
+	.footer_top .contact_info{ font-size: 9px; }
+
+	
+}
+@media screen and (max-width: 991px){
+	.solution-section .card .card-body{ min-height:auto;}
+	.solution-section .frameworks_section .card .card-body{ min-height:auto;}
+	.banner_section.innerpage_banner .banner_caption{ padding: 70px 50px 20px; }
+	.location-section .location-title{ margin-bottom: 10px; 
+    padding-bottom: 6px;font-size: 25px; }
+	.location-section .location_ctitle{ font-size: 17px; margin-bottom: 14px; }
+	.location-section .address_desc{ font-size: 12px; }
+	.location-section .contact_no{ font-size: 15px;}
+	.menutabs li.nav-item .nav-link, .menutabs li.nav-item .nav-link:hover, .menutabs li.nav-item .nav-link:focus{  font-size: 35px;}
+	.menu-list .menu-link, .menu-list .menu-link:hover, .menu-list .menu-link:focus{     font-size: 20px;}
+	.footer_navtabs li a.active, .footer_navtabs li a.active:hover, .footer_navtabs li a.active:focus, .footer_navtabs li a, .footer_navtabs li a:hover, .footer_navtabs li a:focus{ font-size: 14px; }
+	.innerpage_banner .banner_title{ font-size: 29px; }
+    .about_title .sub_title{ font-size: 45px; }
+	.banner_section {
+		height: 400px;
+	}
+	.banner_section:after {
+		height: 60px;
+	    background-size: 100% 100%;
+	}
+	.banner_section .banner_caption {
+	    position: absolute;
+	    width: 100%;
+	    top: 50%;
+	    left: 0;
+	    transform: translateY(-50%);
+	    padding: 0px 30px;
+	}
+	.banner_section .banner_title {
+		font-size: 22px;
+	}
+	.count_section {
+	    margin: 60px 0px;
+	}
+	.count_no {
+	    font-size: 40px;
+	}
+	.count_txt {
+	    font-size: 18px;
+	}
+	.section_title {
+	    font-size: 28px;
+	    margin-bottom: 0px;
+	}
+	.card_title {
+	    font-size: 20px;
+	    padding: 25px;
+	}
+	.card_title.right {
+	    padding: 5px 15px;
+	    font-size: 15px;
+	}
+	.table_th {
+	    font-size: 20px;
+	}
+	.more_link, .more_link:hover {
+	    font-size: 20px;
+	}
+	.section1 {
+		margin-bottom: 15px;
+	}
+	.news_events  {
+		margin:50px 0px !important;
+	}
+	.slick-slide img {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 850px){
+	.page_left_section{display:none;}
+	.page_right_section{ padding-left:0; }
+	.banner_section.innerpage_banner .banner_caption{padding: 20px 40px 10px;}
+	.mobileheaer{ display:block; }
+	.banner_section:after{ background-size: contain;background-position: center bottom;width:90%;margin:auto;height:100%;right:0; }
+	.innerpage_banner{ padding-bottom: 41px; }
+	.innerpage_banner .banner-desc.large-text{ font-size: 15px;}
+	.leadership_section{ padding: 35px 40px;}
+	.partnership_section{     padding: 20px 50px;}
+	.solution-section .card .card-body{     min-height: auto; }
+	.solutions_page .solution-section{     padding: 30px 40px; }
+	.section_title{    font-size: 24px; }
+
+	.solution-section .card .card-header{ min-height: 33px;}
+    .news_group  {
+		margin-top: 20px !important;
+	}
+	.subscribe_block  {
+		padding:25px 0px;
+	}
+	.hamburger-ico{ margin-top:15px !important; }
+	.page{ margin-top:74px; }   
+	
+}
+@media screen and (max-width: 767px){
+	.banner_section .banner_title {
+    	font-size: 20px;
+	}
+	.banner_section {
+	    height: 350px;
+	}
+	.banner_section:after {
+		display: none;
+	}
+	.count_no {
+	    font-size: 30px;
+	}
+	.count_txt {
+	    font-size: 14px;
+	}
+	.section_title {
+	    font-size: 24px;
+	    
+	}
+    .about_title{ font-size: 55px; margin-bottom:0; }
+	.about_title .sub_title{ font-size: 30px; }
+	.about_section{  padding: 26px 50px 26px;}
+	.about_sub_title{  font-size: 28px;  margin-bottom: 15px; }
+	.about_page .content_desc{ font-size: 15px;     margin-bottom: 16px;}
+	.mission_section .wrap_desc{ font-size: 15px;}
+	.mission_section .wrapper_title{ font-size: 19px;    margin-bottom: 10px;}
+	.partnership_section .project_button{     font-size: 17px;}
+	.sliderfor-item .list-inline > li{ width: 45%;	 }  
+	.services_list.left-img .content_section{  padding: 40px 0px 0px 0px;  }
+	.services_list .content_section{ padding:40px 130px 0px 40px }
+	.services_list .content_section .service_title{ font-size: 30px; }
+	.service_subtitle{ font-size: 25px;}
+	.services_list{  padding: 0px 50px 30px;  }
+	.services_list .content_section .service_title{  margin-bottom: 22px; }
+	.services_list.left-img .content_section .service_title, .services_list.left-img .content_section p.service_desc{ padding-right:0; } 
+	.services_list .content_section{ padding:40px 0px 0px 40px; }  
+	.hamburger-ico{ margin-top:20px !important; }
+
+}
+@media screen and (max-width: 640px){
+	.solution_sec .container {
+		width: 100% !important;
+	}
+	.subscribe_block .subscription_title {
+	    font-size: 25px;
+	}
+	.subscribe_block .form-control, .subscribe_block .form-control:hover, .subscribe_block .form-control:focus {
+		min-width: 350px;
+	}
+	.news_events {
+	    
+	    margin-bottom: 0px !important;
+	}
+	
+}
+@media (max-width: 575px){
+	.mob_img {
+		height: 300px;
+		width: 100%;
+	}
+	.d-block.ml-2.pos_rel {
+		margin: 0px !important;
+	}
+	.count_list  {
+		padding: 0px 5px;
+	}
+	.count_section {
+		margin: 25px 0px;
+	}
+	.section_title  {
+		margin-bottom: 15px;
+	}
+	.location-section .address_desc{ min-height: auto; }
+	.block_wrap > .col-sm-6{ text-align:center !important; }
+	.footer-copyrights .footer_list li{ margin-left:0; }
+	.footer{ padding: 20px 25px 22px 19px; }
+	.footer .nav-link, .footer .nav-link:hover, .footer .nav-link.active{ padding:0px 5px 0px;}
+	.footer .nav-link:first-child{ padding-left:0; }
+}
+@media (max-width: 560px){ 
+	
+	.location-section .address_desc{ min-height: auto; }
+	.banner_section.innerpage_banner .banner_caption{     padding: 20px 10px 10px;}
+	.banner_section:after{ width: 97%; }
+	.innerpage_banner{padding-bottom: 31px; }
+	.innerpage_banner .banner_title{ font-size: 26px; }
+	.innerpage_banner .banner-desc.large-text{     font-size: 13px; }
+
+	.about_title{  font-size: 42px;}
+	.about_title .sub_title .sub_head{     font-size: 25px;}
+	.about_section{ padding: 26px 10px 26px;}
+	.mission_section .vision_wrapper, .mission_section .mission_wrapper{   background-position: 5px;    background-size: 70px;     padding-left: 96px;}
+ .leadership_section{     padding: 26px 40px; }
+ .solutions_page .solution-section{      padding: 30px 10px;}
+ .section_title{     font-size: 21px; }
+ .solution-section .card .card-header{     font-size: 18px;     min-height: 24px;}
+ .no-gutters-mob{     margin-right: 0;
+    margin-left: 0;}
+
+.no-gutters-mob > .col,
+.no-gutters-mob > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.home_page .banner_section{ height:200px; }
+.banner_section{ height:auto; }
+.banner_section .banner_btn{ font-size:13px;	 }
+.banner_section .banner_title{     font-size: 15px;}
+
+.services_list{ padding: 0px 10px 30px; }  
+.services_list .content_section .service_title{     font-size: 22px;}
+.services_list.left-img .content_section{   padding: 19px 0px 0px 0px;}
+.services_list .content_section{     padding: 19px 0px 0px 40px; }
+.menu_list_wrap{ margin-top:15px; }
+.foot_list_subtitle{ text-align:justify; }
+.foot_list_title{ text-align:left; }
+.foot_list li {text-align:left;}
+.location-section .location-cimage {
+	position:static;
+}
+.location-section {
+	text-align:center;
+}
+@media (max-width: 480px){
+	.about_title .sub_title .sub_head{ font-size: 17px; }
+	.about_title .sub_title{     font-size: 19px;}
+	.about_title{ font-size: 35px;    padding-bottom: 35px;}
+	.partnership_section .slider-text{ font-size: 14px; }
+	.mobileheaer .navbar-brand{ max-width: 50px; }
+	.hamburger-ico{ margin-top: 8px !important; }
+	
+}
+@media (max-width: 420px){
+	.subscribe_block .form-control, .subscribe_block .form-control:hover, .subscribe_block .form-control:focus {
+		min-width: 250px;
+	}
+    .mission_section .vision_wrapper, .mission_section .mission_wrapper {
+    background-position: 9px 13px;
+    background-size: 54px;
+    padding-left: 10px;
+    padding-top: 85px;}
+	.flip-container .profile_photo .profile_images{ max-height: 130px; }
+	.flip-container .profile_photo{ margin-bottom: 20px; }
+	.flip-container, .flip-container .front, .flip-container .back{ width: 300px;
+    overflow: auto;
+    height: 300px; }
+	.flip-container .back{ padding: 18px 16px;}
+	.flip-container .back .profile_design{ margin-bottom: 11px;	}
+	.partnership_section{ padding: 20px 20px; }
+	.about_sub_title{ font-size: 21px;}
+}
+
+@media (max-width: 360px){
+	.banner_section .banner_title {
+	    font-size: 16px;
+	}
+	.banner_section .banner_btn {
+	    font-size: 14px;
+	}
+	.count_no {
+	    font-size: 22px;
+	}
+	.count_txt {
+	    font-size: 13px;
+	}
+	.table_th {
+	    font-size: 16px;
+	}
+	.table.solution_table td:last-child {
+	   padding: 10px 0px !important;
+	}
+	.table.solution_table td:first-child {
+		padding:0px !important;
+	}
+	.section3 {
+		margin-top: 0px;
+		padding: 10px !important;
+	}
+	.news_events  {
+		margin-top: 0px !important;
+	}
+	.media-list .foot_sm_list li {
+    	margin: 0px 20px;
+	}
+	.subscribe_block .form-control, .subscribe_block .form-control:hover, .subscribe_block .form-control:focus {
+		min-width: 250px;
+	}
+	.subscribe_block .email_container .btn_submit {
+		font-size: 14px;
+		padding: 4px 30px;
+	}
+    
+    .about_title .sub_title{ font-size: 17px;}
+	.about_title{     font-size: 30px;}
+	.about_page .content_desc{   font-size: 14px; }
+	.flip-container, .flip-container .front, .flip-container .back{ width: 230px; }
+	.partnership_section .slider-text{ font-size: 11px; }
+	.sliderfor-item .list-inline > li img{ max-width: 75%;}
+
+}
+
