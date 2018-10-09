@@ -330,7 +330,7 @@
 }
 
 .banner_heading{
-    padding-left:32%;
+    /* padding-left:32%; */
     font-family: ProximaNova;
     font-size: 53px;
     font-weight: 600;
@@ -543,5 +543,17 @@ margin-bottom: 10px;
     letter-spacing: normal;
     color: #000000;
 }
-
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-block{
+    width: 81%;
+    
+}
+.ml_38 {
+    margin-left: 38%;
+}
 
