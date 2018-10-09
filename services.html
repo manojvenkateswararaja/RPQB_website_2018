@@ -2,11 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--fontawesome incorporated-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
@@ -15,28 +13,122 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- social Media Buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
     <title>Services</title>
+    <style>
+        .form-group {
+      position: relative;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+    .input-group {
+      position: relative;
+    }
+    .form-control {
+      display: block;
+      height: 36px;
+      width: 100%; 
+      border: none;
+      border-radius: 0 !important;
+    
+      font-size: 16px;
+      font-weight: 300;
+      padding: 0;
+      background-color: transparent;
+      box-shadow: none;
+      border-bottom: 1px solid #757575;
+    }
+    .input-group .form-control {
+      position: relative;
+      z-index: inherit;
+      float: inherit;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .form-control:focus {
+      border-color: #757575;
+      outline: none;
+      box-shadow: none;
+    }
+    
+    /* -- label styles ---------------------------------- */
+    label {
+      position: absolute;
+      top: -18px;
+      color: #999;
+      font-size: 12px;
+      font-weight: 300;
+      
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all;
+    }
+    
+    .form-horizontal .control-label {
+      position: relative;
+      top: 0;
+      margin-bottom: 0;
+    }
+    
+    @media (min-width: 768px) {
+      .form-horizontal .control-label {
+        font-size: 16px;
+      }
+    }
+      
+    
+    
+    
+    
+    .float-label {
+      left: 0;
+      top: 7px;
+      font-size: 16px;
+      pointer-events: none;
+    }
+    
+    /* active state */
+    .form-control:focus ~ .float-label, .form-control:valid ~ .float-label {
+      top: -18px;
+      font-size: 12px;
+    }
+    .reset_btn {
+    font-size: 0px;
+    border: none;
+    outline: none;
+    padding: 0px;
+  }
+  .custom-button {
+            background: none !important;
+            box-shadow: none !important
+        }
+    </style>
 </head>
 
-<body class="zoom">
+<body>
     <div class="container-fluid">
         <div class="row" style="background-color: #ffffff;
             box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);">
             <div class="col-md-2 img_style">
-                <img src="assests/rapidqube-logo-2.png" alt="rapidqube">
+                <a href="landingpage.html"><img src="assests/rapidqube-logo-2.png" alt="rapidqube"></a>
             </div>
             <div class="col-md-10 pad_right_0">
                 <div class="row custom_margin">
                     <div class="col-md-6"></div>
                     <div class="col-md-2 navBarName">
-                        Contact Us
+                        <a class="navBarName" href="contactus.html">Contact Us</a>
                     </div>
                     <div class="col-md-2 navBarName">
-                        Career
+                        <a class="navBarName" href="contactus.html">Career</a>
                     </div>
                     <div class="col-md-2 navBarName">
-                        Blog
+                        <a class="navBarName" href="blog.html">Blog</a>
                     </div>
 
                 </div>
@@ -56,56 +148,72 @@
                         <tbody>
                             <tr>
                                 <td>
-                                                <button class="btn btn-default navBarName pl_10 dropdown-toggle custom-button"  type="button" data-toggle="dropdown">Products & Solutions
-                                                        <span class="caret"></span></button>
-                                                        <ul class="dropdown-menu pl-3" >
-                                                          <li><a href="#" class="seletcBoxHeading">Agriculture</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Rice Chain</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Cotton Chain</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Farm to Fork</a></li>
-                                                          <li><a href="#" class="seletcBoxHeading">Automobile</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Rapid Updates</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">p2p Messaging</a></li>
-                                                          <li><a href="#" class="seletcBoxHeading">Banking</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Rapid Bill Discounting / Financing</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Rapid Mortgage</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Rapid Cheque</a></li>
-                                                          <li><a href="#" class="seletcBoxHeading">Banking &amp; NBFS</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">Omnichannel Support</a></li>
-                                                          <li><a href="#" class="seletcBoxContents">p2p Payment</a></li>
-                                                        </ul>
+                                    <button class="btn btn-default navBarName pl_10 dropdown-toggle custom-button" type="button"
+                                        data-toggle="dropdown">Products & Solutions
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu pl-3">
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Agriculture</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rice
+                                                Chain</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Cotton
+                                                Chain</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Farm
+                                                to Fork</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Automobile</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                Updates</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
+                                                Messaging</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                Bill Discounting / Financing</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                Mortgage</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                Cheque</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking
+                                                &amp; NBFS</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Omnichannel
+                                                Support</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
+                                                Payment</a></li>
+                                    </ul>
 
                                     <!-- <h5 class="navBarName pl_10">Products & Solutions <i class="fas fa-angle-down"></i></h5> -->
                                 </td>
                                 <td class="mr-2">
-                                        <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'solutions.html';"  type="button" data-toggle="dropdown">White Papers
-                                                
-                                    <!-- <h5 class="navBarName">White Papers <i class="fas fa-angle-down"></i></h5> -->
+                                    <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'solutions.html';"
+                                        type="button" data-toggle="dropdown">White Papers
+
+                                        <!-- <h5 class="navBarName">White Papers <i class="fas fa-angle-down"></i></h5> -->
                                 </td>
                                 <td>
 
-                                        <button class="btn btn-default navBarName pl_10 custom-button"  onclick="location.href = 'solutions.html';"  type="button" data-toggle="dropdown">FrameWorks
-                                                <span class="caret"></span></button>
-                                                <ul class="dropdown-menu">
-                                                  <li><a href="#">Products</a></li>
-                                                  <li><a href="#">Solutions</a></li>
-                                                  <li><a href="#">Contacts</a></li>
-                                                </ul>
+                                    <button class="btn btn-default navBarName pl_10 custom-button" onclick="location.href = 'solutions.html';"
+                                        type="button" data-toggle="dropdown">FrameWorks
+                                    </button>
+
                                     <!-- <h5 class="navBarName">White FrameWorks <i class="fas fa-angle-down"></i></h5> -->
                                 </td>
                                 <td>
-                                    <h5 class="navBarName">Services</h5>
+                                    <a href="services.html">
+                                        <h5 class="navBarName mt-2">Services</h5>
+                                    </a>
                                 </td>
                                 <td>
-                                    <h5 class="navBarName">About Us</h5>
+                                    <a href="aboutus.html">
+                                        <h5 class="navBarName mt-2">About Us</h5>
+                                    </a>
                                 </td>
                                 <td>
-                                    <h5 class="navBarName">info@rapidqube.com</h5>
+                                    <a href="contactus.html">
+                                        <h5 class="navBarName mt-2">info@rapidqube.com</h5>
+                                    </a>
                                 </td>
                                 <td>
-                                    <h5 class="navBarName"><a href="http://">+91-22-2567 3235</a></h5>
+                                    <h5 class="navBarName mt-2"><a href="contactus.html">+91-22-2567 3235</a></h5>
                                 </td>
-                                <td> <img src="assests/group.png" class="fixed_position" alt="rapidqube"> </td>
+                                <td> <a href="landingpage.html"><img  src="assests/group.png" class="mt-2 fixed_position" alt="rapidqube"></a> </td>
                             </tr>
                         </tbody>
                     </table>
@@ -257,30 +365,30 @@
                             <div>
                                 <img src="assests/group-10.png" srcset="assests/group-10@2x.png 2x,assests/group-10@3x.png 3x"
                                     class="Group-5">
-                                <span class=" ml-3 services_content_body"> Service desk </span>
-                            </div>
-                            <div class="ml-5">
+                                <span class=" ml-1 services_content_body">Service&nbsp;desk</span>
+                            </div> &nbsp;
+                            <div class="ml-1">
                                 <img src="assests/services/group-11.png" srcset="assests/services/group-11@2x.png 2x,assests/services/group-11@3x.png 3x"
                                     class="Group-5">
-                                <span class="ml-3 services_content_body"> Enterprise Network Services </span>
-                            </div>
-                            <div class="ml-5">
+                                <span class="ml-1 services_content_body">Enterprise&nbsp;Network&nbsp;Services&nbsp;</span>
+                            </div> &nbsp;
+                            <div class="ml-1">
                                 <img src="assests/services/group-12.png" srcset="assests/services/group-12@2x.png 2x,assests/services/group-12@3x.png 3x"
                                     class="Group-5">
-                                <span class="ml-3 services_content_body"> Cloud Services </span>
+                                <span class="ml-1 services_content_body">Cloud&nbsp;Services</span>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <div>
                                 <img src="assests/services/group-13.png" srcset="assests/services/group-13@2x.png 2x,assests/services/group-13@3x.png 3x"
                                     class="Group-5">
-                                <span class=" ml-3 services_content_body"> System Integration Services </span>
+                                <span class=" ml-1 services_content_body">System&nbsp;Integration&nbsp;Services</span>
                             </div>
-                            <div class="ml-5">
+                            <div class="ml-1">
                                 <img src="assests/services/group-14.png" srcset="assests/services/group-14@2x.png 2x,assests/services/group-14@3x.png 3x"
                                     class="Group-5">
-                                <span class="ml-3 services_content_body"> Infrastructure Engineering Services </span>
-                            </div>
+                                <span class="ml-1 services_content_body">Infrastructure&nbsp;Engineering&nbsp;Services</span>
+                            </div> &nbsp;
                         </div>
                     </p>
                 </div>
@@ -326,49 +434,117 @@
     </div>
     <div class="row col-md-12">
         <div style="width:10%;">
-            <img src="assests/services/group-5-copy-4.png"
-         srcset="assests/services/group-5-copy-4@2x.png 2x,
+            <img src="assests/services/group-5-copy-4.png" srcset="assests/services/group-5-copy-4@2x.png 2x,
                  assests/services/group-5-copy-4@3x.png 3x"
-         class="Group-5-Copy-4">
+                class="Group-5-Copy-4">
         </div>
         <div class="col-md-2"></div>
-        <div class=" container">
-                <span class="services_content_heading">
-                   Our intent is that these sessions do the following
-                   <ul style=" list-style: none;">
-                       <li class="mt-3" ><img src="assests/services/group-15.png" srcset="assests/services/group-15@2x.png 2x,assests/services/group-15@3x.png 3x"
+        <div class="col-md-8 container-fluid">
+            <span class="services_content_heading">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our intent is that these sessions do the following
+                <ul style=" list-style: none;">
+                    <li class="mt-3"><img src="assests/services/group-15.png" srcset="assests/services/group-15@2x.png 2x,assests/services/group-15@3x.png 3x"
                             class="Group-5">
-                            <span class=" ml-3 services_content_body"> Help You Define Blockchain Technology In Your Own Words </span>
-                        </li>
-                        <li class="mt-3"><img src="assests/services/group-16.png" srcset="assests/services/group-16@2x.png 2x,assests/services/group-16@3x.png 3x"
+                        <span class=" ml-3 services_content_body"> Help You Define Blockchain Technology In Your Own
+                            Words </span>
+                    </li>
+                    <li class="mt-3"><img src="assests/services/group-16.png" srcset="assests/services/group-16@2x.png 2x,assests/services/group-16@3x.png 3x"
                             class="Group-5">
-                            <span class=" ml-3 services_content_body">Understand How Blockchain Could Potentially Impact Your Business And Industry</span>
-                        </li>
-                        <li  class="mt-3"><img src="assests/services/group-17.png" srcset="assests/services/group-17@2x.png 2x,assests/services/group-17@3x.png 3x"
+                        <span class=" ml-3 services_content_body">Understand How Blockchain Could Potentially Impact
+                            Your Business And Industry</span>
+                    </li>
+                    <li class="mt-3"><img src="assests/services/group-17.png" srcset="assests/services/group-17@2x.png 2x,assests/services/group-17@3x.png 3x"
                             class="Group-5">
-                            <span class=" ml-3 services_content_body"> Write A Thought Leadership Piece Regarding Use Cases And Industry Potential Of Blockchain Technology</span>
-                        </li>
-                        <li  class="mt-3"><img src="assests/services/group-18.png" srcset="assests/services/group-18@2x.png 2x,assests/services/group-18@3x.png 3x"
+                        <span class=" ml-3 services_content_body"> Write A Thought Leadership Piece Regarding Use Cases
+                            And Industry Potential Of Blockchain
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology</span>
+                    </li>
+                    <li class="mt-3"><img src="assests/services/group-18.png" srcset="assests/services/group-18@2x.png 2x,assests/services/group-18@3x.png 3x"
                             class="Group-5">
-                            <span class=" ml-3 services_content_body">Explain Blockchain Technology To Your Clients, Friends, Business Colleagues </span>
-                        </li>
-                        <li  class="mt-3"><img src="assests/services/group-19.png" srcset="assests/services/group-19@2x.png 2x,assests/services/group-19@3x.png 3x"
+                        <span class=" ml-3 services_content_body">Explain Blockchain Technology To Your Clients,
+                            Friends, Business Colleagues </span>
+                    </li>
+                    <li class="mt-3"><img src="assests/services/group-19.png" srcset="assests/services/group-19@2x.png 2x,assests/services/group-19@3x.png 3x"
                             class="Group-5">
-                            <span class=" ml-3 services_content_body"> Identify Which Aspects Of Blockchain Technology Seem Most Important To You And Why </span>
-                        </li>
-                   </ul>
-                </span>
+                        <span class=" ml-3 services_content_body"> Identify Which Aspects Of Blockchain Technology Seem
+                            Most Important To You And Why </span>
+                    </li>
+                </ul>
+            </span>
         </div>
     </div>
-    <style>
-    .custom-button{
-        background: none !important;
-        box-shadow: none !important
-    }
-    </style>
-    
-            
-        
+    <!-- Modal Contents -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title w-100 heading">Quick Enquiry</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body modal-guts">
+                    <form name="email_form" class="email_form" id="email_form" method="POST" action="#" autocomplete="off">
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Your Email</label>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">First Name</label>
+
+
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Company</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Phone Number</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                            <input type="hidden" name="fld_name" id="fld_name">
+                            <span class="form-highlight"></span>
+                            <span class="form-bar"></span>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Country</label>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default  buttonFonts "
+                                style="width: 265px; height: 61px;border-radius: 8px; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);">Submit</button>
+                            <input type="reset" name="" class="reset_btn">
+                        </div>
+
+                </div>
+                </form>
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div> -->
+
+            </div>
+        </div>
+    </div>
+    <!--   End Of Modal-->
 
 
 
@@ -398,12 +574,9 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>
