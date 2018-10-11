@@ -29,6 +29,12 @@
     src:url(../assests/fonts/proximanova-light-webfont.ttf);
 
 }
+.Line-3-Copy-2 {
+    width: 369px;
+    height: 0.1px;
+    border: solid 5px #08b5e5;
+}
+  
 /* NavBar DropDown */
 .seletcBoxHeading{
   font-family: ProximaNova;
@@ -370,7 +376,7 @@
     transform: translate(-50%, -50%);
 }
 .Solutions_content_body{
-    font-family: ProximaNova;
+    font-family: ProximaNovaRegular;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -428,11 +434,20 @@
     line-height: normal;
     letter-spacing: normal;
     color: #000000;
+} 
+.aboutus1_heading_name{   
+    font-family: ProximaNovaBold;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
 }
-
-.aboutus1_heading{
-    font-family: ProximaNova;
-    font-size: 24px;
+.aboutus1_heading_desc{   
+    font-family: ProximaNovaRegular;
+    font-size: 14.2px;
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
