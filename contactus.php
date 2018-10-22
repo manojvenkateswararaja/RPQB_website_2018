@@ -108,7 +108,8 @@
 </head>
 
 <body>
-        <?php include('navbar.php'); ?>
+    <?php include('navbar.php'); ?>
+    
     <div class="container heading pnSB mt-5 pl-5">
         Contact Us
     </div>

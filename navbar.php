@@ -2,7 +2,8 @@
     <div class="row" style="background-color: #ffffff;
             box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);">
         <div class="col-md-2 mb-3 img_style">
-            <img src="assests/rapidqube-logo-2.png" alt="rapidqube">
+        <a href="landingpage.php"> <img src="assests/rapidqube-logo-2.png" alt="rapidqube"></a>
+           
         </div>
         <div class="col-md-10 pad_right_0">
             <div class="row custom_margin">

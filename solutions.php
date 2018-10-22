@@ -105,28 +105,6 @@
 
 <body>
         <?php include('navbar.php'); ?>
-
-
-        <!-- <div class="container-fluid mt-2">
-            <img src="assests/shutterstock-324782423.jpg" srcset="assests/shutterstock-324782423@2x.jpg 2x,assests/shutterstock-324782423@3x.jpg 3x"
-                class="shutterstock_324782423" style="width:100%;height: 14.9%;">
-            <div class="centered">
-                <h4 class="heading white_color banner_heading">Solutions</h4>
-                <div class="banner_size">
-                    <p class="white_color banner_content">ISO defines software quality as a structured set of
-                        individual quality characteristics focusing on Functionality, Reliability, Usability,
-                        Efficiency,
-                        Maintainability, and Portability. We keep those tenets “front and center” throughout our
-                        solution
-                        lifecycle. As innovators, designers, developers and strategists, our client work defines us. In
-                        today's marketplace, the practice of innovation isn't just about creating new solutions, it's
-                        about
-                        discovering completely new markets and customers.</p>
-                </div>
-
-            </div>
-        </div> -->
-
         <div class="container mt-1 col-md-12">
             <div class="item">
                 <img src="assests/shutterstock-324782423.jpg" srcset="assests/shutterstock-324782423@2x.jpg 2x,assests/shutterstock-324782423@3x.jpg 3x"
