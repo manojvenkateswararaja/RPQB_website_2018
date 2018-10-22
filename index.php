@@ -1,1 +1,1 @@
-<?php header( 'Location: /landingpage.html' ) ;  ?>
+<?php header( 'Location: /landingpage.php' ) ;  ?>
