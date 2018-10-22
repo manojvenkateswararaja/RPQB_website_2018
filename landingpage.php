@@ -327,18 +327,18 @@
 
   </div>
 
-  <div class="modal" id="myModal">
+  <!-- <div class="modal" id="myModal">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content"> -->
 
         <!-- Modal Header -->
-        <div class="modal-header">
+        <!-- <div class="modal-header">
           <h4 class="modal-title w-100 heading">Quick Enquiry</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
+        </div> -->
 
         <!-- Modal body -->
-        <div class="modal-body modal-guts">
+        <!-- <div class="modal-body modal-guts">
           <form name="email_form" class="email_form" id="email_form" method="POST" action="#" autocomplete="off">
 
             <div class="form-group">
@@ -388,15 +388,15 @@
             </div>
 
         </div>
-        </form>
+        </form> -->
         <!-- Modal footer -->
         <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
               </div> -->
 
-      </div>
+      <!-- </div>
     </div>
-  </div>
+  </div> -->
   <!--   End Of Modal-->
 
   <script>
