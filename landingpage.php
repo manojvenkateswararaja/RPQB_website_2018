@@ -268,13 +268,13 @@
       <div class="col-md-1">
         <ul style="list-style: none;">
           <li class="footer_font_header">Rapidqube</li>
-          <br> <a href="aboutus.html">
+          <br> <a href="aboutus.php">
             <li class="footer_font">About&nbsp;Us</li>
           </a>
-          <br> <a href="services.html">
+          <br> <a href="services.php">
             <li class="footer_font">Services</li>
           </a>
-          <br> <a href="solutions.html">
+          <br> <a href="solutions.php">
             <li class="footer_font">Solutions</li>
           </a>
         </ul>
@@ -283,13 +283,13 @@
       <div class="col-md-1">
         <ul style="list-style: none; ">
           <li class="footer_font_header">SUPPORT</li>
-          <br> <a href="contactus.html">
+          <br> <a href="contactus.php">
             <li class="footer_font">Help&nbsp;Center </li>
           </a>
-          <br> <a href="contactus.html">
+          <br> <a href="contactus.php">
             <li class="footer_font">FAQ's</li>
           </a>
-          <br> <a href="contactus.html">
+          <br> <a href="contactus.php">
             <li class="footer_font">Contact&nbsp;Us</li>
           </a>
         </ul>
@@ -312,7 +312,7 @@
           <span><a href="https://www.facebook.com/rapidqube/" class="fa fa-facebook"></a></span>
           <span><a href="https://twitter.com/rapidqube" class="fa fa-twitter"></a></a></span>
           <span><a href="https://in.linkedin.com/company/rapidqube" class="fa fa-linkedin"></a></span>
-          <span><a href="landingpage.html" class="fa fa-google"></a></span>
+          <span><a href="landingpage.php" class="fa fa-google"></a></span>
         </div>
       </div>
     </div>
