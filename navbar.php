@@ -185,7 +185,7 @@
                 style="width: 265px; height: 61px;border-radius: 8px; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);">Submit</button>
               <input type="reset" name="" class="reset_btn">
             </div>
-
+            <p class="statusMsg"></p>
         </div>
         </form>
         <!-- Modal footer -->
@@ -226,7 +226,7 @@
 
       submitHandler: function (form) {
 
-
+        console.log($('.email_form').serialize());
         var email_details = $('.email_form').serialize();
         $('.statusMsg').html('');
         $.ajax({
@@ -238,6 +238,7 @@
 
           },
           success: function (msg) {
+              console.log(msg);
             if (msg) {
               $('.reset_btn').click();
               $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
