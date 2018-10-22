@@ -514,7 +514,7 @@
 
       submitHandler: function (form) {
 
-        console.log($('.email_form').serialize());
+       
         var email_details = $('.email_form').serialize();
         $('.statusMsg').html('');
         $.ajax({
@@ -526,7 +526,7 @@
 
           },
           success: function (msg) {
-              console.log(msg);
+             
             if (msg) {
               $('.reset_btn').click();
               $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
@@ -543,6 +543,7 @@
 
             } else {
               $('.statusMsg').html('<span style="color:red;font-size: 20px;">Some problem occurred, please try again.</span>');
+              $('.reset_btn').click();
             }
 
 

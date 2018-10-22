@@ -261,8 +261,8 @@
     </div>
   </div>
   <div class="footer pale_bg_color" style="width: 100%;height:10%;">
-    <div class="col-md-10"></div><div> <img src="assests/group-8.png"  srcset="assests/group-8@2x.png 2x, assests/group-8@3x.png 3x"
-      class="Group-8 float-right mr-5" style="margin-top: -3%;" ></div>
+    <div class="col-md-10"></div><div> <a href="#" data-toggle="modal" data-target="#myModal"><img src="assests/group-8.png"  srcset="assests/group-8@2x.png 2x, assests/group-8@3x.png 3x"
+      class="Group-8 float-right mr-5" style="margin-top: -3%;" ></a></div>
     <div class="container row mt-5">
       <div class="col-md-2"></div>
       <div class="col-md-1">
