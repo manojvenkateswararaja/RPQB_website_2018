@@ -484,13 +484,19 @@
         });
         
         $('.close').click(function(){
-        $('.statusMsg').html('');
-    });
+            $('.statusMsg').html('');
+            $('.reset_btn').click();
+
+        });
+
+        $("#myModal").on("hidden.bs.modal", function () {
+            $('.statusMsg').html('');
+            $('.reset_btn').click();
+        });
     
         $('.card-link').click(function (e) {
            
             modalTitle = $(this).parents('.card').find('.card-title').text();
-            url_link = $(this).parents('.card').find('.view_pdf').attr("href");
             $('.modal-title').text(modalTitle);
             $('#fld_name').val(modalTitle);
             ('.statusMsg').html('');

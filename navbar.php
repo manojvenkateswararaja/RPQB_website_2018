@@ -207,6 +207,10 @@
     $('.close').click(function(){
         $('.statusMsg').html('');
     });
+    $("#myModal").on("hidden.bs.modal", function () {
+            $('.statusMsg').html('');
+            $('.reset_btn').click();
+    });
     // Mail Send
     $('#email_form').validate({
       rules: {
