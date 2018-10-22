@@ -178,7 +178,7 @@
               <label class="float-label regFormFonts" name="country" for="exampleInputEmail1">Country</label>
             </div>
             <div class="form-group">
-            <input type="hidden" name="fld_name" id="fld_name">
+            <input type="hidden" name="fld_name" id="fld_name" value="Quick Enquiry">
             </div>
             <div class="modal-footer d-flex justify-content-center">
               <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default send_btn  buttonFonts "
@@ -242,10 +242,10 @@
             if (msg) {
               $('.reset_btn').click();
               $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
-
-              // setTimeout(function(){
-              // 	$('.close').click();
-              // },3000);
+                
+              setTimeout(function(){
+              	 $('.statusMsg').html('');
+              },3000);
 
               //$('.close').click();
               //$('.reset_btn').click();
