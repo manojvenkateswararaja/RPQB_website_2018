@@ -16,6 +16,9 @@
     <!-- social Media Buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>Blog</title>
     <style>
         .form-group {
@@ -505,88 +508,6 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-
-    <!-- Modal Content -->
-    <div class="modal" id="myModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title w-100 heading">Quick Enquiry</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body modal-guts">
-                    <form name="email_form" class="email_form" id="email_form" method="POST" action="#" autocomplete="off">
-
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" required>
-                            <span class="form-highlight"></span>
-                            <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Your Email</label>
-
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" required>
-                            <span class="form-highlight"></span>
-                            <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">First Name</label>
-
-
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" required>
-                            <span class="form-highlight"></span>
-                            <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" required>
-                            <span class="form-highlight"></span>
-                            <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Company</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" required>
-                            <span class="form-highlight"></span>
-                            <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Phone Number</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" required>
-                            <input type="hidden" name="fld_name" id="fld_name">
-                            <span class="form-highlight"></span>
-                            <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Country</label>
-                        </div>
-                        <div class="modal-footer d-flex justify-content-center">
-                            <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default  buttonFonts "
-                                style="width: 265px; height: 61px;border-radius: 8px; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);">Submit</button>
-                            <input type="reset" name="" class="reset_btn">
-                        </div>
-
-                </div>
-                </form>
-                <!-- Modal footer -->
-                <!-- <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div> -->
-
-            </div>
-        </div>
-    </div>
-    <!--   End Of Modal-->
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>

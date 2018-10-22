@@ -194,3 +194,68 @@
     </div>
   </div>
   <!--   End Of Modal-->
+
+
+   <script>
+    // Mail Send
+    $('#email_form').validate({
+      rules: {
+
+        email: {
+          required: true,
+          email: true
+        },
+        f_name: "required",
+        phone: "required",
+        country: "required"
+
+
+
+
+      },
+      messages: {
+
+      },
+
+      submitHandler: function (form) {
+
+
+        var email_details = $('.email_form').serialize();
+        $('.statusMsg').html('');
+        $.ajax({
+          type: "POST",
+          url: "register.php",
+
+          data: {
+            email_details: email_details
+
+          },
+          success: function (msg) {
+            if (msg) {
+              $('.reset_btn').click();
+              $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
+
+              // setTimeout(function(){
+              // 	$('.close').click();
+              // },3000);
+
+              //$('.close').click();
+              //$('.reset_btn').click();
+
+
+
+
+            } else {
+              $('.statusMsg').html('<span style="color:red;font-size: 20px;">Some problem occurred, please try again.</span>');
+            }
+
+
+
+
+          }
+        });
+
+      }
+
+    });
+  </script>
