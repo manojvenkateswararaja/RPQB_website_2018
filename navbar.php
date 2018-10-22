@@ -138,51 +138,50 @@
           <form name="email_form" class="email_form" id="email_form" method="POST" action="#" autocomplete="off">
 
             <div class="form-group">
-                <label for="email" class="col-sm-3 regFormFonts">Email</label>
-				<div class="col-sm-9">
-				    <input type="email" class="form-control form_flds" name="email" id="email" placeholder="" autocomplete="off">
-			</div>
+              <input type="email" class="form-control" name="email"   id="email">
+              <span class="form-highlight"></span>
+              <span class="form-bar"></span>
+              <label class="float-label regFormFonts" for="exampleInputEmail1">Your Email</label>
 
             </div>
             <div class="form-group">
-            <label for="f_name" class="col-sm-3 regFormFonts">First Name</label>
-						    <div class="col-sm-9">
-						      <input type="text" class="form-control form_flds" name="f_name" id="f_name" placeholder="">
-						    </div>
+              <input type="text" class="form-control" name="f_name" id="f_name">
+              <span class="form-highlight"></span>
+              <span class="form-bar"></span>
+              <label class="float-label regFormFonts"  for="exampleInputEmail1">First Name</label>
 
 
             </div>
             <div class="form-group">
-                    <label for="l_name" class="col-sm-3 regFormFonts">Last Name</label>
-                        <div class="col-sm-9">
-						      <input type="text" class="form-control form_flds" name="l_name" id="l_name" placeholder="">
-                        </div>
+              <input type="text" class="form-control" name="l_name" id="l_name" id="exampleInputEmail1">
+              <span class="form-highlight"></span>
+              <span class="form-bar"></span>
+              <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
             </div>
             <div class="form-group">
-            <label for="company" class="col-sm-3 regFormFonts">Company</label>
-						    <div class="col-sm-9">
-						      <input type="text" class="form-control form_flds" name="company" id="company" placeholder="">
-						    </div>
+              <input type="text" class="form-control" name="company" id="company" id="exampleInputEmail1">
+              <span class="form-highlight"></span>
+              <span class="form-bar"></span>
+              <label class="float-label regFormFonts"  name="company" id="company" for="exampleInputEmail1">Company</label>
             </div>
             <div class="form-group">
-            <label for="phone" class="col-sm-3 regFormFonts">Phone Number</label>
-						    <div class="col-sm-9">
-						      <input type="text" class="form-control form_flds" name="phone" id="phone" placeholder="">
-						    </div>
+              <input type="text" class="form-control" name="phone" id="phone" id="exampleInputEmail1">
+              <span class="form-highlight"></span>
+              <span class="form-bar"></span>
+              <label class="float-label regFormFonts" name="phone" for="exampleInputEmail1">Phone Number</label>
             </div>
             <div class="form-group">
-            <label for="phone" class="col-sm-3 regFormFonts">Country</label>
-						    <div class="col-sm-9">
-						        <input type="text" class="form-control form_flds" name="country" id="country" placeholder="">
-							  
-						    </div>
+              <input type="text" class="form-control" name="country" id="country" id="exampleInputEmail1">
+              
+              <span class="form-highlight"></span>
+              <span class="form-bar"></span>
+              <label class="float-label regFormFonts" name="country" for="exampleInputEmail1">Country</label>
             </div>
-            <div class="forem-group">
-						  	<input type="hidden" name="fld_name" id="fld_name">
-						  	
-						  </div>
+            <div class="form-group">
+            <input type="hidden" name="fld_name" id="fld_name">
+            </div>
             <div class="modal-footer d-flex justify-content-center">
-              <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default send_btn buttonFonts "
+              <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default send_btn  buttonFonts "
                 style="width: 265px; height: 61px;border-radius: 8px; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);">Submit</button>
               <input type="reset" name="" class="reset_btn">
             </div>
