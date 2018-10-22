@@ -29,6 +29,33 @@
     src:url(../assests/fonts/proximanova-light-webfont.ttf);
 
 }
+@font-face {
+    font-family: 'ProximaNovaSemiBold';
+    src:url(../assests/fonts/proximanova_semibold_webfont.ttf);
+
+}
+.pn{
+    font-family: ProximaNova;
+}
+.pnT{
+    font-family: ProximaNovaThin;
+}
+.pnLB{
+    font-family: ProximaNovaLightBold;
+}
+.pnB{
+    font-family: ProximaNovaBold;
+}
+.pnR{
+    font-family: ProximaNovaRegular;
+}
+.pnL{
+    font-family: ProximaNovaLight;
+}
+.pnSB{
+    font-family: ProximaNovaSemiBold;
+}
+
 .Line-3-Copy-2 {
     width: 369px;
     height: 0.1px;
@@ -36,6 +63,17 @@
 }
   
 /* NavBar DropDown */
+.solid_navbar{
+    height: 0.1px;
+    opacity: 0.55;
+    border: solid 1px #979797;
+}
+.none{
+    list-style: none;
+}
+.w_312{
+    width: 312px;
+}
 .seletcBoxHeading{
   font-family: ProximaNova;
   font-size: 18px;
@@ -83,7 +121,7 @@
   
 }
 .navBarName{
-    font-family: ProximaNova;
+    font-family: ProximaNovaRegular;
     font-size: 14px;
     font-style: normal;
     font-stretch: normal;
@@ -120,15 +158,15 @@
     object-fit: contain;
   }
 .heading {
-    width: 517px;
-    height: 43px;
-    font-family: ProximaNova;
+    /* width: 517px;
+    height: 43px; */
+   
     font-size: 36px;
     font-weight: 600;
     font-style: normal;
-    /* font-stretch: normal; */
+    font-stretch: normal;
     line-height: normal;
-    /* letter-spacing: normal; */
+    letter-spacing: normal;
     color: #000000;
 }
 .smallheading{
@@ -182,7 +220,7 @@
 
 }
 .count_no {
-  font-family: ProximaNova;
+  font-family: ProximaNovaSemiBold;
   font-size: 48px;
   font-weight: 600;
   font-style: normal;
@@ -201,9 +239,9 @@
     line-height: normal;
     letter-spacing: normal;
 	color:#000000;
-    font-size:20px;
+    font-size:22px;
     text-align: center;
-    font-family: ProximaNova;
+    font-family: ProximaNovaSemiBold;
 }
 .box_no{
     width: 153px;
@@ -271,7 +309,7 @@
 
 .footer_font_header{
     font-family: ProximaNovaBold;
-    font-size: 15px;
+    font-size: 14px;
     color: #000000;
     font-weight: bold;
     line-height: 1.17;
@@ -279,7 +317,7 @@
 }
 .footer_font{
     font-family: ProximaNovaRegular;
-    font-size: 14px;
+    font-size: 13px;
     color: #000000;
     font-weight: bold;
     line-height: 1.17;
@@ -324,6 +362,54 @@
 }
 
 /* ContactUs Page */
+.map{
+    width: 548px;
+    height: 274px;
+    opacity: 1.53;
+}
+.solid_contact{
+    opacity: 0.25;
+    border: solid 1px #979797;
+}
+.w_42{
+    width: 42%; 
+}
+.w_76{
+    width: 76%;
+}
+.ml_13{
+    margin-left: 13%;
+}
+.city_name{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4.5;
+    letter-spacing: normal;
+    color:#000000;
+}
+.city_address{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color:#000000;
+}
+.city_office_name{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#000000;
+}
+.ml_-35{
+    margin-left: -35%;
+}
 .tab_drawer_heading { 
     display: none; 
 }
@@ -337,7 +423,7 @@
 
 .banner_heading{
     /* padding-left:32%; */
-    font-family: ProximaNova;
+    font-family: ProximaNovaSemiBold;
     font-size: 53px;
     font-weight: 600;
     font-style: normal;
@@ -346,7 +432,7 @@
     letter-spacing: normal;
 }
 .banner_content{
-    font-family: ProximaNova;
+    font-family: ProximaNovaRegular;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -368,6 +454,11 @@
 .container {
     position: relative;
 
+}
+.solutions_image{
+    width: 545px;
+    height: 545px; 
+    object-fit: contain;
 }
 .centered {
     position: absolute;
@@ -397,7 +488,7 @@
 }
 
 .pale_bg_color{
-    background-image: linear-gradient(to bottom, #def8fd, #f2f9fa);
+  background-color:#f2f9fa
 }
 .video_ico { 
 	background:url(../assests/ic_play.png) center center no-repeat;
@@ -425,6 +516,69 @@
 /* Solutions Page */
 
 /* About_us Page */
+.blue { 
+    border: solid 3px #08b5e5;
+    margin-left: -5%;
+    width: 110%;
+    height:0.15;
+    margin-top:10%;
+}
+.ml_67{
+    margin-left: 67%;
+}
+.mr_86{
+    margin-right: 86%;
+}
+.ml_86{
+    margin-left: 86%;
+}
+.ml_18{
+    margin-left: 18%;
+}
+.ml_30{
+    margin-left: 30%;
+}
+.ml_35{
+    margin-left:35%;
+}
+.ml_24{
+    margin-left: 24%;
+}
+.mt_2{
+ margin-top: -2%;
+}
+.ml_28{
+    margin-left: 28%;
+}
+.shadowEffect{
+    border-radius: 5.6px;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid 0.7px #eaeaea;
+    background-color: #ffffff;
+}
+.blue_line {
+    width: 314px;
+    height: 0.1px;
+    border: solid 3px #08b5e5;
+    margin-left: -5%;
+    margin-top: 7%;
+
+  }
+  .ml_12{
+    margin-left: 12%;
+  }
+  .ml_41{
+    margin-left: 41%;
+  }
+  .mt_8{
+    margin-top: 8%;
+  }
+  .mt_6{
+    margin-top: 6%;
+  }
+  .mt_15{
+    margin-top: 15%;
+  }
 .aboutus_heading{
     font-family: ProximaNova;
     font-size: 36px;
@@ -528,8 +682,11 @@ margin-bottom: 10px;
 }
 
 /* Services Page */
+.pt_6{
+    padding-top: 6%;
+}
 .services_heading{
-    font-family: ProximaNovaBold;
+    font-family: ProximaNovaSemiBold;
     font-size: 36px;
     font-weight: 600;
     font-style: normal;

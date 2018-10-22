@@ -118,126 +118,12 @@
     width: 110%;
     height: 109.9%;
 }
-.shadowEffect{
-    background-color: #ffffff;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);
-}
+
     </style>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row" style="background-color: #ffffff;
-            box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);">
-            <div class="col-md-2 mb-3 img_style">
-                <a href="landingpage.html"><img src="assests/rapidqube-logo-2.png" alt="rapidqube"></a>
-            </div>
-            <div class="col-md-10 pad_right_0">
-                <div class="row custom_margin">
-                    <div class="col-md-6"></div>
-                    <div class="col-md-2 navBarName">
-                        <a class="navBarName" href="contactus.html">Contact Us</a>
-                    </div>
-                    <div class="col-md-2 navBarName">
-                        <a class="navBarName" class="navBarName" href="contactus.html">Career</a>
-                    </div>
-                    <div class="col-md-2 navBarName">
-                        <a class="navBarName" href="blog.html">Blog</a>
-                    </div>
-
-                </div>
-                <div class="border"></div>
-                <div>
-                    <table class="mr_9">
-                        <colgroup>
-                            <col style="width: 15%;">
-                            <col style="width: 10%;">
-                            <col style="width: 13%;">
-                            <col style="width: 6%;">
-                            <col style="width: 8%;">
-                            <col style="width: 10%;">
-                            <col style="width: 13%;">
-                            <col style="width: 5%;">
-                        </colgroup>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <button class="btn btn-default navBarName pl_10 dropdown-toggle custom-button" type="button"
-                                        data-toggle="dropdown">Products & Solutions
-                                        <span class="caret"></span></button>
-                                    <ul class="dropdown-menu pl-3">
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Agriculture</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rice
-                                                Chain</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Cotton
-                                                Chain</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Farm
-                                                to Fork</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Automobile</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                Updates</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
-                                                Messaging</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                Bill Discounting / Financing</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                Mortgage</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                Cheque</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking
-                                                &amp; NBFS</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Omnichannel
-                                                Support</a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
-                                                Payment</a></li>
-                                    </ul>
-
-                                    <!-- <h5 class="navBarName pl_10">Products & Solutions <i class="fas fa-angle-down"></i></h5> -->
-                                </td>
-                                <td class="mr-2">
-                                    <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'solutions.html';"
-                                        type="button" data-toggle="dropdown">White Papers</button>
-
-                                    <!-- <h5 class="navBarName">White Papers <i class="fas fa-angle-down"></i></h5> -->
-                                </td>
-                                <td>
-
-                                    <button class="btn btn-default navBarName pl_10 custom-button" onclick="location.href = 'solutions.html';"
-                                        type="button" data-toggle="dropdown">FrameWorks
-                                    </button>
-
-                                    <!-- <h5 class="navBarName">White FrameWorks <i class="fas fa-angle-down"></i></h5> -->
-                                </td>
-                                <td>
-                                    <a href="services.html">
-                                        <h5 class="navBarName mt-2">Services</h5>
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="aboutus.html">
-                                        <h5 class="navBarName mt-2">About Us</h5>
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="contactus.html">
-                                        <h5 class="navBarName mt-2">info@rapidqube.com</h5>
-                                    </a>
-                                </td>
-                                <td>
-                                    <h5 class="navBarName mt-2"><a href="contactus.html">+91-22-2567 3235</a></h5>
-                                </td>
-                                <td> <a href="landingpage.html"><img src="assests/group.png" class="mt-2 fixed_position"
-                                            alt="rapidqube"></a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-        </div>
-    </div>
+        <?php include('navbar.php'); ?>
 
 
     <!-- <div class="container-fluid">
@@ -404,52 +290,57 @@
 
             </div>
         </div>
-        <div class="col-md-12 ">
-            <div class="m-5 container col-md-12 row">
-                <div class="col-md-3"></div>
-                <div class="card col-md-3" style="width:24.4%;border:none;background-color: #ffffff;
-                box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);">
-                    <div class="card-body">
-                        <img src="assests/img-lokesh.png" srcset="assests/img-lokesh@2x.png 2x, assests/img-lokesh@3x.png 3x"
-                            class="img_lokesh ml-4">
-                        <h5 class="card-title aboutus1_heading_name mt-3 ml-5">Lokesh&nbsp;Reddi&nbsp;</h5>
-                        <h6 class="card-subtitle mb-2 aboutus1_heading_desc mt-2 ml-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Co-founder</h6>
-                        <p class="card-text Solutions_content_body" style="text-align: justify;">Lokesh is an angel
-                            investor and serial
-                            entrepreneur. He worked in payments industry for almost a decade and associated with some
-                            of
-                            the most renowned names in financial services. He is a hands on Strategist and technology
-                            evangelist. He handles and organizes all the numbers to fund RapidQube.</p>
-
-                        <p class="card-text Solutions_content_body">
-                            &nbsp;<span><a href="#" class="fa fa-facebook"></a></span>
-                            &nbsp;<span><a href="#" class="fa fa-twitter"></a></a></span>
-                            &nbsp;<span><a href="#" class="fa fa-linkedin"></a></span>
-                        </p>
-                    </div>
-                    
-                </div>
-               
+        <div class="row col-md-12 ">
+            <div class="row mt-5 col-md-12">
                 
-                <div class="col-md-1"></div>
-                <div class="card shadowEffect col-md-3" style="width:24.4%;border:none;">
-                    <div class="card-body">
-                        <img src="assests/img-raghunadh.png" srcset="assests/img-raghunadh@2x.png 2x, assests/img-raghunadh@3x.png 3x"
-                            class="img_raghunadh ml-4">
-                        <h5 class="card-title aboutus1_heading_name mt-3 ml-3">Raghunadh&nbsp;Vaddadi</h5>
-                        <h6 class="card-subtitle mb-2 pl-5  mt-2 aboutus1_heading_desc" style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Co-founder</h6>
-                        <p class="card-text Solutions_content_body">Raghu is an early adapter to Block chain
-                            technology, has a deep understanding and connect with the digital eco-system. He can always
-                            be found tinkering with ideas and strategies. A 24/7 person, he is a very well known
-                            technologist across the Community. He is the Managing Principal @ RapidQube fueling growth.</p>
-
-                        <p class="card-text Solutions_content_body">
-                            <span><a href="#" class="fa fa-facebook"></a></span>
-                            <span><a href="#" class="fa fa-twitter"></a></a></span>
-                            <span><a href="#" class="fa fa-linkedin"></a></span>
-
-                        </p>
+                <div class="col-md-3 col-md-offset-2 ml_18 mr-auto shadowEffect">
+                    <img src="assests/img-lokesh.png" srcset="assests/img-lokesh@2x.png 2x, assests/img-lokesh@3x.png 3x"
+                        class="img_lokesh ml_18 mt-3">
+                    <p class="aboutus1_heading_name mt-4 ml_30">Lokesh Reddi </p>
+                    <p class="aboutus1_heading_desc ml_35 mt_2 ">Co-founder</p>
+                    <p class="card-text Solutions_content_body" style="text-align: justify;">Lokesh is an angel
+                        investor and serial
+                        entrepreneur. He worked in payments industry for almost a decade and associated with some
+                        of
+                        the most renowned names in financial services. He is a hands on Strategist and technology
+                        evangelist. He handles and organizes all the numbers to fund RapidQube.</p>
+                    <div class="row ml_18">
+                        <div class="col ml_18">
+                                <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/rapidqube"><img src="assests/Group 11.png"></a>
+                        </div>
                     </div>
+                    <br>
+                    <br>
+                    <div class="blue_line"></div>
+
+                </div>
+                
+                <div class="col-md-3 col-md-offset-2 ml-5 mr-5 shadowEffect">
+                    <img src="assests/img-raghunadh.png" srcset="assests/img-raghunadh@2x.png 2x, assests/img-raghunadh@3x.png 3x"
+                        class="img_raghunadh ml_18 mt-3">
+                    <p class="aboutus1_heading_name mt-4 ml_18">Raghunadh&nbsp;Vaddadi</p>
+                    <p class="aboutus1_heading_desc ml_35 mt_2 ">Co-founder</p>
+                    <p class="Solutions_content_body" style="text-align: justify;">Raghu is an early adapter
+                        to Block chain
+                        technology, has a deep understanding and connect with the digital eco-system. He can always
+                        be found tinkering with ideas and strategies. A 24/7 person, he is a very well known
+                        technologist across the Community. He is the Managing Principal @ RapidQube fueling growth.</p>
+                    <div class="row ml_18">
+                        <div class="col ml_18">
+                            <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="blue_line"></div>
+                </div>
+                <div class="col-md-2">
 
                 </div>
             </div>
@@ -464,15 +355,15 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="container-fluid col-md-12 row" alt="First slide">
-                        <div class="col-md-1"></div>
-                        <div class="card shadowEffect col-md-3" style="width:24.4%;border:none;height: 10%;">
-                            <div class="card-body ">
-                                <img src="assests/img-mohanraj.png" srcset="assests/img-mohanraj@2x.png 2x, assests/img-mohanraj@3x.png 3x"
-                                    class="mohanraj ml-5 " />
-                                <h5 class="card-title aboutus1_heading_name mt-3 ml-5">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</h5>
-                                <h6 class="card-subtitle mb-2 aboutus1_heading_desc mt-2 ml-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cheif Digital Strategist</h6>
-                                <p class="card-text Solutions_content_body" style="text-align: justify;">Mohan is an
+                    <div class="row mt-5 col-md-12">
+
+                        <div class="col-md-3 shadowEffect">
+                            <img src="assests/img-mohanraj.png" srcset="assests/img-mohanraj@2x.png 2x, assests/img-mohanraj@3x.png 3x"
+                                class="ml_18 mt-3">
+                            <p class="aboutus1_heading_name mt-4 ml_28">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</p>
+                            <p class="aboutus1_heading_desc ml_28 mt_2 ">&nbsp;Cheif&nbsp;Digital Strategist</p>
+                            <div class="container-fluid">
+                                <p class="Solutions_content_body mt-4" style="text-align: justify;">Mohan is an
                                     early adopter of Technology
                                     disruptions, has a critical role as he handles most of our solutions and
                                     offerings. He has
@@ -480,49 +371,68 @@
                                     team and our
                                     customers with dedication. He constantly surprises with better ways to
                                     implement design.</p>
-
-                                <br>
-
-                                <p class="card-text Solutions_content_body">
-                                    &nbsp;<span><a href="#" class="fa fa-facebook"></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-twitter"></a></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-linkedin"></a></span>
-                                </p>
-
                             </div>
-                        </div>
-                        <div class="col-md-1"></div>
-                        <div class="card  shadowEffect col-md-3" style="width:24.4%;border:none;height:10%;">
-                            <div class="card-body">
-                                <img src="assests/img_Muthu.png"class="img_lokesh ml-3">
-                                <h1 class="card-title aboutus1_heading_name mt-3 w-100">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</h5>
-                                    <h2 class="card-subtitle mb-2 aboutus1_heading_desc mt-2 ml-4">&nbsp&nbsp&nbspChief&nbsp;Technology&nbsp;Officer</h2>
-                                    <p class="card-text Solutions_content_body" style="text-align: justify;">Muthu
-                                        is a seasoned professional on
-                                        delivering complex projects for various large customers in his long stint
-                                        with the
-                                        IT services majors. He specializes in delivery, architecting solutions and
-                                        is a
-                                        passionate Agile practitioner. Having extensive experience in Insurance and
-                                        Healthcare, as the technology and delivery leader, he combines the business
-                                        with
-                                        technology with ease.</p>
 
-                                    <p class="card-text Solutions_content_body">
-                                        &nbsp;<span><a href="#" class="fa fa-facebook"></a></span>
-                                        &nbsp;<span><a href="#" class="fa fa-twitter"></a></a></span>
-                                        &nbsp;<span><a href="#" class="fa fa-linkedin"></a></span>
 
-                                    </p>
+                            <div class="container mt-5 ">
+                                <div class="row">
+                                    <div class="col ml_18">
+                                        <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
+                                    </div>
+                                </div>
                             </div>
+
+                            <br>
+                            <br>
+                            <div class="blue"></div>
                         </div>
-                        <div class="col-md-1"></div>
-                        <div class="card shadowEffect col-md-3" style="width:24.4%;border:none;height:10%;">
-                            <div class="card-body">
-                                <img src="assests/img_umashankar copy.png" class="img_umashankar  ml-4">
-                                <h5 class="card-title aboutus1_heading_name mt-3 ml-5">UmaShankar&nbsp;S</h5>
-                                <h6 class="card-subtitle mb-2 aboutus1_heading_desc mt-2 ml-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Head&nbsp;-&nbsp;Development</h6>
-                                <p class="card-text Solutions_content_body" style="text-align: justify;">Uma is at
+
+
+
+                        <div class="col-md-3 ml-auto shadowEffect">
+                            <img src="assests/img_Muthu.png" class="ml_18 mt-3">
+                            <p class="aboutus1_heading_name mt-4 ml_12">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
+                            <p class="aboutus1_heading_desc ml_41 mt_2 ">Co-founder</p>
+                            <div class="container-fluid">
+                                <p class="Solutions_content_body" style="text-align: justify;">Muthu
+                                    is a seasoned professional on
+                                    delivering complex projects for various large customers in his long stint
+                                    with the
+                                    IT services majors. He specializes in delivery, architecting solutions and
+                                    is a
+                                    passionate Agile practitioner. Having extensive experience in Insurance and
+                                    Healthcare, as the technology and delivery leader, he combines the business
+                                    with
+                                    technology with ease.</p>
+                            </div>
+
+
+                            <div class="container mt-4 ">
+                                <div class="row">
+                                    <div class="col ml_18">
+                                        <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <br>
+                            <div class="blue"></div>
+                        </div>
+
+
+                        <div class="col-md-3 ml-auto shadowEffect">
+                            <img src="assests/img_umashankar copy.png" class="ml_18 mt-3">
+                            <p class="aboutus1_heading_name mt-4 ml_28">UmaShankar&nbsp;S</p>
+                            <p class="aboutus1_heading_desc ml_28 mt_2 ">Head&nbsp;-&nbsp;Development</p>
+                            <div class="container-fluid">
+                                <p class="Solutions_content_body mt-4" style="text-align: justify;">Uma is at
                                     the core of everything
                                     RapidQube
                                     does. He handles many core responsibilities in terms of Tech Management. He is
@@ -531,127 +441,151 @@
                                     Tweets a lot! Constantly refining and retesting each method to perfection is
                                     his
                                     main strength.</p>
-                                <br>
-
-
-                                <p class="card-text Solutions_content_body">
-                                    &nbsp;<span><a href="#" class="fa fa-facebook"></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-twitter"></a></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-linkedin"></a></span>
-
-                                </p>
-
                             </div>
-                            <!-- <div class="Line-3-Copy-2"></div> -->
+                            <div class="container mt-5">
+                                <div class="row">
+                                    <div class="col ml_18">
+                                        <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://twitter.com/rapidqube"><img src="assests/Group 11.png"></a>
+                                    </div>
+                                </div>
+                            </div>
 
+
+
+                            <br>
+                            <br>
+                            <div class="blue"></div>
                         </div>
-
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container-fluid col-md-12 row" alt="Second slide">
-                        <div class="col-md-1"></div>
-                        <div class="card shadowEffect col-md-3" style="width:24.4%;border:none;height:10%;">
-                            <div class="card-body">
-                                <img src="assests/img-christopher.png" srcset="assests/img-christopher@2x.png 2x, assests/img-christopher@3x.png 3x"
-                                    class="christopher  ml-5">
-                                <h5 class="card-title aboutus1_heading_name mt-3 ml-5">&nbsp;&nbsp;&nbsp;Christopher Day</h5>
-                                <h6 class="card-subtitle mb-2 aboutus1_heading_desc mt-2 ml-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Advisor</h6>
-                                <p class="card-text Solutions_content_body" style="text-align: justify;">Chris is a
+                    <div class="row mt-5 col-md-12">
+                        <div class="col-md-3 shadowEffect">
+                            <img src="assests/img-christopher.png" srcset="assests/img-christopher@2x.png 2x, assests/img-christopher@3x.png 3x"
+                                class="ml_18 mt-3">
+                            <p class="aboutus1_heading_name mt-4 ml_24">&nbsp;Christopher&nbsp;Day</p>
+                            <p class="aboutus1_heading_desc ml_30 mt_2 ">&nbsp;Business&nbsp;Advisor</p>
+                            <div class="container-fluid">
+                                <p class="Solutions_content_body mt-4" style="text-align: justify;">Chris is a
                                     senior executive with a
                                     diverse
-                                    background in IT-Vendor Management, Workforce Optimization, Resourcing, and
-                                    Human
-                                    Resources. He has worked diligently to raise awareness and develop business
+                                    background in IT-Vendor Management, Workforce
+                                    Optimization, Resourcing, and
+                                    Human Resources. He has worked diligently to raise awareness and develop
+                                    business
                                     opportunities
                                     for RapidQube in North America. He feels that the technology, specifically
                                     blockchain, has
                                     the ability to transform current business processes as well as define
                                     businesses not yet in
                                     existence.</p>
-
-                                <br>
-
-                                <p class="card-text Solutions_content_body">
-                                    &nbsp;<span><a href="#" class="fa fa-facebook"></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-twitter"></a></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-linkedin"></a></span>
-
-                                </p>
-
                             </div>
 
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col ml_18">
+                                        <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <br>
+                            <div class="blue"></div>
                         </div>
-                        <div class="col-md-1"></div>
-                        <div class="card shadowEffect col-md-3" style="width:24.4%;border:none;height: 10%;;">
-                            <div class="card-body">
-                                <img src="assests/img-rushikesh.png" srcset="assests/img-rushikesh@2x.png 2x, assests/img-rushikesh@3x.png 3x"
-                                    class="rushikesh  ml-5">
-                                <h5 class="card-title aboutus1_heading_name mt-3 ml-5">&nbsp;&nbsp;Rushikesh Purohit</h5>
-                                <h6 class="card-subtitle mb-2 aboutus1_heading_desc mt-2 ml-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Advisor</h6>
-                                <p class="card-text Solutions_content_body" style="text-align: justify;">Rushi comes
+
+
+
+                        <div class="col-md-3 ml-auto shadowEffect">
+                            <img src="assests/img-rushikesh.png" srcset="assests/img-rushikesh@2x.png 2x, assests/img-rushikesh@3x.png 3x"
+                                class="ml_18 mt-3">
+                            <p class="aboutus1_heading_name mt-4 ml_24">Rushikesh&nbsp;Purohit</p>
+                            <p class="aboutus1_heading_desc ml_30 mt_2 ">&nbsp;Business&nbsp;Advisor</p>
+                            <div class="container-fluid">
+                                <p class="Solutions_content_body" style="text-align: justify;">Rushi comes
                                     with 25 + years of business
                                     development background and domain knowledge in Capital Markets, Mortgage,
                                     Insurance, Healthcare, Supply Chain and the CRM space. Rushi’s connections
                                     across the industry have helped raise awareness and develop RapidQube’s
                                     potential in North America. Rushi’s expertise ranges across the technology map
-                                    from legacy modernization to Web 3.0 and everything in between
-
-                                </p>
-
-                                <p class="card-text Solutions_content_body">
-                                    &nbsp;<span><a href="#" class="fa fa-facebook"></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-twitter"></a></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-linkedin"></a></span>
-
-                                </p>
-
+                                    from legacy modernization to Web 3.0 and everything in between.</p>
                             </div>
 
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col ml_18">
+                                        <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <br>
+                            <div class="blue"></div>
                         </div>
-                        <div class="col-md-1"></div>    
-                        <div class="card shadowEffect col-md-3" style="width:24.4%;border:none;height: 10%;">
-                            <div class="card-body">
-                                <img src="assests/img_vikram copy.png" class="img_vikram  ml-4">
-                                <h5 class="card-title aboutus1_heading_name mt-3 ml-3">&nbsp;&nbsp;&nbsp;Vikram Viswanathan</h5>
-                                <h6 class="card-subtitle mb-2 aboutus1_heading_desc mt-2 ml-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Architect</h6>
-                                <p class="card-text Solutions_content_body" style="text-align: justify;">Vikram has
+
+
+                        <div class="col-md-3 ml-auto shadowEffect">
+                            <img src="assests/img_vikram copy.png" class="ml_18 mt-3">
+                            <p class="aboutus1_heading_name mt-4 ml_18">Vikram&nbsp;Viswanathan</p>
+                            <p class="aboutus1_heading_desc ml_35 mt_2 ">Architect</p>
+                            <div class="container-fluid">
+                                <p class="Solutions_content_body mt-4" style="text-align: justify;">Vikram has
                                     a strong passion for
                                     disruptive
                                     technologies, especially those associated with Financial services and Public
                                     Sector. He has presented to various industry leaders his analysis on technology
                                     implementations that aligns with their strategic visions and goals thereby
-                                    delivering industry specific performance driven solutions.
-
-                                </p>
-                                <br>
-                                <br>
-                                <br>
-                                <p class="card-text Solutions_content_body">
-                                    &nbsp;<span><a href="#" class="fa fa-facebook"></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-twitter"></a></a></span>
-                                    &nbsp;<span><a href="#" class="fa fa-linkedin"></a></span>
-
-                                </p>
-
+                                    delivering industry specific performance driven solutions.</p>
                             </div>
+
+
+                            <br>
+                            <br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col ml_18">
+                                        <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <br>
+                            <div class="blue"></div>
                         </div>
-
-
-
                     </div>
                 </div>
 
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" style="background-color:grey;" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon mr_86" style="background-color:grey;" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" style="background-color:grey;margin-left: 76%;" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon ml_86" style="background-color:grey;margin-left: 76%;"
+                    aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
+
+    <div class="container mt-5">
+        Vignesh
     </div>
     <!-- Modal Content -->
     <div class="modal" id="myModal">
