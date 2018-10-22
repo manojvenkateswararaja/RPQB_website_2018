@@ -206,7 +206,7 @@
 <script>
     $('.close').click(function(){
         $('.statusMsg').html('');
-    }
+    });
     // Mail Send
     $('#email_form').validate({
       rules: {

@@ -482,7 +482,11 @@
             var myVideo = document.getElementById("popup_video");
             myVideo.pause();
         });
-
+        
+        $('.close').click(function(){
+        $('.statusMsg').html('');
+    });
+    
         $('.card-link').click(function (e) {
            
             modalTitle = $(this).parents('.card').find('.card-title').text();
