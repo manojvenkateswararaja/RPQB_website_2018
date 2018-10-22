@@ -138,44 +138,44 @@
           <form name="email_form" class="email_form" id="email_form" method="POST" action="#" autocomplete="off">
 
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" required>
+              <input type="email" class="form-control" id="exampleInputEmail1">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts" for="exampleInputEmail1">Your Email</label>
+              <label class="float-label regFormFonts" name="email" for="exampleInputEmail1">Your Email</label>
 
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" required>
+              <input type="email" class="form-control" id="exampleInputEmail1">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts" for="exampleInputEmail1">First Name</label>
+              <label class="float-label regFormFonts" name="f_name" for="exampleInputEmail1">First Name</label>
 
 
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" required>
+              <input type="email" class="form-control" id="exampleInputEmail1">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
               <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" required>
+              <input type="email" class="form-control" id="exampleInputEmail1">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
               <label class="float-label regFormFonts" for="exampleInputEmail1">Company</label>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" required>
+              <input type="email" class="form-control" id="exampleInputEmail1">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts" for="exampleInputEmail1">Phone Number</label>
+              <label class="float-label regFormFonts" name="phone" for="exampleInputEmail1">Phone Number</label>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" required>
+              <input type="email" class="form-control" id="exampleInputEmail1">
               <input type="hidden" name="fld_name" id="fld_name">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts" for="exampleInputEmail1">Country</label>
+              <label class="float-label regFormFonts" name="country" for="exampleInputEmail1">Country</label>
             </div>
             <div class="modal-footer d-flex justify-content-center">
               <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default  buttonFonts "
@@ -195,8 +195,12 @@
   </div>
   <!--   End Of Modal-->
 
-
-   <script>
+<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/js/slick.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/js/custom.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js" type="text/javascript"></script>
+<script>
     // Mail Send
     $('#email_form').validate({
       rules: {
