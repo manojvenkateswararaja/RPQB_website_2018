@@ -249,7 +249,7 @@
             if (msg) {
               $('.reset_btn').click();
               $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
-              $('.statusMsg').html('');
+             
               
 
               //$('.close').click();
@@ -260,7 +260,7 @@
 
             } else {
               $('.statusMsg').html('<span style="color:red;font-size: 20px;">Some problem occurred, please try again.</span>');
-              $('.statusMsg').html('');
+             
             }
 
 

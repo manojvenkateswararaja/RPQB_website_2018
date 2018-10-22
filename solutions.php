@@ -542,9 +542,9 @@
               $('.reset_btn').click();
               $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
                 
-              setTimeout(function(){
-              	 $('.statusMsg').html('');
-              },3000);
+            //   setTimeout(function(){
+            //   	 $('.statusMsg').html('');
+            //   },3000);
 
               //$('.close').click();
               //$('.reset_btn').click();
@@ -554,7 +554,7 @@
 
             } else {
               $('.statusMsg').html('<span style="color:red;font-size: 20px;">Some problem occurred, please try again.</span>');
-              $('.reset_btn').click();
+              
             }
 
 
