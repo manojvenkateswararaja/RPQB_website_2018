@@ -484,11 +484,12 @@
         });
 
         $('.card-link').click(function (e) {
-            console.log("Vignesh");
+           
             modalTitle = $(this).parents('.card').find('.card-title').text();
             url_link = $(this).parents('.card').find('.view_pdf').attr("href");
             $('.modal-title').text(modalTitle);
             $('#fld_name').val(modalTitle);
+            ('.statusMsg').html('');
         });
 
 
