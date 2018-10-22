@@ -123,77 +123,80 @@
 
 
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
-				  <div class="modal-dialog" role="document">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <h5 class="modal-title" id="myModal"></h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
-				      </div>
-				      <div class="modal-body">
-					 
-				       <form name="email_form" class="email_form" id="email_form" method="POST" action="#" autocomplete="off">
-						  <div class="form-group row">
-						    <label for="email" class="col-sm-3 col-form-label">Email</label>
-						    <div class="col-sm-9">
-						      <input type="email" class="form-control form_flds" name="email" id="email" placeholder="" autocomplete="off">
-						    </div>
-						  </div>
-						  <div class="form-group row">
-						    <label for="f_name" class="col-sm-3 col-form-label">First Name</label>
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title w-100 heading">Quick Enquiry</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body modal-guts">
+          <form name="email_form" class="email_form" id="email_form" method="POST" action="#" autocomplete="off">
+
+            <div class="form-group">
+                <label for="email" class="col-sm-3 regFormFonts">Email</label>
+				<div class="col-sm-9">
+				    <input type="email" class="form-control form_flds" name="email" id="email" placeholder="" autocomplete="off">
+			</div>
+
+            </div>
+            <div class="form-group">
+            <label for="f_name" class="col-sm-3 regFormFonts">First Name</label>
 						    <div class="col-sm-9">
 						      <input type="text" class="form-control form_flds" name="f_name" id="f_name" placeholder="">
 						    </div>
-						  </div>
-						  <div class="form-group row">
-						    <label for="l_name" class="col-sm-3 col-form-label">Last Name</label>
-						    <div class="col-sm-9">
+
+
+            </div>
+            <div class="form-group">
+                    <label for="l_name" class="col-sm-3 regFormFonts">Last Name</label>
+                        <div class="col-sm-9">
 						      <input type="text" class="form-control form_flds" name="l_name" id="l_name" placeholder="">
-						    </div>
-						  </div>
-						  <div class="form-group row">
-						    <label for="company" class="col-sm-3 col-form-label">Company</label>
+                        </div>
+            </div>
+            <div class="form-group">
+            <label for="company" class="col-sm-3 regFormFonts">Company</label>
 						    <div class="col-sm-9">
 						      <input type="text" class="form-control form_flds" name="company" id="company" placeholder="">
 						    </div>
-						  </div>
-						   <div class="form-group row">
-						    <label for="phone" class="col-sm-3 col-form-label">Phone Number</label>
+            </div>
+            <div class="form-group">
+            <label for="phone" class="col-sm-3 regFormFonts">Phone Number</label>
 						    <div class="col-sm-9">
 						      <input type="text" class="form-control form_flds" name="phone" id="phone" placeholder="">
 						    </div>
-						  </div>
-						  <div class="form-group row">
-						    <label for="phone" class="col-sm-3 col-form-label">Country</label>
+            </div>
+            <div class="form-group">
+            <label for="phone" class="col-sm-3 regFormFonts">Country</label>
 						    <div class="col-sm-9">
 						        <input type="text" class="form-control form_flds" name="country" id="country" placeholder="">
 							  
 						    </div>
-						  </div>
-
-						  <div class="forem-group">
+            </div>
+            <div class="forem-group">
 						  	<input type="hidden" name="fld_name" id="fld_name">
 						  	
 						  </div>
-						  <div class="form-group row text-right">
-						    <div class="col-sm-12">
-							
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						      <button type="submit" id="send_btn" name="submit" value="submit"  class="btn btn-primary send_btn">Submit</button>
-						      
-							  <input type="reset" name=""  class="reset_btn">
-						    </div>
-							
-						  </div>
-						  <p class="text-right statusMsg"></p>
-						</form>
-				      </div>
-				      
-				    </div>
-				  </div>
-				</div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default send_btn buttonFonts "
+                style="width: 265px; height: 61px;border-radius: 8px; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);">Submit</button>
+              <input type="reset" name="" class="reset_btn">
+            </div>
+
+        </div>
+        </form>
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div> -->
+
+      </div>
+    </div>
+  </div>
   <!--   End Of Modal-->
 
 <script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>

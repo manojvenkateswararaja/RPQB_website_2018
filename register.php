@@ -24,7 +24,7 @@
 		
 
 	
-	$to = "info@rapidqube.com";
+	$to = "vignesh.nagarajan@rapidqube.com";
 	//$to = "vikram.viswanathan@rapidqube.com";
 		$subject = "Rapidqube";
 
