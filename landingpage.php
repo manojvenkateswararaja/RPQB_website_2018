@@ -234,13 +234,13 @@
   <div class="row mt-3">
       <div class="col-md-3"></div>
       <div class="col mr-auto">
-           <a class="pnSB" href="#"><p class="smallheading pnL">Technology&nbsp;Partnerships</p></a>
+           <a class="pnSB" href="#"><p class="smallheading hover pnL">Technology&nbsp;Partnerships</p></a>
       </div>
       <div class="col mr-auto ">
-            <a class="pnSB" href="#"><p class="smallheading pnL pl-5">Industrial&nbsp;Collaboration</p></a>
+            <a class="pnSB" href="#"><p class="smallheading hover pnL pl-5">Industrial&nbsp;Collaboration</p></a>
       </div>
       <div class="col mr-auto">
-            <a class="pnSB" href="#"><p class="smallheading pnL">Members</p></a>
+            <a class="pnSB" href="#"><p class="smallheading hover pnL">Members</p></a>
       </div>
       <div class="col-md-3"></div>
   </div>

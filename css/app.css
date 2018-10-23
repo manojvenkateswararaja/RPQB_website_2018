@@ -63,7 +63,7 @@
 }
 .landing_image{
     margin-left: 6%;
-    margin-top: -3.5%;
+    margin-top: 0.5%;
     width: 95%
 }
 .explore_more{
@@ -437,7 +437,7 @@
     color:#000000;
 }
 .ml_-35{
-    margin-left: -35%;
+    margin-left: -39%;
 }
 .tab_drawer_heading { 
     display: none; 
@@ -544,6 +544,46 @@
 
 /* Solutions Page */
 
+.hover:hover{
+    font-family: ProximaNovaSemiBold;
+      color: #4a90e2;
+      
+      
+}
+.contacts_us_bg_image{
+    background-image: url(../assests/Contact\ Us\ Page\ 2.png);
+    /* width: 494px;
+    height: 676px; */
+    /* opacity: 0.21; */
+    clip:rect(0px,60px,200px,0px);
+    border-style: solid;
+    border-width: 0px;
+    border-image-source: linear-gradient(to bottom, var(#06cbec), #036474 61%, #0d58c6);
+    border-image-slice: 1;
+}
+.blog_bg_image{
+   
+    opacity: 0.6;
+    
+    border-image-source: linear-gradient(to bottom, var(#06cbec), #036474 61%, #0d58c6);
+    border-image-slice: 1
+}
+.blog_bg_image2{
+    width: 91px;
+  height: 471px;
+  opacity: 0.6;
+}
+.contacts_us_bg_image2{
+    
+    /* width: 494px;
+    height: 676px; */
+    /* opacity: 0.21; */
+    clip:rect(0px,60px,200px,0px);
+    border-style: solid;
+    border-width: 0px;
+    border-image-source: linear-gradient(to bottom, var(#06cbec), #036474 61%, #0d58c6);
+    border-image-slice: 1;
+}
 /* About_us Page */
 .background_image{
     background-image:url(/assests/design_abouts.svg);
@@ -552,6 +592,7 @@
     opacity: 10%;
 
 }
+
 .blue { 
     border: solid 3px #08b5e5;
     margin-left: -5%;
@@ -562,11 +603,14 @@
 .ml_67{
     margin-left: 67%;
 }
+.mr_67{
+    margin-right: 67%;
+}
 .mr_86{
-    margin-right: 86%;
+    margin-right: 111%;
 }
 .ml_86{
-    margin-left: 86%;
+    margin-left: 111%;
 }
 .ml_18{
     margin-left: 18%;
