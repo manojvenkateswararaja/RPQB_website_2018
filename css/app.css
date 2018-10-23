@@ -227,15 +227,16 @@
 
 .solid { 
     opacity: 0.3;
-    border: solid 2px #979797;
+    border: solid 1px #979797;
 }
 .whitepapers_frameworks_products{
     width: 10.6%;
     height: 4.1%;
-    border: 50px #4990e2; 
-    border-style: solid;
-    border-width: 4px; 
     border-radius: 6px;
+    border-style: solid;
+    border-width: 3.5px;
+    border-image-source: linear-gradient(129deg, var(#06cbec), var(#0d5cc8));
+    border-style: solid;
     text-align: center;
 }
 /* frameworks and white paperes and produts css */
@@ -247,6 +248,30 @@
     display:inline-block;
     margin-left: -10.5%;
 
+}
+.blue_line_landing_page{
+    width: 184px;
+    height: 0.1px;
+    border: solid 2px #08b5e5;
+    margin-top: 32%;
+    margin-left: -16%;
+}
+.blue_line2_landing_page{
+    width: 184px;
+    height: 0.1px;
+    border: solid 2px #08b5e5;
+    margin-top: 32%;
+    margin-left: -16%;
+}
+.box{
+    width: 153px;
+    height: 123px;
+    border-radius: 6px;
+    border-color: #06cbec;
+    border-style: solid;
+    border-width: 3.5px;
+    border-image-source: linear-gradient(129deg, var(#06cbec), var(#0d5cc8));
+    border-image-slice: 1;
 }
 .count_no {
   font-family: ProximaNovaSemiBold;
@@ -408,6 +433,9 @@
 }
 .ml_13{
     margin-left: 13%;
+}
+.pr_52{
+    padding-right: 52%;
 }
 .city_name{
     font-size: 18px;
@@ -629,6 +657,13 @@
 }
 .ml_28{
     margin-left: 28%;
+}
+.shadowEffect_landing_page{
+    border-radius: 5.6px;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid 0.7px #eaeaea;
+    background-color: #ffffff;
+    height: 0%;
 }
 .shadowEffect{
     border-radius: 5.6px;

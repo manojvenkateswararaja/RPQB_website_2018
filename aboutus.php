@@ -126,17 +126,7 @@
         <?php include('navbar.php'); ?>
 
 
-    <!-- <div class="container-fluid">
-        <img src="assests/shutterstock-324782423.jpg" srcset="assests/shutterstock-324782423@2x.jpg 2x,assests/shutterstock-324782423@3x.jpg 3x"
-            class="shutterstock_324782423 mt-2" style="width:100%;height: 14.9%;">
-        <div class="centered">
-            <h4 class="heading white_color banner_heading">About us</h4>
-            <p class=" banner_size smallheading white_color banner_content">We are blockchain experts. We are
-                digital
-                natives. We ensure that from your initial idea through to final implementation, we deliver our
-                solutions leveraging “best in class” digital technology to enhance your business.</p>
-        </div>
-    </div> -->
+   
     <div class="container mt-1 col-md-12">
         <div class="item">
             <img src="assests/shutterstock-324782423.jpg" srcset="assests/shutterstock-324782423@2x.jpg 2x,assests/shutterstock-324782423@3x.jpg 3x"
@@ -170,8 +160,7 @@
                             subsequent exponential explosion of data, it has become a “front and center” imperative for
                             organizations to derive more meaningful information and generate actionable insights from
                             data collected. Data driven decisions need to create sustainable business impact.</p>
-                        <!-- <a href="#" class="card-link">Card link</a> -->
-                        <!-- <a href="#" class="card-link">Explore more --</a> -->
+                        
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -202,12 +191,7 @@
                             leaders from IIT and other prestigious schools in India to understand trends and best
                             practices and ensure that you benefit from that latest thinking.</p>
                         <br>
-                        <!-- <p class="card-text Solutions_content_body">With the advent of "Internet of everything" and the
-                                            subsequent exponential explosion of data, it has become a “front and center” imperative for
-                                            organizations to derive more meaningful information and generate actionable insights from
-                                            data collected. Data driven decisions need to create sustainable business impact.</p> -->
-                        <!-- <a href="#" class="card-link">Card link</a> -->
-                        <!-- <a href="#" class="card-link">Explore more --</a> -->
+                        
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -225,12 +209,7 @@
                             ideas to market before your competitors at a rate that is sure to increase in speed and
                             scale in the years ahead.</p>
                         <br>
-                        <!-- <p class="card-text Solutions_content_body">With the advent of "Internet of everything" and the
-                                                subsequent exponential explosion of data, it has become a “front and center” imperative for
-                                                organizations to derive more meaningful information and generate actionable insights from
-                                                data collected. Data driven decisions need to create sustainable business impact.</p> -->
-                        <!-- <a href="#" class="card-link">Card link</a> -->
-                        <!-- <a href="#" class="card-link">Explore more --</a> -->
+                        
                     </div>
                 </div>
             </div>
@@ -245,12 +224,7 @@
                             developing successful future ready business solutions by innovative use of next generation
                             disruptive technology and automation.</p>
                         <br>
-                        <!-- <p class="card-text Solutions_content_body">With the advent of "Internet of everything" and the
-                                                    subsequent exponential explosion of data, it has become a “front and center” imperative for
-                                                    organizations to derive more meaningful information and generate actionable insights from
-                                                    data collected. Data driven decisions need to create sustainable business impact.</p> -->
-                        <!-- <a href="#" class="card-link">Card link</a> -->
-                        <!-- <a href="#" class="card-link">Explore more --</a> -->
+                        
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -267,12 +241,7 @@
                             disruptive technology solutions including automation of business processes that are unique
                             to every client.</p>
                         <br>
-                        <!-- <p class="card-text Solutions_content_body">With the advent of "Internet of everything" and the
-                                                    subsequent exponential explosion of data, it has become a “front and center” imperative for
-                                                    organizations to derive more meaningful information and generate actionable insights from
-                                                    data collected. Data driven decisions need to create sustainable business impact.</p> -->
-                        <!-- <a href="#" class="card-link">Card link</a> -->
-                        <!-- <a href="#" class="card-link">Explore more --</a> -->
+                        
                     </div>
                 </div>
 

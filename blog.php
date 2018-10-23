@@ -139,7 +139,7 @@
                                                 </div>
                                                 <button class="btn  btn-link ml_67" type="button" data-toggle="collapse" data-target="#blog1"
                                                 aria-expanded="false" aria-controls="blog1">
-                                                Explore More ---->
+                                                <img src="/assests/group-19.svg">
                                             </button>
                                             <div class="collapse container-fluid" id="blog1">
                                                     <p style="text-align: justify;" class="smallheading pnR">
@@ -209,7 +209,7 @@
                                                                         </p>
                                                                         <button class="btn  btn-link mr_67" type="button" data-toggle="collapse" data-target="#blog2"
                                                                             aria-expanded="false" aria-controls="blog2">
-                                                                            Explore More ---->
+                                                                            <img src="/assests/group-19.svg">
                                                                         </button>
                                                                         <div class="collapse" id="blog2">
                                                                             <p style="text-align: justify;" class="smallheading pnR">
@@ -268,7 +268,7 @@
                                                 </div>
                                                 <button class="btn  btn-link ml_67" type="button" data-toggle="collapse" data-target="#blog3"
                                                 aria-expanded="false" aria-controls="blog3">
-                                                Explore More ---->
+                                                <img src="/assests/group-19.svg">
                                             </button>
                                             <div class="collapse container-fluid" id="blog3">
                                                     <p style="text-align: justify;" class="smallheading pnR">
@@ -338,7 +338,7 @@
                                                                         </p>
                                                                         <button class="btn  btn-link mr_67" type="button" data-toggle="collapse" data-target="#blog4"
                                                                             aria-expanded="false" aria-controls="blog4">
-                                                                            Explore More ---->
+                                                                            <img src="/assests/group-19.svg">
                                                                         </button>
                                                                         <div class="collapse" id="blog4">
                                                                             <p style="text-align: justify;" class="smallheading pnR">
@@ -396,7 +396,7 @@
                                                 </div>
                                                 <button class="btn  btn-link ml_67" type="button" data-toggle="collapse" data-target="#blog5"
                                                 aria-expanded="false" aria-controls="blog5">
-                                                Explore More ---->
+                                                <img src="/assests/group-19.svg">
                                             </button>
                                             <div class="collapse container-fluid" id="blog5">
                                                     <p style="text-align: justify;" class="smallheading pnR">
@@ -466,7 +466,7 @@
                                                                         </p>
                                                                         <button class="btn  btn-link mr_67" type="button" data-toggle="collapse" data-target="#blog6"
                                                                             aria-expanded="false" aria-controls="blog6">
-                                                                            Explore More ---->
+                                                                            <img src="/assests/group-19.svg">
                                                                         </button>
                                                                         <div class="collapse" id="blog6">
                                                                             <p style="text-align: justify;" class="smallheading pnR">
@@ -489,7 +489,7 @@
                                                                                 solutions.
                                                                                 <button class="btn  btn-link ml_67" type="button" data-toggle="collapse"
                                                                                     data-target="#blog6" aria-expanded="false" aria-controls="blog6">
-                                                                                    Explore Less ---->
+                                                                                    <img src="/assests/group-19.svg">
                                                                                 </button>
                                                                             </p>
                                 
