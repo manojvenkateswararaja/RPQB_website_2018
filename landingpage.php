@@ -228,7 +228,7 @@
   <div class="row">
       <div class="col-md-4"></div>
    <div class="col">
-        <p class="heading"><span class="pnR">Inside</span>&nbsp;&nbsp;<span class="pnSB">Rapidqube</span></p>
+        <p class="heading pnR">Partnership&nbsp;&&nbsp;Collaborations</p>
    </div>
   </div>
   <div class="row mt-3">
