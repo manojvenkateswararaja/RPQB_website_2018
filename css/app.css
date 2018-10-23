@@ -61,7 +61,36 @@
     height: 0.1px;
     border: solid 5px #08b5e5;
 }
+.landing_image{
+    margin-left: 6%;
+    margin-top: -3.5%;
+    width: 95%
+}
+.explore_more{
+    margin-top: -33%;
+    padding-left: 7%;
+}
+.pl_9{
+    padding-left: 9%
+}
+.ml_-8{
+    margin-left: -8%;
+}
+
+.our_specialization{
+    margin-right: 21.6%;
+    margin-top: -9.1%;
+}
+.landing_image_design{
+    width: 149px;
+    height: 355px;
+    opacity: 0.6;
+    border-image-source: linear-gradient(to bottom, var(#06cbec), #036474 61%, #0d58c6);
+    border-image-slice: 1;
+    margin-top: 85%;
+    margin-left: -5%;
   
+}
 /* NavBar DropDown */
 .solid_navbar{
     height: 0.1px;
@@ -170,7 +199,7 @@
     color: #000000;
 }
 .smallheading{
-  font-family: ProximaNova;
+  
   font-size: 18.2px;
   font-weight: normal;
   font-style: normal;
