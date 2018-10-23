@@ -516,6 +516,13 @@
 /* Solutions Page */
 
 /* About_us Page */
+.background_image{
+    background-image:url(/assests/design_abouts.svg);
+    /* width: 1221px;
+    height:1411px; */
+    opacity: 10%;
+
+}
 .blue { 
     border: solid 3px #08b5e5;
     margin-left: -5%;

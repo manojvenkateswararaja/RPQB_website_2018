@@ -290,7 +290,7 @@
 
             </div>
         </div>
-        <div class="row col-md-12 ">
+        <div class="row col-md-12 background_image ">
             <div class="row mt-5 col-md-12">
                 
                 <div class="col-md-3 col-md-offset-2 ml_18 mr-auto shadowEffect">
@@ -353,7 +353,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner background_image">
                 <div class="carousel-item active">
                     <div class="row mt-5 col-md-12">
 
@@ -395,7 +395,7 @@
                         <div class="col-md-3 ml-auto shadowEffect">
                             <img src="assests/img_Muthu.png" class="ml_18 mt-3">
                             <p class="aboutus1_heading_name mt-4 ml_12">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
-                            <p class="aboutus1_heading_desc ml_41 mt_2 ">Co-founder</p>
+                            <p class="aboutus1_heading_desc ml_41 mt_2 ">Chief Technology Officer</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body" style="text-align: justify;">Muthu
                                     is a seasoned professional on
@@ -583,8 +583,7 @@
             </a>
         </div>
     </div>
-
-
+    
 
 </body>
 
