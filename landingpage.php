@@ -123,9 +123,7 @@
 </head>
 
 <body>
-    <!-- <?php include('navbar.php'); ?> -->
-    
-    
+    <?php include('navbar.php'); ?>
   <div class="container-fluid">
     <img src="assests/group-21.png" srcset="assests/group-21@2x.png 2x,assests/group-21@3x.png 3x"
       class="landing_image" >
