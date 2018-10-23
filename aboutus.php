@@ -573,11 +573,11 @@
 
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="fa fa-angle-left mr_86" style="background-color:grey;" aria-hidden="true"></span>
+                <span class="fa fa-angle-left mr_86" style="background-color:#ffffff;" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="fa fa-angle-right ml_86" style="background-color:grey;margin-left: 76%;"
+                <span class="fa fa-angle-right ml_86" style="background-color:#ffffff; margin-left: 76%;"
                     aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
