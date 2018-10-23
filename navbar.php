@@ -77,13 +77,13 @@
                                         </ul>
                                     </div>
     
-                                    <!-- <h5 class="navBarName pl_10">Products & Solutions <i class="fas fa-angle-down"></i></h5> -->
+                                   
                                 </td>
                                 <td class="mr-2">
                                     <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'solutions.php';"
                                         type="button" data-toggle="dropdown">White&nbsp;Papers</button>
     
-                                    <!-- <h5 class="navBarName">White Papers <i class="fas fa-angle-down"></i></h5> -->
+                                  
                                 </td>
                                 <td class="pl-2">
     
@@ -91,25 +91,29 @@
                                         type="button" data-toggle="dropdown">FrameWorks
                                     </button>
     
-                                    <!-- <h5 class="navBarName">White FrameWorks <i class="fas fa-angle-down"></i></h5> -->
+                                   
                                 </td>
                                 <td class="pr-5">
-                                    <a class="btn btn-link" href="services.php">
-                                        <h5 class="navBarName btn btn-link pl_10 mt-2">Services</h5>
-                                    </a>
+                                <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'services.php';"
+                                        type="button" data-toggle="dropdown">Services
+                                    </button>
+                                    
                                 </td>
                                 <td class="mr-2">
-                                    <a href="aboutus.php">
-                                        <h5 class="navBarName btn btn-link pl_10 mt-2">About Us</h5>
-                                    </a>
+                                <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'aboutus.php';"
+                                        type="button" data-toggle="dropdown">About&nbsp;Us
+                                    </button>
                                 </td>
                                 <td class="mr-2">
-                                    <a href="contactus.php">
-                                        <h5 class="navBarName btn btn-link pl_10 mt-2">info@rapidqube.com</h5>
-                                    </a>
+                                <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'contactus.php';"
+                                        type="button" data-toggle="dropdown">info@rapidqube.com
+                                    </button>
+                                    
                                 </td>
                                 <td class="mr-2">
-                                    <h5 class="navBarName pl_10 mt-2"><a href="contactus.php">+91-22-2567 3235</a></h5>
+                                    <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'contactus.php';"
+                                            type="button" data-toggle="dropdown">+91-22-2567 3235
+                                    </button>
                                 </td>
                                 <td> <img src="assests/group.png" class="mt-2 pl_10 fixed_position" alt="rapidqube"> </td>
                             </tr>
