@@ -564,29 +564,15 @@
   color: #4a90e2;
 }
 .contacts_us_bg_image {
-  background-image: url(../assests/contact\us\page\2png);
-  /* width: 494px;
-    height: 676px; */
-  /* opacity: 0.21; */
-  clip: rect(0px, 60px, 200px, 0px);
+  background-image: url(../assests/Contact_Us_Page_2.png);
   border-style: solid;
   border-width: 0px;
-  border-image-source: linear-gradient(
-    to bottom,
-    var(#06cbec),
-    #036474 61%,
-    #0d58c6
-  );
+  border-image-source: linear-gradient(to bottom,var(#06cbec),#036474 61%,#0d58c6);
   border-image-slice: 1;
 }
 .blog_bg_image {
   opacity: 0.6;
-  border-image-source: linear-gradient(
-    to bottom,
-    var(#06cbec),
-    #036474 61%,
-    #0d58c6
-  );
+  border-image-source: linear-gradient(var(#06cbec),#036474 61%,#0d58c6);
   border-image-slice: 1;
 }
 .blog_bg_image2 {
