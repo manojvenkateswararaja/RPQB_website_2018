@@ -246,8 +246,8 @@
       </div>
       <div class="col-md-4 col-sm-4 col-lg-4 shadowEffect_landing_page">
             <img src="assests/blockchain_healthcare.jpg" class="card-img-top mt-3 ">
-            <p class="smallheading pnSB mt-3">Our Latest Article About BlockChain And Health&nbsp;Care</p>
-            <a href="blog.php" class="btn btn-link mt-2 pb-2 pnSB ">Read More ---&nbsp;>;
+            <p class="smallheading pnSB mt-3">Our&nbsp;Latest&nbsp;Article&nbsp;About&nbsp;BlockChain&nbsp;And&nbsp;Health&nbsp;Care</p>
+            <a href="blog.php" class="btn btn-link mt-2 pb-2 pnSB ">Read More ---&nbsp;>
               <br>
       </div>
       <div class="col-md-1 col-sm-1 col-lg-1"></div>
