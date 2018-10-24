@@ -258,7 +258,7 @@
             <br>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <p class="smallheading pnSB ">Twitter Handler @Rapdiqube </p>
-            <a href="https://twitter.com/rapidqube" class="btn btn-linkpnSB "> Our Achivements ---> </a>
+            <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB "> Our Achivements ---> </a>
             <br>
             <br>
       </div>

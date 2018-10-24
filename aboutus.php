@@ -239,8 +239,8 @@
     <div class="container-fluid">
         <div class="container-fluid mt-5">
             <div class=" row col-md-12">
-                <div class="col-md-4"></div>
-                <div class="col-md-5 heading">
+                <div class="col-md-3 ml-5"></div>
+                <div class="col-md-4 text-center heading pnSB">
                     Leadership&nbsp;&&nbsp;Management&nbsp;Team
                 </div>
 
@@ -249,19 +249,19 @@
         <div class="row col-md-12 background_image ">
             <div class="row mt-5 col-md-12">
                 
-                <div class="col-md-3 col-md-offset-2 ml_18 mr-auto blue_light_effect shadowEffect">
+                <div class="col-md-3 col-sm-3 col-lg-3 col-md-offset-2 text-center ml_18 mr-auto blue_light_effect shadowEffect">
                     <img src="assests/img-lokesh.png" srcset="assests/img-lokesh@2x.png 2x, assests/img-lokesh@3x.png 3x"
-                        class="img_lokesh ml_18 mt-3 img-fluid" alt="Responsive image">
-                    <p class="aboutus1_heading_name mt-4 ml_30">Lokesh Reddi </p>
-                    <p class="aboutus1_heading_desc ml_35 mt_2 ">Co-founder</p>
+                        class="img_lokesh  mt-3 img-fluid" alt="Responsive image">
+                    <p class="aboutus1_heading_name mt-4 ">Lokesh Reddi </p>
+                    <p class="aboutus1_heading_desc  mt_2 ">Co-founder</p>
                     <p class="card-text Solutions_content_body" style="text-align: justify;">Lokesh is an angel
                         investor and serial
                         entrepreneur. He worked in payments industry for almost a decade and associated with some
                         of
                         the most renowned names in financial services. He is a hands on Strategist and technology
                         evangelist. He handles and organizes all the numbers to fund RapidQube.</p>
-                    <div class="row ml_18">
-                        <div class="col ml_18">
+                    <div class="row ">
+                        <div class="col ">
                                 <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                         </div>
                         <div class="col">
@@ -273,18 +273,18 @@
 
                 </div>
                 
-                <div class="col-md-3 col-md-offset-2 ml-5 mr-5 blue_light_effect shadowEffect">
+                <div class="col-md-3 col-sm-3 col-lg-3 col-md-offset-2 text-center ml-5 mr-5 blue_light_effect shadowEffect">
                     <img src="assests/img-raghunadh.png" srcset="assests/img-raghunadh@2x.png 2x, assests/img-raghunadh@3x.png 3x"
-                        class="img_raghunadh ml_18 mt-3">
-                    <p class="aboutus1_heading_name mt-4 ml_18">Raghunadh&nbsp;Vaddadi</p>
-                    <p class="aboutus1_heading_desc ml_35 mt_2 ">Co-founder</p>
+                        class="img_raghunadh  mt-3">
+                    <p class="aboutus1_heading_name mt-4 ">Raghunadh&nbsp;Vaddadi</p>
+                    <p class="aboutus1_heading_desc  mt_2 ">Co-founder</p>
                     <p class="Solutions_content_body" style="text-align: justify;">Raghu is an early adapter
                         to Block chain
                         technology, has a deep understanding and connect with the digital eco-system. He can always
                         be found tinkering with ideas and strategies. A 24/7 person, he is a very well known
                         technologist across the Community. He is the Managing Principal @ RapidQube fueling growth.</p>
-                    <div class="row ml_18">
-                        <div class="col ml_18">
+                    <div class="row ">
+                        <div class="col ">
                             <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                         </div>
                         <div class="col">
@@ -310,11 +310,11 @@
                 <div class="carousel-item active">
                     <div class="row mt-5 col-md-12">
 
-                        <div class="col-md-3 blue_light_effect  shadowEffect">
+                        <div class="col-md-3 col-sm-3 col-lg-3  text-center blue_light_effect  shadowEffect">
                             <img src="assests/img-mohanraj.png" srcset="assests/img-mohanraj@2x.png 2x, assests/img-mohanraj@3x.png 3x"
-                                class="ml_18 mt-3">
-                            <p class="aboutus1_heading_name mt-4 ml_28">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</p>
-                            <p class="aboutus1_heading_desc ml_28 mt_2 ">&nbsp;Chief&nbsp;Digital Strategist</p>
+                                class="mt-3">
+                            <p class="aboutus1_heading_name mt-4 ">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</p>
+                            <p class="aboutus1_heading_desc  mt_2 ">&nbsp;Chief&nbsp;Digital Strategist</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body mt-4" style="text-align: justify;">Mohan is an
                                     early adopter of Technology
@@ -329,7 +329,7 @@
 
                             <div class="container mt-5  ">
                                 <div class="row">
-                                    <div class="col ml_18">
+                                    <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
                                     <div class="col">
@@ -341,10 +341,10 @@
 
 
 
-                        <div class="col-md-3 ml-auto blue_light_effect shadowEffect">
-                            <img src="assests/img_Muthu.png" class="ml_18 mt-3">
-                            <p class="aboutus1_heading_name mt-4 ml_12">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
-                            <p class="aboutus1_heading_desc ml_20 mt_2 ">Chief Technology Officer</p>
+                        <div class="col-md-3 col-sm-3 col-lg-3 ml-auto text-center blue_light_effect shadowEffect">
+                            <img src="assests/img_Muthu.png" class=" mt-3">
+                            <p class="aboutus1_heading_name mt-4 ">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
+                            <p class="aboutus1_heading_desc  mt_2 ">Chief Technology Officer</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body" style="text-align: justify;">Muthu
                                     is a seasoned professional on
@@ -361,7 +361,7 @@
 
                             <div class="container mt-4 ">
                                 <div class="row">
-                                    <div class="col ml_18">
+                                    <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
                                     <div class="col">
@@ -372,10 +372,10 @@
                         </div>
 
 
-                        <div class="col-md-3 ml-auto blue_light_effect shadowEffect">
-                            <img src="assests/img_umashankar copy.png" class="ml_18 mt-3">
-                            <p class="aboutus1_heading_name mt-4 ml_28">UmaShankar&nbsp;S</p>
-                            <p class="aboutus1_heading_desc ml_28 mt_2 ">Head&nbsp;-&nbsp;Development</p>
+                        <div class="col-md-3 col-sm-3 col-lg-3 ml-auto text-center blue_light_effect shadowEffect">
+                            <img src="assests/img_umashankar copy.png" class=" mt-3">
+                            <p class="aboutus1_heading_name mt-4 ">UmaShankar&nbsp;S</p>
+                            <p class="aboutus1_heading_desc  mt_2 ">Head&nbsp;-&nbsp;Development</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body mt-4" style="text-align: justify;">Uma is at
                                     the core of everything
@@ -389,7 +389,7 @@
                             </div>
                             <div class="container mt-5">
                                 <div class="row">
-                                    <div class="col ml_18">
+                                    <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
                                     <div class="col">
@@ -402,11 +402,11 @@
                 </div>
                 <div class="carousel-item">
                     <div class="row mt-5 col-md-12">
-                        <div class="col-md-3 blue_light_effect shadowEffect">
+                        <div class="col-md-3 col-sm-3 col-lg-3 blue_light_effect text-center shadowEffect">
                             <img src="assests/img-christopher.png" srcset="assests/img-christopher@2x.png 2x, assests/img-christopher@3x.png 3x"
-                                class="ml_18 mt-3">
-                            <p class="aboutus1_heading_name mt-4 ml_24">&nbsp;Christopher&nbsp;Day</p>
-                            <p class="aboutus1_heading_desc ml_30 mt_2 ">&nbsp;Business&nbsp;Advisor</p>
+                                class=" mt-3">
+                            <p class="aboutus1_heading_name mt-4 ">&nbsp;Christopher&nbsp;Day</p>
+                            <p class="aboutus1_heading_desc  mt_2 ">&nbsp;Business&nbsp;Advisor</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body mt-4" style="text-align: justify;">Chris is a
                                     senior executive with a
@@ -426,7 +426,7 @@
 
                             <div class="container">
                                 <div class="row">
-                                    <div class="col ml_18">
+                                    <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
                                     <div class="col">
@@ -438,11 +438,11 @@
 
 
 
-                        <div class="col-md-3 ml-auto blue_light_effect shadowEffect">
+                        <div class="col-md-3 col-sm-3 col-lg-3 ml-auto blue_light_effect text-center shadowEffect">
                             <img src="assests/img-rushikesh.png" srcset="assests/img-rushikesh@2x.png 2x, assests/img-rushikesh@3x.png 3x"
-                                class="ml_18 mt-3">
-                            <p class="aboutus1_heading_name mt-4 ml_24">Rushikesh&nbsp;Purohit</p>
-                            <p class="aboutus1_heading_desc ml_30 mt_2 ">&nbsp;Business&nbsp;Advisor</p>
+                                class=" mt-3">
+                            <p class="aboutus1_heading_name mt-4 ">Rushikesh&nbsp;Purohit</p>
+                            <p class="aboutus1_heading_desc  mt_2 ">&nbsp;Business&nbsp;Advisor</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body" style="text-align: justify;">Rushi comes
                                     with 25 + years of business
@@ -454,7 +454,7 @@
                             </div>
                              <div class="container">
                                 <div class="row">
-                                    <div class="col ml_18">
+                                    <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
                                     <div class="col">
@@ -465,10 +465,10 @@
                         </div>
 
 
-                        <div class="col-md-3 blue_light_effect ml-auto shadowEffect">
-                            <img src="assests/img_vikram copy.png" class="ml_18 mt-3">
-                            <p class="aboutus1_heading_name mt-4 ml_18">Vikram&nbsp;Viswanathan</p>
-                            <p class="aboutus1_heading_desc ml_35 mt_2 ">Architect</p>
+                        <div class="col-md-3 col-sm-3 col-lg-3 blue_light_effect text-center ml-auto shadowEffect">
+                            <img src="assests/img_vikram copy.png" class=" mt-3">
+                            <p class="aboutus1_heading_name mt-4 ">Vikram&nbsp;Viswanathan</p>
+                            <p class="aboutus1_heading_desc  mt_2 ">Architect</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body mt-4" style="text-align: justify;">Vikram has
                                     a strong passion for
@@ -480,7 +480,7 @@
                             </div>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col ml_18">
+                                    <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
                                     <div class="col">
@@ -498,13 +498,20 @@
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="fa fa-angle-right ml_86" style="background-color:#ffffff;"
+                <span class="fa fa-angle-right ml_73" style="background-color:#ffffff;"
                     aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
     </div>
-    <div class="container"></div>
+    <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col">
+            
+        </div>
+    </div>
     <br>
     <br>
 </body>

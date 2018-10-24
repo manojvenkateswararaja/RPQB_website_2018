@@ -24,9 +24,11 @@
 		
 
 	
-	$to = "vignesh.nagarajan@rapidqube.com";
+	//$to = "vignesh.nagarajan@rapidqube.com";
 	//$to = "vikram.viswanathan@rapidqube.com";
-		$subject = "Rapidqube";
+	$to = "info@rapidqube.com"
+
+		$subject = "Rapidqube Project Enquiry";
 
 		
 		$message = "
