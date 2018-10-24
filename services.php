@@ -108,7 +108,11 @@
             background: none !important;
             box-shadow: none !important
  }
-
+ /* hard coded bootstrap css */
+.ml-2,
+.mx-2 {
+  margin-left: 0rem !important;
+}
 
     </style>
 </head>
