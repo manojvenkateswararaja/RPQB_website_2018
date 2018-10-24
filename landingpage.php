@@ -123,7 +123,9 @@
 </head>
 
 <body>
-    <?php include('navbar.php'); ?>
+    <!-- <?php include('navbar.php'); ?> -->
+    
+    
   <div class="container-fluid">
     <img src="assests/group-21.png" srcset="assests/group-21@2x.png 2x,assests/group-21@3x.png 3x"
       class="landing_image" >
@@ -131,13 +133,13 @@
     </button>
   </div>
   <div class="row">
-      <div class="col-md-1"></div>
+      <div class="col-md-1 col-sm-1 col-lg-1"></div>
       <div class="col mr-auto">
             <span class="heading ml-5" >Our Specialization</span>
       </div>
   </div>
   <div class="row mt-5">
-      <div class="col-md-1"></div>
+      <div class="col-md-1 col-sm-1 col-lg-1 "></div>
       <div class="col">
             <img href="#" data-toggle="modal" data-target="#myModal" src="assests/group-20.jpg" srcset="assests/group-20@2x.jpg 2x,assests/group-20@3x.jpg 3x"
           class="Etherium">
@@ -155,7 +157,7 @@
                                       assests/group-6@3x.png 3x"
           class="NEM mt-3">
       </div>
-      <div class="col-md-4"></div>
+      <div class="col-md-4 col-sm-4 col-lg-4"></div>
       <p class="solid mt-5" style="margin-left: 11.3%;width: 80%;"></p>
       
   </div>
@@ -233,22 +235,22 @@
     </div>
   </div>
   <div class="row">
-      <div class="col-md-4"></div>
+      <div class="col-md-4 col-sm-4 col-lg-4"></div>
       <div class="col">
           <p class="heading"><span class="pnR">Inside</span>&nbsp;&nbsp;<span class="pnSB">Rapidqube</span></p>
       </div>
   </div>
   <div class="row ">
-      <div class="col-md-2 ">
+      <div class="col-md-2 col-sm-2 col-lg-2  ">
             <img src="/assests/Landing Page - 1.png" class="landing_image_design">
       </div>
-      <div class="col-md-4 shadowEffect_landing_page">
+      <div class="col-md-4 col-sm-4 col-lg-4 shadowEffect_landing_page">
             <img src="assests/blockchain_healthcare.jpg" class="card-img-top mt-3 ">
             <p class="smallheading pnSB mt-3">Our Latest Article About BlockChain And Health&nbsp;Care</p>
             <a href="blog.php" class="btn btn-link mt-2 pb-2 pnSB ">Read More ---&nbsp;>;
               <br>
       </div>
-      <div class="col-md-1"></div>
+      <div class="col-md-1 col-sm-1 col-lg-1"></div>
       <div class="col-md-4 shadowEffect_landing_page">
             <a class="twitter-timeline" style="height:400%;" data-lang="en" data-width="100%" data-chrome="nofooter noborders noheader"
             data-height="260" data-theme="light" href="https://twitter.com/rapidqube">Tweets by
@@ -263,49 +265,49 @@
   </div>
 <div class="container">
   <div class="row mt-5">
-      <div class="col-md-4"></div>
-   <div class="col-md-1 ">
+      <div class="col-md-4 col-sm-4 col-lg-4"></div>
+   <div class="col-md-1 col-sm-1 col-lg-1 ">
         <p class="heading pnSB">Partnership&nbsp;&&nbsp;Collaborations</p>
    </div>
-   <div class="col-md-2 ml-auto"></div>
+   <div class="col-md2 col-sm2 col-lg2 ml-auto"></div>
   </div>
   <div class="row mt-3">
-      <div class="col-md-3"></div>
+      <div class="col-md-3 col-sm-3 col-lg-3"></div>
       <div class="col-md-2 mr-auto">
            <a class="pnSB" href="#"><p class="smallheading hover pnL">Technology&nbsp;Partnerships</p></a>
       </div>
-      <div class="col-md-3  mr-auto">
+      <div class="col-md-3 col-sm-3 col-lg-3  mr-auto">
             <a class="pnSB" href="#"><p class="smallheading hover pnL">Industrial&nbsp;Collaboration</p></a>
       </div>
-      <div class="col-md-2 mr-auto">
+      <div class="col-md-2 col-sm-2 col-lg-2 mr-auto">
             <a class="pnSB" href="#"><p class="smallheading hover pnL pr_52">Members</p></a>
       </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-3 col-sm-3 col-lg-3"></div>
   </div>
   <div class="row">
-      <div class="col-md-4"></div>
+      <div class="col-md-4 col-sm-4 col-lg-4 "></div>
       <div class="col ml_-8" >
             <img src="assests/screen-shot-2018-08-03-at-2-40-29-pm.jpg" srcset="assests/screen-shot-2018-08-03-at-2-40-29-pm@2x.jpg 2x,
             assests/screen-shot-2018-08-03-at-2-40-29-pm@3x.jpg 3x"class="mr-5">
       </div>
-      <div class="col-md-4"></div>
+      <div class="col-md-4 col-sm-4 col-lg-4"></div>
   </div>
   <div class="row">
-      <div class="col-md-4 ml-4"></div>
+      <div class="col-md-4 col-sm-4 col-lg-4 ml-4"></div>
       <div class="col ml-1 ml-5">
             <a class="gradient-button gradient-button-4" style="color: #ffffff;" data-toggle="modal" data-target="#myModal">
                     Start a Project </a>
       </div>
       
-      <div class="col-md-5"></div>
+      <div class="col-md-5 col-sm-5 col-lg-5"></div>
   </div>
 </div>
     <div class="footer pale_bg_color" style="width: 100%;height:10%;">
-    <div class="col-md-10"></div><div> <a href="#" data-toggle="modal" data-target="#myModal"><img src="assests/group-8.png"  srcset="assests/group-8@2x.png 2x, assests/group-8@3x.png 3x"
+    <div class="col-md-10 col-sm-10 col-lg-10 "></div><div> <a href="#" data-toggle="modal" data-target="#myModal"><img src="assests/group-8.png"  srcset="assests/group-8@2x.png 2x, assests/group-8@3x.png 3x"
       class="Group-8 float-right mr-5" style="margin-top: -3%;" ></a></div>
     <div class="container row mt-5">
-      <div class="col-md-2"></div>
-      <div class="col-md-1">
+      <div class="col-md-2 col-sm-2 col-lg-2 "></div>
+      <div class="col-md-1 col-sm-1 col-lg-1 ">
         <ul style="list-style: none;">
           <li class="footer_font_header">Rapidqube</li>
           <br> <a href="aboutus.php">

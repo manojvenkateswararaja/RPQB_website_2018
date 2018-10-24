@@ -103,21 +103,8 @@
     outline: none;
     padding: 0px;
   }
-  .business_intelligence {
-    position: absolute;
-    top: 83px;
-    left: -24px;
-    z-index: 2;
-    width: 110%;
-}
-.Rectangle1 {
-    position: absolute;
-    top: 80px;
-    left: -28px;
-    z-index: 1;
-    width: 110%;
-    height: 109.9%;
-}
+ 
+
 
     </style>
 </head>
@@ -178,7 +165,7 @@
     <div class="container-fluid" style="margin-top: 14.1%;">
         <div class="col-md-12">
             <div class="row">
-                <div class="card col-md-5" style="width:24.4%;border:none;">
+                <div class="card col-md-5 mt-3" style="width:24.4%;border:none;">
                     <div class="card-body">
                         <h5 class="card-title aboutus1_heading"> <img src="assests/noun-about-us-316051.svg" class="noun_about-us_316051">
                             <span>Who we are</span> </h5>
@@ -214,7 +201,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="card col-md-5" style="width:24.4%;border:none;">
+                <div class="card col-md-5 mt-4" style="width:24.4%;border:none;">
                     <div class="card-body">
                         <h5 class="card-title aboutus1_heading"> <img src="assests/noun-vision-995437.svg" class="noun_Vision_995437">
                             <span>Our Vision</span> </h5>
@@ -262,9 +249,9 @@
         <div class="row col-md-12 background_image ">
             <div class="row mt-5 col-md-12">
                 
-                <div class="col-md-3 col-md-offset-2 ml_18 mr-auto shadowEffect">
+                <div class="col-md-3 col-md-offset-2 ml_18 mr-auto blue_light_effect shadowEffect">
                     <img src="assests/img-lokesh.png" srcset="assests/img-lokesh@2x.png 2x, assests/img-lokesh@3x.png 3x"
-                        class="img_lokesh ml_18 mt-3">
+                        class="img_lokesh ml_18 mt-3 img-fluid" alt="Responsive image">
                     <p class="aboutus1_heading_name mt-4 ml_30">Lokesh Reddi </p>
                     <p class="aboutus1_heading_desc ml_35 mt_2 ">Co-founder</p>
                     <p class="card-text Solutions_content_body" style="text-align: justify;">Lokesh is an angel
@@ -281,13 +268,12 @@
                             <a href="https://twitter.com/rapidqube"><img src="assests/Group 11.png"></a>
                         </div>
                     </div>
-                    <br>
-                    <br>
-                    <div class="blue_line"></div>
+                    
+                    
 
                 </div>
                 
-                <div class="col-md-3 col-md-offset-2 ml-5 mr-5 shadowEffect">
+                <div class="col-md-3 col-md-offset-2 ml-5 mr-5 blue_light_effect shadowEffect">
                     <img src="assests/img-raghunadh.png" srcset="assests/img-raghunadh@2x.png 2x, assests/img-raghunadh@3x.png 3x"
                         class="img_raghunadh ml_18 mt-3">
                     <p class="aboutus1_heading_name mt-4 ml_18">Raghunadh&nbsp;Vaddadi</p>
@@ -305,9 +291,8 @@
                             <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
                         </div>
                     </div>
-                    <br>
-                    <br>
-                    <div class="blue_line"></div>
+                    
+                    
                 </div>
                 <div class="col-md-2">
 
@@ -320,17 +305,16 @@
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner background_image">
                 <div class="carousel-item active">
                     <div class="row mt-5 col-md-12">
 
-                        <div class="col-md-3 shadowEffect">
+                        <div class="col-md-3 blue_light_effect  shadowEffect">
                             <img src="assests/img-mohanraj.png" srcset="assests/img-mohanraj@2x.png 2x, assests/img-mohanraj@3x.png 3x"
                                 class="ml_18 mt-3">
                             <p class="aboutus1_heading_name mt-4 ml_28">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</p>
-                            <p class="aboutus1_heading_desc ml_28 mt_2 ">&nbsp;Cheif&nbsp;Digital Strategist</p>
+                            <p class="aboutus1_heading_desc ml_28 mt_2 ">&nbsp;Chief&nbsp;Digital Strategist</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body mt-4" style="text-align: justify;">Mohan is an
                                     early adopter of Technology
@@ -343,7 +327,7 @@
                             </div>
 
 
-                            <div class="container mt-5 ">
+                            <div class="container mt-5  ">
                                 <div class="row">
                                     <div class="col ml_18">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
@@ -353,18 +337,14 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <br>
-                            <br>
-                            <div class="blue"></div>
                         </div>
 
 
 
-                        <div class="col-md-3 ml-auto shadowEffect">
+                        <div class="col-md-3 ml-auto blue_light_effect shadowEffect">
                             <img src="assests/img_Muthu.png" class="ml_18 mt-3">
                             <p class="aboutus1_heading_name mt-4 ml_12">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
-                            <p class="aboutus1_heading_desc ml_41 mt_2 ">Chief Technology Officer</p>
+                            <p class="aboutus1_heading_desc ml_20 mt_2 ">Chief Technology Officer</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body" style="text-align: justify;">Muthu
                                     is a seasoned professional on
@@ -389,14 +369,10 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <br>
-                            <br>
-                            <div class="blue"></div>
                         </div>
 
 
-                        <div class="col-md-3 ml-auto shadowEffect">
+                        <div class="col-md-3 ml-auto blue_light_effect shadowEffect">
                             <img src="assests/img_umashankar copy.png" class="ml_18 mt-3">
                             <p class="aboutus1_heading_name mt-4 ml_28">UmaShankar&nbsp;S</p>
                             <p class="aboutus1_heading_desc ml_28 mt_2 ">Head&nbsp;-&nbsp;Development</p>
@@ -421,18 +397,12 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
-                            <br>
-                            <br>
-                            <div class="blue"></div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row mt-5 col-md-12">
-                        <div class="col-md-3 shadowEffect">
+                        <div class="col-md-3 blue_light_effect shadowEffect">
                             <img src="assests/img-christopher.png" srcset="assests/img-christopher@2x.png 2x, assests/img-christopher@3x.png 3x"
                                 class="ml_18 mt-3">
                             <p class="aboutus1_heading_name mt-4 ml_24">&nbsp;Christopher&nbsp;Day</p>
@@ -464,15 +434,11 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <br>
-                            <br>
-                            <div class="blue"></div>
                         </div>
 
 
 
-                        <div class="col-md-3 ml-auto shadowEffect">
+                        <div class="col-md-3 ml-auto blue_light_effect shadowEffect">
                             <img src="assests/img-rushikesh.png" srcset="assests/img-rushikesh@2x.png 2x, assests/img-rushikesh@3x.png 3x"
                                 class="ml_18 mt-3">
                             <p class="aboutus1_heading_name mt-4 ml_24">Rushikesh&nbsp;Purohit</p>
@@ -486,9 +452,7 @@
                                     potential in North America. Rushi’s expertise ranges across the technology map
                                     from legacy modernization to Web 3.0 and everything in between.</p>
                             </div>
-
-
-                            <div class="container">
+                             <div class="container">
                                 <div class="row">
                                     <div class="col ml_18">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
@@ -498,14 +462,10 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <br>
-                            <br>
-                            <div class="blue"></div>
                         </div>
 
 
-                        <div class="col-md-3 ml-auto shadowEffect">
+                        <div class="col-md-3 blue_light_effect ml-auto shadowEffect">
                             <img src="assests/img_vikram copy.png" class="ml_18 mt-3">
                             <p class="aboutus1_heading_name mt-4 ml_18">Vikram&nbsp;Viswanathan</p>
                             <p class="aboutus1_heading_desc ml_35 mt_2 ">Architect</p>
@@ -518,10 +478,6 @@
                                     implementations that aligns with their strategic visions and goals thereby
                                     delivering industry specific performance driven solutions.</p>
                             </div>
-
-
-                            <br>
-                            <br>
                             <div class="container">
                                 <div class="row">
                                     <div class="col ml_18">
@@ -532,10 +488,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <br>
-                            <br>
-                            <div class="blue"></div>
                         </div>
                     </div>
                 </div>
@@ -546,14 +498,15 @@
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="fa fa-angle-right ml_86" style="background-color:#ffffff; margin-left: 76%;"
+                <span class="fa fa-angle-right ml_86" style="background-color:#ffffff;"
                     aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
     </div>
-    
-
+    <div class="container"></div>
+    <br>
+    <br>
 </body>
 
 </html>

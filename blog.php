@@ -103,6 +103,8 @@
     outline: none;
     padding: 0px;
   }
+
+  
     </style>
 </head>
 
@@ -162,7 +164,7 @@
                                                         challenge is to convince the sector on the added layers of security the
                                                         technology brings in and the suitability of adoption of Blockchain for
                                                         specific areas of business which can not only add security but can help
-                                                        in elevating the end user experience.</p>
+                                           W             in elevating the end user experience.</p>
                                                     <p style="text-align: justify;" class="smallheading pnR">
                                                         Here in India, the Central Government and most of the State Governments
                                                         are promoting BlockChain Technology among various Govt establishments &
@@ -179,7 +181,7 @@
                                                         experience a broader overview of BlockChain Technology along with
                                                         validated Use Cases and Tested Applications. Do reach out to us in case
                                                         of queries.
-                                                        <button class="btn  btn-link ml_67" type="button" data-toggle="collapse"
+                                                        <button class="btn  btn-link mr_67" type="button" data-toggle="collapse"
                                                         data-target="#blog1" aria-expanded="false" aria-controls="blog1">
                                                         Explore Less ---->
                                                     </button>
@@ -230,7 +232,7 @@
                                                                                 across
                                                                                 varied business verticals as well as enhance existing business
                                                                                 solutions.
-                                                                                <button class="btn  btn-link ml_67" type="button" data-toggle="collapse"
+                                                                                <button class="btn  btn-link mr_67" type="button" data-toggle="collapse"
                                                                                     data-target="#blog2" aria-expanded="false" aria-controls="blog2">
                                                                                     Explore Less ---->
                                                                                 </button>
@@ -359,7 +361,7 @@
                                                                                 across
                                                                                 varied business verticals as well as enhance existing business
                                                                                 solutions.
-                                                                                <button class="btn  btn-link ml_67" type="button" data-toggle="collapse"
+                                                                                <button class="btn  btn-link mr_67" type="button" data-toggle="collapse"
                                                                                     data-target="#blog4" aria-expanded="false" aria-controls="blog4">
                                                                                     Explore Less ---->
                                                                                 </button>
@@ -487,9 +489,9 @@
                                                                                 across
                                                                                 varied business verticals as well as enhance existing business
                                                                                 solutions.
-                                                                                <button class="btn  btn-link ml_67" type="button" data-toggle="collapse"
+                                                                                <button class="btn  btn-link mr_67" type="button" data-toggle="collapse"
                                                                                     data-target="#blog6" aria-expanded="false" aria-controls="blog6">
-                                                                                    <img src="/assests/group-19.svg">
+                                                                                    Explore Less --- >>
                                                                                 </button>
                                                                             </p>
                                 

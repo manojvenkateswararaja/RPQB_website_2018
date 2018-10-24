@@ -613,6 +613,40 @@
     border-image-slice: 1;
 }
 /* About_us Page */
+
+.business_intelligence {
+    position: absolute;
+    top: 83px;
+    left: -24px;
+    z-index: 2;
+    width: 110%;
+}
+.Rectangle1 {
+    position: absolute;
+    top: 79px;
+    left: -28px;
+    z-index: 1;
+    width: 110%;
+    height: 110.9%;
+}
+.carousel-indicators li   {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #93e1f5;
+   
+}
+.carousel-indicators {
+  bottom:-50px;
+  
+}
+
+
+
+.carousel-inner {
+   margin-bottom:50px;
+}
+
 .background_image{
     background-image:url(/assests/design_abouts.svg);
     /* width: 1221px;
@@ -635,13 +669,16 @@
     margin-right: 67%;
 }
 .mr_86{
-    margin-right: 111%;
+    margin-right: 86%;
 }
 .ml_86{
     margin-left: 111%;
 }
 .ml_18{
     margin-left: 18%;
+}
+.ml_20{
+    margin-left:20%
 }
 .ml_30{
     margin-left: 30%;
@@ -670,6 +707,12 @@
     box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.1);
     border: solid 0.7px #eaeaea;
     background-color: #ffffff;
+}
+.blue_light_effect{
+    line-height: 29px;
+    position: relative;
+    padding-bottom: 19px;
+    border-bottom: solid 5px #08b5e5;
 }
 .blue_line {
     width: 314px;
