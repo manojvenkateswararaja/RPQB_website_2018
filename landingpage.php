@@ -237,7 +237,7 @@
   <div class="row">
       <div class="col-md-4 col-sm-4 col-lg-4"></div>
       <div class="col">
-          <p class="heading"><span class="pnR">Inside</span>&nbsp;&nbsp;<span class="pnSB">Rapidqube</span></p>
+          <p class="heading ml_12"><span class="pnR">Inside</span>&nbsp;&nbsp;<span class="pnSB">Rapidqube</span></p>
       </div>
   </div>
   <div class="row ">
@@ -246,8 +246,8 @@
       </div>
       <div class="col-md-4 col-sm-4 col-lg-4 shadowEffect_landing_page">
             <img src="assests/blockchain_healthcare.jpg" class="card-img-top mt-3 ">
-            <p class="smallheading pnSB mt-3">Our&nbsp;Latest&nbsp;Article&nbsp;About&nbsp;BlockChain&nbsp;And&nbsp;Health&nbsp;Care</p>
-            <a href="blog.php" class="btn btn-link mt-2 pb-2 pnSB ">Read More ---&nbsp;>
+            <p class="smallheading pnSB mt-3">Our Article&nbsp;About&nbsp;BlockChain&nbsp;And&nbsp;Health&nbsp;Care</p>
+            <a href="blog.php" class="btn btn-link  pnSB ">Read More ---&nbsp;>
               <br>
       </div>
       <div class="col-md-1 col-sm-1 col-lg-1"></div>
@@ -257,8 +257,8 @@
             RapidQube</a>
             <br>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <p class="smallheading pnSB mt-3">Twitter Handler @Rapdiqube </p>
-            <a href="https://twitter.com/rapidqube" class="btn btn-link mt-2 pnSB "> Our Achivements ---> </a>
+          <p class="smallheading pnSB ">Twitter Handler @Rapdiqube </p>
+            <a href="https://twitter.com/rapidqube" class="btn btn-linkpnSB "> Our Achivements ---> </a>
             <br>
             <br>
       </div>
