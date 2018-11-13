@@ -197,7 +197,7 @@
     <div class="count_section text-center">
       <ul class="p-0 m-0">
         <li class="count_list px-sm-2 px-md-5 px-lg-5 px-xl-5">
-          <a href="solutions.php#section_sol_1" title="White Papers" class="d-block" style="text-decoration: none;">
+          <a href="whitepaper.php" title="White Papers" class="d-block" style="text-decoration: none;">
             <div class="box_no">
               <h1 class="count_no"> 3+ </h1>
             </div>
@@ -210,7 +210,7 @@
           Sorry, your browser does not support inline SVG.
         </svg>
         <li class="count_list px-sm-2 px-md-5 px-lg-5 px-xl-5">
-          <a href="solutions.php#section_sol_2" title="Products &amp; Solutions" class="d-block" style="text-decoration: none;">
+          <a href="product&solution.php" title="Products &amp; Solutions" class="d-block" style="text-decoration: none;">
             <div class="box_no">
               <h1 class="count_no"> 59+ </h1>
             </div>
@@ -223,7 +223,7 @@
           Sorry, your browser does not support inline SVG.
         </svg>
         <li class="count_list px-sm-2 px-md-5 px-lg-5 px-xl-5">
-          <a href="solutions.php#section_sol_3" title="Frameworks" class="d-block" style="text-decoration: none;">
+          <a href="framework.php" title="Frameworks" class="d-block" style="text-decoration: none;">
             <div class="box_no">
               <h1 class="count_no"> 8+ </h1>
             </div>
@@ -237,7 +237,7 @@
   <div class="row">
       <div class="col-md-4 col-sm-4 col-lg-4"></div>
       <div class="col">
-          <p class="heading ml_12"><span class="pnR">Inside</span>&nbsp;&nbsp;<span class="pnSB">Rapidqube</span></p>
+          <p class="heading ml_12"><span class="pnR">Inside</span>&nbsp;&nbsp;<span class="pnSB">RapidQube</span></p>
       </div>
   </div>
   <div class="row ">
@@ -258,7 +258,7 @@
             <br>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <p class="smallheading pnSB ">Twitter Handler @Rapdiqube </p>
-            <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB "> Our Achivements ---> </a>
+            <!-- <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB "> Our Achivements ---> </a> 
             <br>
             <br>
       </div>
@@ -274,13 +274,13 @@
   <div class="row mt-3">
       <div class="col-md-3 col-sm-3 col-lg-3"></div>
       <div class="col-md-2 mr-auto">
-           <a class="pnSB" href="#"><p class="smallheading hover pnL">Technology&nbsp;Partnerships</p></a>
+           <a class="pnSB" href="undermaintance.php"><p class="smallheading hover pnL">Technology&nbsp;Partnerships</p></a>
       </div>
       <div class="col-md-3 col-sm-3 col-lg-3  mr-auto">
-            <a class="pnSB" href="#"><p class="smallheading hover pnL">Industrial&nbsp;Collaboration</p></a>
+            <a class="pnSB" href="undermaintance.php"><p class="smallheading hover pnL">Industrial&nbsp;Collaboration</p></a>
       </div>
       <div class="col-md-2 col-sm-2 col-lg-2 mr-auto">
-            <a class="pnSB" href="#"><p class="smallheading hover pnL pr_52">Members</p></a>
+            <a class="pnSB" href="undermaintance.php"><p class="smallheading hover pnL pr_52">Members</p></a>
       </div>
       <div class="col-md-3 col-sm-3 col-lg-3"></div>
   </div>
@@ -309,14 +309,14 @@
       <div class="col-md-2 col-sm-2 col-lg-2 "></div>
       <div class="col-md-1 col-sm-1 col-lg-1 ">
         <ul style="list-style: none;">
-          <li class="footer_font_header">Rapidqube</li>
+          <li class="footer_font_header">RapidQube</li>
           <br> <a href="aboutus.php">
             <li class="footer_font">About&nbsp;Us</li>
           </a>
           <br> <a href="services.php">
             <li class="footer_font">Services</li>
           </a>
-          <br> <a href="solutions.php">
+          <br> <a href="product&solution.php">
             <li class="footer_font">Solutions</li>
           </a>
         </ul>
@@ -325,10 +325,10 @@
       <div class="col-md-1">
         <ul style="list-style: none; ">
           <li class="footer_font_header">SUPPORT</li>
-          <br> <a href="contactus.php">
+          <br> <a href="undermaintance.php">
             <li class="footer_font">Help&nbsp;Center </li>
           </a>
-          <br> <a href="contactus.php">
+          <br> <a href="undermaintance.php">
             <li class="footer_font">FAQ's</li>
           </a>
           <br> <a href="contactus.php">
@@ -340,10 +340,10 @@
       <div class="col-md-2">
         <ul style="list-style: none; ">
           <li class="footer_font_header">News&nbsp;&&nbsp;Events</li>
-          <br> <a href="https://twitter.com/rapidqube">
+          <br> <a href="undermaintance.php">
             <li class="footer_font">Consessus 2018 </li>
           </a>
-          <br> <a href="https://twitter.com/rapidqube">
+          <br> <a href="undermaintance.php">
             <li class="footer_font">NEM&nbsp;Foundation&nbsp;2018</li>
           </a>
          

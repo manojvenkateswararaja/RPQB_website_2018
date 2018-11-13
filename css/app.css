@@ -154,6 +154,36 @@
   letter-spacing: normal;
   color: #000000;
 }
+.navBarName1 {
+  margin-left:60px;
+  font-family: ProximaNovaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.navBarNameContactUs {
+  margin-left:23px;
+  font-family: ProximaNovaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.navBarNameBlog {
+  margin-left:-19px;
+  font-family: ProximaNovaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
 .space {
   margin-left: 2%;
 }
@@ -481,6 +511,18 @@
   font-stretch: normal;
   line-height: 1.02;
   letter-spacing: normal;
+  margin-top: -23px;
+}
+.banner_headingwhitepaper {
+  /* padding-left:32%; */
+  font-family: ProximaNovaSemiBold;
+  font-size: 53px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: normal;
+  margin-top: -32px;
 }
 .banner_content {
   font-family: ProximaNovaRegular;
@@ -491,6 +533,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
+  /* margin-top: 50px */
 }
 .banner_size {
   width: 132%;
@@ -506,6 +549,7 @@
 .solutions_image {
   width: 545px;
   height: 545px;
+  margin-left: 32px;
   object-fit: contain;
 }
 .centered {

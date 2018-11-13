@@ -108,6 +108,11 @@
       font-family: ProximaNovaSemiBold;
       color: #4a90e2;
   }
+  .addr{
+    margin-left: 272;
+    margin-top: -95;
+
+  }
     </style>
 </head>
 
@@ -119,14 +124,18 @@
     <div class="row mt-5 contacts_us_bg_image" >
             <div class="col mt-3 ml-5">
                     <ul class="tabs" style="list-style: none; ">
-                            <button type="button" class="btn btn-link">
-                                <li class="active smallheading pnL" rel="#state2">Mumbai</li>
-                            </button>
-                            <br>
-                            <button type="button" class="btn btn-link">
-                                <li class="smallheading pnL" rel="#state1">Chennai</li>
+                    <div class="addr">
+                    <button type="button" class="btn btn-link">
+                               <li class="active smallheading pnL" rel="#state2">Mumbai</li>
+                           </button>
+                           <br>
+                           <button type="button" class="btn btn-link" style="margin-left: 416;margin-top: -141;">
+                               <li class="smallheading pnL" rel="#state1">Chennai</li>
+
+                           </button>
         
                             </button>
+                            </div>
                     </ul>
             </div>
             <div class="col-md-10" >
@@ -147,18 +156,17 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                             <ul class="mt-3 city_address" style="list-style: none;padding-left: 1px;">
-                                            
-                                                    <li class="pnL" >No,&nbsp;415,&nbsp;Fourth&nbsp;Floor,</li>
-                     
-                                                    <li class="pnL" >The&nbsp;Corporate&nbsp;Phase&nbsp;1</li>
-                     
-                                                    <li class="pnL" >Nirmal&nbsp;Lifestyle,&nbsp;L.B.S&nbsp;Marg,</li>
-                     
-                                                    <li class="pnL" >Mulund(West),&nbsp;Mumbai</li>
-                     
-                                                    <li class="pnL" >&nbsp;Maharashtra&nbsp;-&nbsp;400080.&nbsp;</li>
-                     
-                                                    <li class="pnL" >&nbsp;+91-22&nbsp;2567&nbsp;3235&nbsp;</li>
+                                            <li class="pnL" >No,&nbsp;415,&nbsp;Fourth&nbsp;Floor,</li>
+
+                                                   <li class="pnL" >The&nbsp;Corporate&nbsp;Center&nbsp;</li>
+
+                                                   <li class="pnL" >Near&nbsp;Nirmal&nbsp;Lifestyle,&nbsp;L.B.S&nbsp;Road,</li>
+
+                                                   <li class="pnL" >Mulund(West),&nbsp;Mumbai</li>
+
+                                                   <li class="pnL" >&nbsp;Maharashtra&nbsp;-&nbsp;400080.&nbsp;</li>
+
+                                                   <li class="pnL" >&nbsp;+91-22&nbsp;2567&nbsp;3235&nbsp;</li>
                                                      <button type="button" class="btn btn-link">
                                                         <li class="pnSB">info@rapidqube.com</li>
                                                      </button>
@@ -196,7 +204,7 @@
                                                             <li class="pnL" >Okkiyam&nbsp;Thoraipakkam,&nbsp;</li>
                              
                                                             <li class="pnL" >Chennai,&nbsp;Tamil&nbsp;Nadu&nbsp;-&nbsp;600097.</li>
-                             
+                                                          
                                                             <li class="pnL" >+91-22&nbsp;2567&nbsp;3235&nbsp;</li>
                                                              <button type="button" class="btn btn-link">
                                                                 <li class="pnSB">info@rapidqube.com</li>
@@ -255,16 +263,16 @@
                             <input type="email" class="form-control" id="exampleInputEmail1" required>
                             <span class="form-highlight"></span>
                             <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">First Name</label>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Your Name</label>
 
 
                         </div>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" required>
                             <span class="form-highlight"></span>
                             <span class="form-bar"></span>
                             <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
-                        </div>
+                        </div> -->
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" required>
                             <span class="form-highlight"></span>
@@ -282,7 +290,7 @@
                             <input type="hidden" name="fld_name" id="fld_name">
                             <span class="form-highlight"></span>
                             <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Country</label>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Description</label>
                         </div>
                         <div class="modal-footer d-flex justify-content-center">
                             <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default  buttonFonts "

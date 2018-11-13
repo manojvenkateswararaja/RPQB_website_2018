@@ -7,15 +7,19 @@
             </div>
             <div class="col-md-10 pad_right_0">
                 <div class="row custom_margin">
-                    <div class="col-md-9"></div>
+                
+                    <div class="col-md-8"></div>
                     <div class="col-md-1 navBarName">
-                        <a class="navBarName" href="contactus.php">Contact&nbsp;Us</a>
+                        <a class="navBarName1" href="landingpage.php">Home</a>
                     </div>
                     <div class="col-md-1 navBarName">
-                        <a class="navBarName pl-3" href="contactus.php">Career</a>
+                        <a class="navBarNameContactUs" href="contactus.php">Contact&nbsp;Us</a>
                     </div>
                     <div class="col-md-1 navBarName">
-                        <a class="navBarName" href="blog.php">Blog</a>
+                        <a class="navBarName pl-3" href="undermaintance.php">Career</a>
+                    </div>
+                    <div class="col-md-1 navBarName">
+                        <a class="navBarNameBlog" href="blog.php">Blog</a>
                     </div>
     
                 </div>
@@ -35,10 +39,12 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <button class="btn btn-link navBarName pl_10 dropdown-toggle custom-button" type="button"
-                                        data-toggle="dropdown">Products & Solutions
-                                        <span class="caret"></span></button>
-                                    <div class="dropdown-menu w_312">
+                                    <!-- <button class="btn btn-link navBarName pl_10 dropdown-toggle custom-button" type="button"
+                                         onclick="location.href = 'product&solution.php';">Products & Solutions
+                                        <span class="caret"></span></button> -->
+                                        <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'product&solution.php';"
+                                        type="button" data-toggle="dropdown"><h6>Products & Solutions</h6></button>
+                                    <!-- <div class="dropdown-menu w_312">
                                         <ul class="none">
                                             <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Agriculture</a></li>
                                             <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rice
@@ -75,47 +81,49 @@
                                             <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
                                                     Payment</a></li>
                                         </ul>
-                                    </div>
+                                    </div> -->
     
                                    
                                 </td>
                                 <td class="mr-2">
-                                    <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'solutions.php';"
-                                        type="button" data-toggle="dropdown">White&nbsp;Papers</button>
+                                    <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'whitepaper.php';"
+                                        type="button" data-toggle="dropdown"><h6>White&nbsp;Papers</h6></button>
     
                                   
                                 </td>
                                 <td class="pl-2">
     
-                                    <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'solutions.php';"
-                                        type="button" data-toggle="dropdown">FrameWorks
+                                    <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'framework.php';"
+                                        type="button" data-toggle="dropdown"><h6>Frameworks</h6>
                                     </button>
     
-                                   
+
                                 </td>
                                 <td class="pr-5">
                                 <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'services.php';"
-                                        type="button" data-toggle="dropdown">Services
+                                        type="button" data-toggle="dropdown"><h6>Services</h6>
                                     </button>
                                     
                                 </td>
                                 <td class="mr-2">
                                 <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'aboutus.php';"
-                                        type="button" data-toggle="dropdown">About&nbsp;Us
+                                        type="button" data-toggle="dropdown"><h6>About&nbsp;Us</h6>
                                     </button>
                                 </td>
-                                <td class="mr-2">
-                                <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'contactus.php';"
+                                <!-- <td class="mr-2"> -->
+                                <!-- <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'contactus.php';"
                                         type="button" data-toggle="dropdown">info@rapidqube.com
-                                    </button>
+                                       
+                                    </button> -->
+                                    <!-- <a href="mailto:info@rapidqube.com" title="Mail"  class="btn btn-link  navBarName pl_10 custom-button">info@rapidqube.com</a>
                                     
-                                </td>
-                                <td class="mr-2">
+                                </td> -->
+                                <!-- <td class="mr-2">
                                     <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'contactus.php';"
                                             type="button" data-toggle="dropdown">+91-22-2567 3235
                                     </button>
-                                </td>
-                                <td> <img src="assests/group.png" class="mt-2 pl_10 fixed_position" alt="rapidqube"> </td>
+                                </td> -->
+                                <!-- <td> <img src="assests/group.png" class="mt-2 pl_10 fixed_position" alt="rapidqube"> </td> -->
                             </tr>
                         </tbody>
                     </table>
@@ -151,16 +159,16 @@
               <input type="text" class="form-control" name="f_name" id="f_name">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts"  for="exampleInputEmail1">First Name</label>
+              <label class="float-label regFormFonts"  for="exampleInputEmail1">Your Name</label>
 
 
             </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
               <input type="text" class="form-control" name="l_name" id="l_name" id="exampleInputEmail1">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
               <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
-            </div>
+            </div> -->
             <div class="form-group">
               <input type="text" class="form-control" name="company" id="company" id="exampleInputEmail1">
               <span class="form-highlight"></span>
@@ -178,7 +186,7 @@
               
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts" name="country" for="exampleInputEmail1">Country</label>
+              <label class="float-label regFormFonts" name="country" for="exampleInputEmail1">Description</label>
             </div>
             <div class="form-group">
             <input type="hidden" name="fld_name" id="fld_name" value="Quick Enquiry">

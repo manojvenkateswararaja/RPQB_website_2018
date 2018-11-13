@@ -105,6 +105,7 @@
 
 <body>
         <?php include('navbar.php'); ?>
+        <div id="ps">
         <div class="container mt-1 col-md-12">
             <div class="item">
                 <img src="assests/shutterstock-324782423.jpg" srcset="assests/shutterstock-324782423@2x.jpg 2x,assests/shutterstock-324782423@3x.jpg 3x"
@@ -127,73 +128,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-12 ">
-        <div class="m-5 heading">
-            White Papers
-        </div>
-        <div class="m-5 container col-md-12 row">
-            <div class="card col-md-3" style="width:24.4%;border:none;">
-                <div class="card-body">
-                    <h5 class="card-title solutions_heading">Off-Chain Smart Contract</h5>
-                    <p class="card-text Solutions_content_body">Smart Contracts should surpass their limitations and
-                        evolve to changing architectural standards that are needed for blockchains to scale
-                        significantly while retaining their decentralized principles.</p>
-                    <br>
-                    <p class="card-text Solutions_content_body">Presented at 13th International Conference on
-                        Information Systems Security 2017 | IIT Mumbai, India..</p>
-
-                    <a href="#" data-toggle="modal" data-target="#myModal" class="card-link">Explore more ----></a>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="card card col-md-3" style="width:24.4%;border:none;">
-                <div class="card-body">
-                    <h5 class="card-title solutions_heading">Connected Health</h5>
-                    <p class="card-text Solutions_content_body">Development of fundamental design changes for
-                        Electronic Health Records (EHRs) and Patient Health Records (PHRs) has been constrained
-                        traditionally through a longstanding focus on compliance.</p>
-                    <br>
-                    <p class="card-text Solutions_content_body">Presented at 13th International Conference on
-                        Information Systems Security 2017 | IIT Mumbai, India.</p>
-
-                    <a href="#" data-toggle="modal" data-target="#myModal" class="card-link">Explore more ----></a>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="card card col-md-3" style="width:24.4%;border:none;">
-                <div class="card-body">
-                    <h5 class="card-title solutions_heading">GDPR Architecture</h5>
-                    <p class="card-text Solutions_content_body">The General Data Protection Regulation (GDPR) regulates
-                        the export of personal data outside the EU. The regulation has provisions for individual
-                        control over one’s own data that includes many rights to the individual to manage personal data
-                        -access, consent, removal, portability and minimization.</p>
-                    <br>
-                    <p class="card-text Solutions_content_body">It becomes enforceable from 25 May 2018 after a
-                        two-year transition period.</p>
-
-                    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-                </div>
-            </div>
-        </div>
-        <div class="m-5 container col-md-12 row">
-            <div class="card col-md-3" style="width:24.4%;border:none;">
-                <div class="card-body">
-                    <h5 class="card-title solutions_heading">Real Estate Solution</h5>
-                    <p class="card-text Solutions_content_body">Financial-Settlement Speed, Payment Automation,
-                        Contract Enforceability, Dispute Reduction, Cash Flow Improvements.</p>
-                    <br>
-                    <p class="card-text Solutions_content_body">Expense Reduction-Legal, Payment Automation, Dispute
-                        Reduction, Cash Flow Improvements.</p>
-
-                    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-                </div>
-            </div>
-            <div class="col-md-5"></div>
-            <div class="col-md-4">
-                <img src="assests/group-6.svg" class="Group-6">
-            </div>
-        </div>
-    </div>
+ 
     <div class="col-md-12 pt-5 pale_bg_color">
         <div class="m-5 heading">
             Products & Solutions
@@ -278,9 +213,80 @@
             </div>
         </div>
     </div>
-    <div class="col-md-12">
+    </div>
+    <div id="whitepaper">
+    <div class="col-md-12 ">
         <div class="m-5 heading">
-            Frameworks
+            White Papers
+        </div>
+        <div class="m-5 container col-md-12 row">
+            <div class="card col-md-3" style="width:24.4%;border:none;">
+                <div class="card-body">
+                    <h5 class="card-title solutions_heading">Off-Chain Smart Contract</h5>
+                    <p class="card-text Solutions_content_body">Smart Contracts should surpass their limitations and
+                        evolve to changing architectural standards that are needed for blockchains to scale
+                        significantly while retaining their decentralized principles.</p>
+                    <br>
+                    <p class="card-text Solutions_content_body">Presented at 13th International Conference on
+                        Information Systems Security 2017 | IIT Mumbai, India..</p>
+
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="card card col-md-3" style="width:24.4%;border:none;">
+                <div class="card-body">
+                    <h5 class="card-title solutions_heading">Connected Health</h5>
+                    <p class="card-text Solutions_content_body">Development of fundamental design changes for
+                        Electronic Health Records (EHRs) and Patient Health Records (PHRs) has been constrained
+                        traditionally through a longstanding focus on compliance.</p>
+                    <br>
+                    <p class="card-text Solutions_content_body">Presented at 13th International Conference on
+                        Information Systems Security 2017 | IIT Mumbai, India.</p>
+
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="card card col-md-3" style="width:24.4%;border:none;">
+                <div class="card-body">
+                    <h5 class="card-title solutions_heading">GDPR Architecture</h5>
+                    <p class="card-text Solutions_content_body">The General Data Protection Regulation (GDPR) regulates
+                        the export of personal data outside the EU. The regulation has provisions for individual
+                        control over one’s own data that includes many rights to the individual to manage personal data
+                        -access, consent, removal, portability and minimization.</p>
+                    <br>
+                    <p class="card-text Solutions_content_body">It becomes enforceable from 25 May 2018 after a
+                        two-year transition period.</p>
+
+                    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
+            </div>
+        </div>
+        <div class="m-5 container col-md-12 row">
+            <div class="card col-md-3" style="width:24.4%;border:none;">
+                <div class="card-body">
+                    <h5 class="card-title solutions_heading">Real Estate Solution</h5>
+                    <p class="card-text Solutions_content_body">Financial-Settlement Speed, Payment Automation,
+                        Contract Enforceability, Dispute Reduction, Cash Flow Improvements.</p>
+                    <br>
+                    <p class="card-text Solutions_content_body">Expense Reduction-Legal, Payment Automation, Dispute
+                        Reduction, Cash Flow Improvements.</p>
+
+                    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
+            </div>
+            <div class="col-md-5"></div>
+            <div class="col-md-4">
+                <img src="assests/group-6.svg" class="Group-6">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="col-md-12" id="framework">
+        <div class="m-5 heading">
+            FrameWorks
         </div>
         <div class="m-5 container col-md-12 row">
             <div class="card col-md-3" style="width:24.4%;border:none;">
@@ -426,16 +432,16 @@
               <input type="text" class="form-control" name="f_name" id="f_name">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts"  for="exampleInputEmail1">First Name</label>
+              <label class="float-label regFormFonts"  for="exampleInputEmail1">Your Name</label>
 
 
             </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
               <input type="text" class="form-control" name="l_name" id="l_name" id="exampleInputEmail1">
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
               <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
-            </div>
+            </div> -->
             <div class="form-group">
               <input type="text" class="form-control" name="company" id="company" id="exampleInputEmail1">
               <span class="form-highlight"></span>
@@ -453,7 +459,7 @@
               
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
-              <label class="float-label regFormFonts" name="country" for="exampleInputEmail1">Country</label>
+              <label class="float-label regFormFonts" name="country" for="exampleInputEmail1">Description</label>
             </div>
             <div class="form-group">
             <input type="hidden" name="fld_name" id="fld_name" value="Quick Enquiry">

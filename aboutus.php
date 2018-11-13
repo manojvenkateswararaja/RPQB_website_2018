@@ -116,7 +116,7 @@
    
     <div class="container mt-1 col-md-12">
         <div class="item">
-            <img src="assests/shutterstock-324782423.jpg" srcset="assests/shutterstock-324782423@2x.jpg 2x,assests/shutterstock-324782423@3x.jpg 3x"
+            <img src="assests/aboutus.jpg" srcset="assests/aboutus.jpg"
                 class="shutterstock_324782423" style="width:100%;height: 14.9%;">
             <div class="text_wrapper text-block centered">
 
