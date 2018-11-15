@@ -199,7 +199,7 @@
                             class="Group-5">
                         <span class="  services_content_body"> Prescriptive </span>
                     </div>
-                    <div class="col-md-6 mr_9">
+                    <div class="col-md-6 mr_19">
                         <img src="assests/services/group-9.png" srcset="assests/services/group-9@2x.png 2x,assests/services/group-9@3x.png 3x"
                             class="Group-5">
                         <span class=" services_content_body">Search-based </span>
