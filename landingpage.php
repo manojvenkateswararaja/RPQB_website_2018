@@ -149,7 +149,7 @@
     </div>
     <img src="assests/icon.png" srcset="assests/icon.png"
       class="landing_image" >
-    <button type="button" href="#" data-toggle="modal" data-target="#myModal" style="margin-top: -522px;    margin-left: -35px;" class=" btn btn-link explore_more">Explore more ---->
+    <button type="button" href="#" data-toggle="modal" data-target="#myModal" style="margin-top: -522px;    margin-left: -35px;" class=" btn btn-link explore_moreimg">Explore more ---->
     </button>
     <!-- <a data-toggle="modal" href="#" data-target="#myModal" class="firstExplore">Explore more ----></a> 
   </div>
@@ -403,63 +403,61 @@
   <script>
     // Mail Send
     $('#email_form').validate({
-      rules: {
+     rules: {
 
-        email: {
-          required: true,
-          email: true
-        },
-        f_name: "required",
-        phone: "required",
-        country: "required"
+       email: {
+         required: true,
+         email: true
+       },
+       f_name: "required",
+       phone: "required",
+       country: "required"
+     },
+     messages: {
 
+     },
 
-
-
-      },
-      messages: {
-
-      },
-
-      submitHandler: function (form) {
+     submitHandler: function (form) {
 
 
-        var email_details = $('.email_form').serialize();
-        $('.statusMsg').html('');
-        $.ajax({
-          type: "POST",
-          url: "register.php",
+       var email_details = $('.email_form').serialize();
+       $('.statusMsg').html('');
+       $.ajax({
+         type: "POST",
+         url: "register.php",
 
-          data: {
-            email_details: email_details
+         data: {
+           email_details: email_details
 
-          },
-          success: function (msg) {
-            if (msg) {
-              $('.reset_btn').click();
-              $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
+         },
+         success: function (msg) {
+           if (msg) {
+             $('.reset_btn').click();
+             $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
 
-              // setTimeout(function(){
-              // 	$('.close').click();
-              // },3000);
+             // setTimeout(function(){
+             //     $('.close').click();
+             // },3000);
 
-              //$('.close').click();
-              //$('.reset_btn').click();
+             //$('.close').click();
+             //$('.reset_btn').click();
 
 
 
 
-            } else {
-              $('.statusMsg').html('<span style="color:red;font-size: 20px;">Some problem occurred, please try again.</span>');
-            }
+           } else {
+             $('.statusMsg').html('<span style="color:red;font-size: 20px;">Some problem occurred, please try again.</span>');
+           }
 
 
 
 
-          }
-        });
+         }
+       });
 
-      };
+     }
+     })
+    
   </script>
 </body>
 

@@ -84,13 +84,17 @@
   font-weight: normal;
 }
 .explore_more {
-  margin-top: -41%;
-  padding-left: 48px;
+  margin-top: -33%;
+  padding-left: 7px;
  
 }
 .explore_moreimg{
-  margin-top: -38%;
-    padding-left: 14px;
+  margin-top: -41%;
+  padding-left: 48px;
+
+}
+.explore_moreblog{
+ margin-left: -455px
 
 }
 .pl_9 {

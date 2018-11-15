@@ -37,9 +37,9 @@
    
    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<div class="container-fluid">
+<div class="container-fluid">   
         <div class="row" style="background-color: #ffffff;
-                box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);">
+                box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);width:100%">
             <div class="col-md-2 mb-3 img_style">
             <a href="landingpage.php"> <img src="assests/rapidqube-logo-2.png" alt="rapidqube"></a>
                
@@ -49,16 +49,16 @@
                 <div class="row custom_margin">
                 
                     <div class="col-md-8"></div>
-                    <div class="col-md-1 navBarName">
+                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <a class="fa fa-home homeclass" href="landingpage.php" ></a>
                     </div>
-                    <div class="col-md-1 navBarName">
+                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <a class="navBarNameContactUs" href="contactus.php">Contact&nbsp;Us</a>
                     </div>
-                    <div class="col-md-1 navBarName">
+                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <a class="navBarName pl-3" href="undermaintance.php">Career</a>
                     </div>
-                    <div class="col-md-1 navBarName">
+                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <a class="navBarNameBlog" href="blog.php">Blog</a>
                     </div>
     
@@ -68,14 +68,14 @@
                 <div>
                     <table class="mr_9">
                         <colgroup>
-                            <col style="width: 15%;">
                             <col style="width: 10%;">
-                            <col style="width: 13%;">
-                            <col style="width: 6%;">
-                            <col style="width: 8%;">
                             <col style="width: 10%;">
-                            <col style="width: 13%;">
-                            <col style="width: 5%;">
+                            <col style="width: 10%;">
+                            <col style="width: 10%;">
+                            <col style="width: 10%;">
+                            <col style="width: 10%;">
+                            <col style="width: 10%;">
+                            <col style="width: 10%;">
                         </colgroup>
                         <tbody>
                             <tr>
@@ -152,6 +152,7 @@
                                     </button>
                                 </td>
                                 <td class="mr-2">
+                                    
                                 <button class="btn btn-link  navBarName pl_10 custom-button" 
                                         type="button" data-toggle="dropdown"><h6>info@rapidqube.com</h6>
                                        

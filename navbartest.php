@@ -50,7 +50,7 @@
       </button> -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <!-- <div class="navbar-nav"> -->
-            
+
         <a class="navBarNameContactUs" href="#">Contact Us </a>
         <a class="navBarNameContactUs" href="#">Career</a>
         <a class="navBarNameContactUs" href="#">Blog</a>
@@ -102,3 +102,7 @@
   </nav>
 </head>
 </html>
+  <div class="border"></div>
+
+
+  
