@@ -2,7 +2,16 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Example</title>
+<meta charset="UTF-8">
+<meta name="description" content="Rapidqube, RapidQube ,Rapidqube Digital">
+<meta name="author" content="">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+<link rel="icon" type="image/png" href="rq_favicon.png"/>
+<!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/slick.css" rel="stylesheet"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
+<link href="assets/css/responsive.css" rel="stylesheet"/> -->
+  <title>RapidQube-Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--fontawesome incorporated-->
@@ -106,11 +115,16 @@
     padding: 0px;
   }
     
+
+
     /* input colors ---- */
     
   
     
-    
+    .insiderq{
+      margin-top: -78px;
+      
+    }
     
     
   
@@ -127,9 +141,15 @@
     
     
   <div class="container-fluid">
-    <img src="assests/group-21.png" srcset="assests/group-21@2x.png 2x,assests/group-21@3x.png 3x"
+    <div>
+
+<img src="assests/WeBCexpert.png" srcset="assests/WeBCexpert.png"
+      class="BC_image" >
+
+    </div>
+    <img src="assests/icon.png" srcset="assests/icon.png"
       class="landing_image" >
-    <button type="button" href="#" data-toggle="modal" data-target="#myModal"class=" ml-5 btn btn-link explore_more"><img src="/assests/group-19.svg">
+    <button type="button" href="#" data-toggle="modal" data-target="#myModal"class=" ml-5 btn btn-link explore_more"><img src="/assests/group-19.svg" >
     </button>
   </div>
   <div class="row">
@@ -157,7 +177,7 @@
                                       assests/group-6@3x.png 3x"
           class="NEM mt-3">
       </div>
-      <div class="col-md-4 col-sm-4 col-lg-4"></div>
+      <div class="col-md-4 col-sm-4 col-lg-8"></div>
       <p class="solid mt-5" style="margin-left: 11.3%;width: 80%;"></p>
       
   </div>
@@ -236,7 +256,7 @@
   </div>
   <div class="row">
       <div class="col-md-4 col-sm-4 col-lg-4"></div>
-      <div class="col">
+      <div class="col insiderq">
           <p class="heading ml_12"><span class="pnR">Inside</span>&nbsp;&nbsp;<span class="pnSB">RapidQube</span></p>
       </div>
   </div>
@@ -274,13 +294,13 @@
   <div class="row mt-3">
       <div class="col-md-3 col-sm-3 col-lg-3"></div>
       <div class="col-md-2 mr-auto">
-           <a class="pnSB" href="undermaintance.php"><p class="smallheading hover pnL">Technology&nbsp;Partnerships</p></a>
+           <a class="pnSB" ><p class="smallheading hover pnL">Technology&nbsp;Partnerships</p></a>
       </div>
       <div class="col-md-3 col-sm-3 col-lg-3  mr-auto">
-            <a class="pnSB" href="undermaintance.php"><p class="smallheading hover pnL">Industrial&nbsp;Collaboration</p></a>
+            <a class="pnSB" ><p class="smallheading hover pnL">Industrial&nbsp;Collaboration</p></a>
       </div>
       <div class="col-md-2 col-sm-2 col-lg-2 mr-auto">
-            <a class="pnSB" href="undermaintance.php"><p class="smallheading hover pnL pr_52">Members</p></a>
+            <a class="pnSB" ><p class="smallheading hover pnL pr_52">Members</p></a>
       </div>
       <div class="col-md-3 col-sm-3 col-lg-3"></div>
   </div>
@@ -351,10 +371,16 @@
       </div>
       <div class="col-md-4" style="padding-left: 120px;">
         <div class="row ml-5">
-          <span><a href="https://www.facebook.com/rapidqube/" class="fa fa-facebook"></a></span>
+          <!-- <ul class="social_media pl-0 m-0 ml-auto"> -->
+								<span> <a href="https://www.facebook.com/rapidqube/" target="_blank" title="footer_media" class="fa fa-facebook"></a> </span>
+								<span> <a href="https://twitter.com/rapidqube" target="_blank" title="footer_media" class="fa fa-twitter"></a> </span>
+								<span> <a href="https://www.linkedin.com/company/rapidqube/" target="_blank" title="footer_media" class="fa fa-linkedin"></a> </span>
+                <span><a href="undermaintance.php" class="fa fa-google"></a></span> 
+              <!-- </ul> -->
+          <!-- <span><a href="https://www.facebook.com/rapidqube/" class="fa fa-facebook"></a></span>
           <span><a href="https://twitter.com/rapidqube" class="fa fa-twitter"></a></a></span>
           <span><a href="https://in.linkedin.com/company/rapidqube" class="fa fa-linkedin"></a></span>
-          <span><a href="landingpage.php" class="fa fa-google"></a></span>
+          <span><a href="landingpage.php" class="fa fa-google"></a></span> -->
         </div>
       </div>
     </div>
@@ -362,9 +388,8 @@
       <p class="solid mt-5" style="margin-left: 10%;width: 80%;"></p>
     </div>
     <div class="row">
-      <p style="font-size: 12px;margin-left:10%;font-family:Helvetica;color: #353535;">By continuing past this page,
-        you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. © 2018 - Maharashtra
-        state board and higher secondary education All rights reserved.</p>
+      <p style="font-size: 12px;margin-left:27%;font-family:Helvetica;color: #353535;">By continuing past this page,
+        you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. © 2018 </p>
     </div>
 
   </div>
@@ -430,9 +455,7 @@
           }
         });
 
-      }
-
-    });
+      };
   </script>
 </body>
 

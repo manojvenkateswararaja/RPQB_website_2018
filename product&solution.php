@@ -19,7 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/app.css">
-    <title>Solutions</title>
+    <title>RapidQube-Products&Solutions</title>
     <style>
         .reset_btn {
 	font-size: 0px;
@@ -76,7 +76,11 @@
                 -moz-transition: 0.2s ease all;
                 -webkit-transition: 0.2s ease all;
               }
-              
+              .enquiry{
+                margin-left: 1155px;
+    margin-top: -87px;
+
+              }
               .form-horizontal .control-label {
                 position: relative;
                 top: 0;
@@ -108,8 +112,8 @@
         <div id="ps">
         <div class="container mt-1 col-md-12">
             <div class="item">
-                <img src="assests/shutterstock-324782423.jpg" srcset="assests/shutterstock-324782423@2x.jpg 2x,assests/shutterstock-324782423@3x.jpg 3x"
-                    class="shutterstock_324782423" style="width:100%;height: 14.9%;">
+                <img src="assests/ps3.jpg" srcset="assests/ps3.jpg"
+                    class="shutterstock_324782423" style="width:100%;height: 548px;">
                 <div class="text_wrapper text-block centered">
 
                     <h2 class="item--title ml_38 white_color banner_heading">Solutions</h2>
@@ -133,6 +137,53 @@
         <div class="m-5 heading">
             Products & Solutions
         </div>
+
+<div class="enquiry">
+<button class="btn btn-link navBarName pl_10 dropdown-toggle custom-button" type="button"
+                                        data-toggle="dropdown"><h5><b>For Enquiry</b></h5>
+                                        <span class="caret"></span></button>
+                                    <div class="dropdown-menu w_312">
+                                        <ul class="none">
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Agriculture</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rice
+                                                    Chain</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Cotton
+                                                    Chain</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Farm
+                                                    to Fork</a></li>
+                                            <li>
+                                                <p class="solid_navbar mt-2 mr-4"></p>
+                                            </li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Automobile</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Updates</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
+                                                    Messaging</a></li>
+                                            <li>
+                                                <p class="solid_navbar mt-2 mr-4"></p>
+                                            </li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Bill Discounting / Financing</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Mortgage</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Cheque</a></li>
+                                            <li>
+                                                <p class="solid_navbar mt-2 mr-4"></p>
+                                            </li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking
+                                                    &amp; NBFS</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Omnichannel
+                                                    Support</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
+                                                    Payment</a></li>
+                                        </ul>
+                                    </div>
+    
+                                   
+            </div>
+
         <div class="m-5 container col-md-12 row">
             <div class="card col-md-3 pale_bg_color" style="width:24.4%;border:none;">
                 <div class="card-body pale_bg_color">
@@ -193,7 +244,7 @@
                         counterparty ties.</p>
                     <!-- <img href="#" src="./assests/video-play-button.png" style="margin-top: 1%;" data-toggle="modal"
                         data-target="#Modal2"> -->
-                    <a href="#" class="card-link download_ico float-right" data-toggle="modal" href="#" data-target="#myModal">Explore
+                    <a href="#" class="card-link download_ico float-right expstyle" data-toggle="modal" href="#" data-target="#myModal">Explore
                         more ----></a>
                 </div>
 
@@ -203,48 +254,6 @@
                 <div class="card-body pale_bg_color">
 
               
-                                    <button class="btn btn-link navBarName pl_10 dropdown-toggle custom-button" type="button"
-                                        data-toggle="dropdown"><h5><b>For more details</b></h5>
-                                        <span class="caret"></span></button>
-                                    <div class="dropdown-menu w_312">
-                                        <ul class="none">
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Agriculture</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rice
-                                                    Chain</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Cotton
-                                                    Chain</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Farm
-                                                    to Fork</a></li>
-                                            <li>
-                                                <p class="solid_navbar mt-2 mr-4"></p>
-                                            </li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Automobile</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                    Updates</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
-                                                    Messaging</a></li>
-                                            <li>
-                                                <p class="solid_navbar mt-2 mr-4"></p>
-                                            </li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                    Bill Discounting / Financing</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                    Mortgage</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
-                                                    Cheque</a></li>
-                                            <li>
-                                                <p class="solid_navbar mt-2 mr-4"></p>
-                                            </li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading">Banking
-                                                    &amp; NBFS</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Omnichannel
-                                                    Support</a></li>
-                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
-                                                    Payment</a></li>
-                                        </ul>
-                                    </div>
-    
                                    
                                
     

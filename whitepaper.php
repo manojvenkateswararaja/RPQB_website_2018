@@ -19,7 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/app.css">
-    <title>Solutions</title>
+    <title>RapidQube-Whitepapers</title>
     <style>
         .reset_btn {
 	font-size: 0px;
@@ -109,7 +109,7 @@
         <div class="container mt-1 col-md-12">
             <div class="item">
                 <img src="assests/shutterstock-324782423.jpg" srcset="assests/whitepaper.jpg"
-                    class="shutterstock_324782423" style="width:100%;height: 448px;">
+                    class="shutterstock_324782423" style="width:100%;height: 548px;">
                 <div class="text_wrapper text-block centered">
 
                     <h2 class="item--title ml_38 white_color banner_headingwhitepaper">White papers</h2>

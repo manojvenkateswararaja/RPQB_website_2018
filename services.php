@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>RapidQube-Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--fontawesome incorporated-->
@@ -138,8 +138,8 @@
         </div> -->
         <div class="container-fluid mt-1 ml-2 col-md-12">
             <div class="item">
-                <img src="assests/services.jpeg" srcset="assests/services.jpeg"
-                    class="shutterstock_324782423" style="width:100%;height: 14.9%;">
+                <img src="assests/ser.jpg" srcset="assests/ser.jpg"
+                    class="shutterstock_324782423" style="width:100%;height:600px;">
                 <div class="text_wrapper text-block centered">
 
                     <h2 class="item--title ml_38 white_color banner_heading">Services</h2>
@@ -214,15 +214,15 @@
         <div class="row mt-5 col-md-12 col-sm-12 col-lg-12">
             <div class="col-md-5 col-sm-5 col-lg-5 pt_6 ">
                 <h5 class="services_heading">Business Consulting</h5>
-                <p class="card-text services_content_body mt-4">Our leadership team possesses a unique blend of
+                <p class="card-text services_content_body mt-4 busstyle">Our leadership team possesses a unique blend of
                     real-world experience. We will ensure that BOTH the people and technology changes needed
                     for
                     business transformation are identified and shared.</p>
                
-                <p class="card-text services_content_body">Using our expertise, we will help define both “the
+                <p class="card-text services_content_body busstyle">Using our expertise, we will help define both “the
                     tactical and strategic” using synergistic change management programs to address both.
                 </p>
-                <p class="card-text services_content_body"> We will look across the business, technology, and
+                <p class="card-text services_content_body busstyle"> We will look across the business, technology, and
                     customer ecosystems at all the underlying
                     components (people, digital technologies, business processes, and tools) to understand and
                     recommend appropriate strategies and tactics (leveraging digital technologies) to succeed.
@@ -260,8 +260,8 @@
         <div class="row mt-5 col-md-12 col-sm-12 col-lg-12">
             
                 <div class="col-md-6 col-sm-6 col-lg-6 pt_6">
-                    <h5 class="services_heading">Infrastructure Management</h5>
-                    <p class="card-text services_content_body mt-4">The ongoing digital disruptions across industries
+                    <h5 class="services_headingservice busstyle">Infrastructure Management</h5>
+                    <p class="card-text services_content_body mt-4 busstyle">The ongoing digital disruptions across industries
                             has
                             given rise to a new, hybrid infrastructure approach to environments that requires
                             significant
@@ -271,12 +271,12 @@
                             services
                             including RapidQube's Cloud-First strategy.</p>
                     <br>
-                    <div class="row">
-                            <h5>&nbsp;Infrastructure&nbsp;Management&nbsp;service&nbsp;portfolio&nbsp; includes:&nbsp;</h5>
+                    <div class="row ">
+                            <h5 class="busstyle">&nbsp;Infrastructure&nbsp;Management&nbsp;service&nbsp;portfolio&nbsp; includes:&nbsp;</h5>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col">
+                        <div class="col ">
                                 <img src="assests/group-10.png" srcset="assests/group-10@2x.png 2x,assests/group-10@3x.png 3x"
                                 class="Group-5">
                             <span class="services_content_body">Service&nbsp;desk</span>
@@ -308,12 +308,13 @@
                     </div>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-2 col-sm-2 col-lg-2">
+                <div class="col-md-2 col-sm-2 col-lg-2 ">
                         <img src="assests/services/shutterstock-331398086-copy-3.png" srcset="assests/shutterstock-331398086-copy-3@2x.png 2x,assests/shutterstock-331398086-copy-3@3x.png 3x"
-                        class="solutions_image">
+                        class="solutions_imageserviceinfra">
                 </div>
     </div>
-
+  
+                </div>
     <div class="row col-md-12 col-sm-12 col-lg-12">
             <div class="col-md-5 col-sm-5 col-lg-5">
                     <img src="assests/services/shutterstock-331398086-copy-4.png" srcset="assests/shutterstock-331398086-copy-4@2x.png 2x,assests/shutterstock-331398086-copy-4@3x.png 3x"
@@ -321,19 +322,19 @@
             </div>
     
             <div class="col-md-5 col-sm-5 col-lg-5 ml-auto">
-                <h5 class="services_heading">Education</h5>
-                <p class="card-text services_content_body mt-4">We feel that as technologies change, the
+                <h5 class="services_headingservicecpoy4">Education</h5>
+                <p class="card-text services_content_body mt-4 ">We feel that as technologies change, the
                     approach
                     towards education also needs to change.</p>
                
-                <p class="card-text services_content_body mt-4">RapidQube has delivered Fortune 500 (India/
-                    Webinar), IIT Bombay (India), and Connecticut (UCONN, CCSU) University level blockchain
+                <p class="card-text services_content_body mt-4 ">RapidQube has delivered Fortune 500 (India/
+                    Webinar) and Connecticut (UCONN, CCSU) University level blockchain
                     educational sessions (not for credit) to date. Our goal is to spread the word about the
                     technology, its capabilities, and ensure that colleges, universities, and global businesses
                     are
                     benefitting from it.</p>
                
-                <p class="card-text services_content_body mt-4">We hosted over 200 hours of industry specific
+                <p class="card-text services_content_body mt-4 ">We hosted over 200 hours of industry specific
                     Use
                     Case/ solution discussions. Each of these sessions required research, development, and
                     presentation specific fine-tuning to ensure that the message was appropriate.</p>
@@ -341,9 +342,8 @@
         </div>
         <div class="row mt-5 col-md-12 col-sm-12 col-lg-12">
             <div class="col-md-2 col-sm-2 col-lg-2">
-                    <img src="assests/services/group-5-copy-4.png" srcset="assests/services/group-5-copy-4@2x.png 2x,
-                    assests/services/group-5-copy-4@3x.png 3x"
-                    class="Group-5-Copy-4" style="margin-left:-22.9%;margin-top: 58%;">  
+                    <!-- <img src="assests/BlockchainServices.png" srcset="assests/BlockchainServices.png"
+                    class="Group-5-Copy-4" style="margin-left:-22.9%;margin-top: 58%;">   -->
             </div>
             <div class="col">
                     <ul style=" list-style: none;">

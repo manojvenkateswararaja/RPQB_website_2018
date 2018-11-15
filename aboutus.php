@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>RapidQube-About Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--fontawesome incorporated-->
@@ -402,7 +402,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="row mt-5 col-md-12">
-                        <div class="col-md-3 col-sm-3 col-lg-3 blue_light_effect text-center shadowEffect">
+                        <div class="col-md-3 col-sm-3 col-lg-3 blue_light_effect  text-center shadowEffect">
                             <img src="assests/img-christopher.png" srcset="assests/img-christopher@2x.png 2x, assests/img-christopher@3x.png 3x"
                                 class=" mt-3">
                             <p class="aboutus1_heading_name mt-4 ">&nbsp;Christopher&nbsp;Day</p>
@@ -424,7 +424,7 @@
                             </div>
 
 
-                            <div class="container">
+                            <div class="container mt-5">
                                 <div class="row">
                                     <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
@@ -452,9 +452,9 @@
                                     potential in North America. Rushi’s expertise ranges across the technology map
                                     from legacy modernization to Web 3.0 and everything in between.</p>
                             </div>
-                             <div class="container">
+                             <div class="container mt-5">
                                 <div class="row">
-                                    <div class="col ">
+                                    <div class="col">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
                                     <div class="col">
@@ -478,7 +478,7 @@
                                     implementations that aligns with their strategic visions and goals thereby
                                     delivering industry specific performance driven solutions.</p>
                             </div>
-                            <div class="container">
+                            <div class="container mt-5">
                                 <div class="row">
                                     <div class="col ">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>

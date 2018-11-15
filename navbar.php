@@ -10,7 +10,7 @@
                 
                     <div class="col-md-8"></div>
                     <div class="col-md-1 navBarName">
-                        <a class="navBarName1" href="landingpage.php">Home</a>
+                        <a class="fa fa-home homeclass" href="landingpage.php" ></a>
                     </div>
                     <div class="col-md-1 navBarName">
                         <a class="navBarNameContactUs" href="contactus.php">Contact&nbsp;Us</a>

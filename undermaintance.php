@@ -1,44 +1,122 @@
-<link
-  href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"
-  rel="stylesheet"
-  id="bootstrap-css"
-/>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!-- ---- Include the above in your HEAD tag -------- -->
-<style>
-  @import url(http://fonts.googleapis.com/css?family=Roboto);
-  * {
-    font-family: "Roboto", sans-serif;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--fontawesome incorporated-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--open sans font loading-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- social Media Buttons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/app.css">
+    <title>RapidQube-Undermaintenance</title>
+    <style>
+        .reset_btn {
+	font-size: 0px;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+            /* Modal For Reg Form */
+            /* -- Input styles ---------------------------------- */
+            .form-group {
+                position: relative;
+                margin-top: 35px;
+                margin-bottom: 20px;
+              }
+              .input-group {
+                position: relative;
+              }
+              .form-control {
+                display: block;
+                height: 36px;
+                width: 100%; 
+                border: none;
+                border-radius: 0 !important;
+              
+                font-size: 16px;
+                font-weight: 300;
+                padding: 0;
+                background-color: transparent;
+                box-shadow: none;
+                border-bottom: 1px solid #757575;
+              }
+              .input-group .form-control {
+                position: relative;
+                z-index: inherit;
+                float: inherit;
+                width: 100%;
+                margin-bottom: 0;
+              }
+              .form-control:focus {
+                border-color: #757575;
+                outline: none;
+                box-shadow: none;
+              }
+              
+              /* -- label styles ---------------------------------- */
+              label {
+                position: absolute;
+                top: -18px;
+                color: #999;
+                font-size: 12px;
+                font-weight: 300;
+                
+                transition: 0.2s ease all;
+                -moz-transition: 0.2s ease all;
+                -webkit-transition: 0.2s ease all;
+              }
+              
+              .form-horizontal .control-label {
+                position: relative;
+                top: 0;
+                margin-bottom: 0;
+              }
+               @media (min-width: 768px) {
+                .form-horizontal .control-label {
+                  font-size: 16px;
+                }
+              }
+              .float-label {
+                left: 0;
+                top: 7px;
+                font-size: 16px;
+                pointer-events: none;
+              }
+              
+              /* active state */
+              .form-control:focus ~ .float-label, .form-control:valid ~ .float-label {
+                top: -18px;
+                font-size: 12px;
+              }
+
+.undermaintenance{
+    margin-left: 300px;
+    margin-top: 144px;
+
   }
-  body {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr///Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);
-  }
-  .error-template {
-    padding: 40px 15px;
-    text-align: center;
-  }
-  .error-actions {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  .error-actions .btn {
-    margin-right: 10px;
-  }
-  .message-box h1 {
-    color: #252932;
-    font-size: 98px;
-    font-weight: 700;
-    line-height: 98px;
-    text-shadow: rgba(61, 61, 61, 0.3) 1px 1px, rgba(61, 61, 61, 0.2) 2px 2px,
-      rgba(61, 61, 61, 0.3) 3px 3px;
-  }
-</style>
-<div class="container">
+
+            /* End of Regista=ration Form Modal */
+            </style>
+</head>
+
+<body>
+        <?php include('navbar.php'); ?>
+        <div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 undermaintenance" >
       <div class="error-template">
-        <h1>:) Oops!</h1>
+        <!-- <h1>:) Oops!</h1> -->
         <h2>Temporarily down for maintenance</h2>
         <h1>We’ll be back soon!</h1>
         <div>
@@ -59,7 +137,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <svg
+      <!-- <svg
         class="svg-box"
         width="380px"
         height="500px"
@@ -113,7 +191,104 @@
             sketch:type="MSShapeGroup"
           ></path>
         </g>
-      </svg>
+      </svg> -->
     </div>
   </div>
 </div>
+  <!--   End Of Modal-->
+
+    <script>
+        //popup video
+        $('.video_stop').click(function (e) {
+            var myVideo = document.getElementById("popup_video");
+            myVideo.pause();
+        });
+        
+        $('.close').click(function(){
+            $('.statusMsg').html('');
+            $('.reset_btn').click();
+
+        });
+
+        $("#myModal").on("hidden.bs.modal", function () {
+            $('.statusMsg').html('');
+            $('.reset_btn').click();
+        });
+    
+        $('.card-link').click(function (e) {
+           
+            modalTitle = $(this).parents('.card').find('.card-title').text();
+            $('.modal-title').text(modalTitle);
+            $('#fld_name').val(modalTitle);
+            ('.statusMsg').html('');
+        });
+
+
+        // Mail Send
+    $('#email_form').validate({
+      rules: {
+
+        email: {
+          required: true,
+          email: true
+        },
+        f_name: "required",
+        phone: "required",
+        country: "required"
+
+
+
+
+      },
+      messages: {
+
+      },
+
+      submitHandler: function (form) {
+
+       
+        var email_details = $('.email_form').serialize();
+        $('.statusMsg').html('');
+        $.ajax({
+          type: "POST",
+          url: "register.php",
+
+          data: {
+            email_details: email_details
+
+          },
+          success: function (msg) {
+             
+            if (msg) {
+              $('.reset_btn').click();
+              $('.statusMsg').html('<span style="color:blue;font-size: 20px;">Thanks for contacting us, we\'ll get back to you soon.</p>');
+                
+            //   setTimeout(function(){
+            //   	 $('.statusMsg').html('');
+            //   },3000);
+
+              //$('.close').click();
+              //$('.reset_btn').click();
+
+
+
+
+            } else {
+              $('.statusMsg').html('<span style="color:red;font-size: 20px;">Some problem occurred, please try again.</span>');
+              
+            }
+
+
+
+
+          }
+        });
+
+      }
+
+    });
+    </script>
+
+</body>
+
+</html>
