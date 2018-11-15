@@ -50,9 +50,10 @@
       </button> -->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <!-- <div class="navbar-nav"> -->
-        <a class="nav-item nav-link active" href="#">Contact Us </a>
-        <a class="nav-item nav-link active" href="#">Career</a>
-        <a class="nav-item nav-link active" href="#">Blog</a>
+            
+        <a class="navBarNameContactUs" href="#">Contact Us </a>
+        <a class="navBarNameContactUs" href="#">Career</a>
+        <a class="navBarNameContactUs" href="#">Blog</a>
           <!-- <a class="nav-item nav-link" href="#">Career</a>
           <a class="nav-item nav-link" href="#">Blog</a> -->
           <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->

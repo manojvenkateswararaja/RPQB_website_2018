@@ -19,7 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/app.css">
-    <title>RapidQube-Products&Solutions</title>
+    <title>RapidQube-Product&Solutions</title>
     <style>
         .reset_btn {
 	font-size: 0px;
@@ -140,7 +140,7 @@
 
 <div class="enquiry">
 <button class="btn btn-link navBarName pl_10 dropdown-toggle custom-button" type="button"
-                                        data-toggle="dropdown"><h5><b>For Enquiry</b></h5>
+                                        data-toggle="dropdown"><h5><b>Few more</b></h5>
                                         <span class="caret"></span></button>
                                     <div class="dropdown-menu w_312">
                                         <ul class="none">

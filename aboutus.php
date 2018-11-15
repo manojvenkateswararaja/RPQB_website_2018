@@ -175,7 +175,7 @@
                             developers. The digital landscape is always a moving target. We help you stay ahead of that
                             target through our business relationships and creative minds in everything from platform
                             selection to integration to delivery and follow on consulting. We engage with thought
-                            leaders from IIT and other prestigious schools in India to understand trends and best
+                            leaders from various institutions,educational hub and other prestigious schools in India to understand trends and best
                             practices and ensure that you benefit from that latest thinking.</p>
                         <br>
                         

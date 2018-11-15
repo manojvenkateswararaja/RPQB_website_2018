@@ -232,7 +232,7 @@
         <li class="count_list px-sm-2 px-md-5 px-lg-5 px-xl-5">
           <a href="product&solution.php" title="Products &amp; Solutions" class="d-block" style="text-decoration: none;">
             <div class="box_no">
-              <h1 class="count_no"> 59+ </h1>
+              <h1 class="count_no"> 79+ </h1>
             </div>
             <p class="pt-3 count_txt">Products &amp; Solutions</p>
           </a>

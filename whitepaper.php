@@ -112,7 +112,7 @@
                     class="shutterstock_324782423" style="width:100%;height: 548px;">
                 <div class="text_wrapper text-block centered">
 
-                    <h2 class="item--title ml_38 white_color banner_headingwhitepaper">White papers</h2>
+                    <h2 class="item--title ml_38 white_color banner_headingwhitepaper">Whitepapers</h2>
                     <!-- <p class="item--text white_color banner_content">ISO defines software quality as a structured set
                         of
                         individual quality characteristics focusing on Functionality, Reliability, Usability,
@@ -133,7 +133,7 @@
     <div id="whitepaper">
     <div class="col-md-12 ">
         <div class="m-5 heading">
-            White Papers
+            Whitepapers
         </div>
         <div class="m-5 container col-md-12 row">
             <div class="card col-md-3" style="width:24.4%;border:none;">

@@ -87,7 +87,7 @@
                                 </td>
                                 <td class="mr-2">
                                     <button class="btn btn-link navBarName pl_10 custom-button" onclick="location.href = 'whitepaper.php';"
-                                        type="button" data-toggle="dropdown"><h6>White&nbsp;Papers</h6></button>
+                                        type="button" data-toggle="dropdown"><h6>Whitepapers</h6></button>
     
                                   
                                 </td>

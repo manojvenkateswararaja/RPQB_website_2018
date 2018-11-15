@@ -329,7 +329,7 @@
                
                 <p class="card-text services_content_body mt-4 ">RapidQube has delivered Fortune 500 (India/
                     Webinar) and Connecticut (UCONN, CCSU) University level blockchain
-                    educational sessions (not for credit) to date. Our goal is to spread the word about the
+                    educational sessions (not for credit) till date. Our goal is to spread the word about the
                     technology, its capabilities, and ensure that colleges, universities, and global businesses
                     are
                     benefitting from it.</p>
@@ -338,14 +338,9 @@
                     Use
                     Case/ solution discussions. Each of these sessions required research, development, and
                     presentation specific fine-tuning to ensure that the message was appropriate.</p>
-            </div>
-        </div>
-        <div class="row mt-5 col-md-12 col-sm-12 col-lg-12">
-            <div class="col-md-2 col-sm-2 col-lg-2">
-                    <!-- <img src="assests/BlockchainServices.png" srcset="assests/BlockchainServices.png"
-                    class="Group-5-Copy-4" style="margin-left:-22.9%;margin-top: 58%;">   -->
-            </div>
-            <div class="col">
+                    <div class="col">
+
+                    <h6><b>What you will get?</b></h6>
                     <ul style=" list-style: none;">
                             <li class="mt-3"><img src="assests/services/group-15.png" srcset="assests/services/group-15@2x.png 2x,assests/services/group-15@3x.png 3x"
                                     class="Group-5">
@@ -379,7 +374,16 @@
                             </li>
                         </ul>   
             </div>
+
+                </div>
             
+        </div>
+        <div class="row mt-5 col-md-12 col-sm-12 col-lg-12">
+            <div class="col-md-2 col-sm-2 col-lg-2">
+                    <!-- <img src="assests/BlockchainServices.png" srcset="assests/BlockchainServices.png"
+                    class="Group-5-Copy-4" style="margin-left:-22.9%;margin-top: 58%;">   -->
+            </div>
+                       
         </div>
         
 
