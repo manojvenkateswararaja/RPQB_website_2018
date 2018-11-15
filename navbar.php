@@ -1,3 +1,42 @@
+<html lang="en">
+  <head>
+    <title>RapidQube</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- fontawesome incorporated -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <!-- open sans font loading -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <!-- social Media Buttons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 <div class="container-fluid">
         <div class="row" style="background-color: #ffffff;
                 box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);">
@@ -5,6 +44,7 @@
             <a href="landingpage.php"> <img src="assests/rapidqube-logo-2.png" alt="rapidqube"></a>
                
             </div>
+       
             <div class="col-md-10 pad_right_0">
                 <div class="row custom_margin">
                 
@@ -22,6 +62,7 @@
                         <a class="navBarNameBlog" href="blog.php">Blog</a>
                     </div>
     
+                
                 </div>
                 <div class="border"></div>
                 <div>
@@ -110,19 +151,19 @@
                                         type="button" data-toggle="dropdown"><h6>About&nbsp;Us</h6>
                                     </button>
                                 </td>
-                                <!-- <td class="mr-2"> -->
-                                <!-- <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'contactus.php';"
-                                        type="button" data-toggle="dropdown">info@rapidqube.com
+                                <td class="mr-2">
+                                <button class="btn btn-link  navBarName pl_10 custom-button" 
+                                        type="button" data-toggle="dropdown"><h6>info@rapidqube.com</h6>
                                        
-                                    </button> -->
-                                    <!-- <a href="mailto:info@rapidqube.com" title="Mail"  class="btn btn-link  navBarName pl_10 custom-button">info@rapidqube.com</a>
-                                    
-                                </td> -->
-                                <!-- <td class="mr-2">
-                                    <button class="btn btn-link  navBarName pl_10 custom-button" onclick="location.href = 'contactus.php';"
-                                            type="button" data-toggle="dropdown">+91-22-2567 3235
                                     </button>
-                                </td> -->
+                                    <!-- <a href="mailto:info@rapidqube.com" title="Mail"  class="btn btn-link  navBarName pl_10 custom-button">info@rapidqube.com</a> -->
+                                    
+                                </td>
+                                <td class="mr-2">
+                                    <button class="btn btn-link  navBarName pl_10 custom-button" 
+                                            type="button" data-toggle="dropdown"><h6>+91-22-2567 3235</h6>
+                                    </button>
+                                </td>
                                 <!-- <td> <img src="assests/group.png" class="mt-2 pl_10 fixed_position" alt="rapidqube"> </td> -->
                             </tr>
                         </tbody>
@@ -132,7 +173,7 @@
             </div>
         </div>
     </div>
-
+</nav>
 
 <div class="modal" id="myModal">
     <div class="modal-dialog">

@@ -149,9 +149,13 @@
     </div>
     <img src="assests/icon.png" srcset="assests/icon.png"
       class="landing_image" >
-    <button type="button" href="#" data-toggle="modal" data-target="#myModal"class=" ml-5 btn btn-link explore_more"><img src="/assests/group-19.svg" >
+    <button type="button" href="#" data-toggle="modal" data-target="#myModal" class=" btn btn-link explore_moreimg">Explore more ---->
     </button>
+    <!-- <a data-toggle="modal" href="#" data-target="#myModal" class="firstExplore">Explore more ----></a> 
   </div>
+  
+    
+  
   <div class="row">
       <div class="col-md-1 col-sm-1 col-lg-1"></div>
       <div class="col mr-auto">

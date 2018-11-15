@@ -88,6 +88,11 @@
   padding-left: 48px;
  
 }
+.explore_moreimg{
+  margin-top: -38%;
+    padding-left: 14px;
+
+}
 .pl_9 {
   padding-left: 9%;
 }
@@ -930,7 +935,7 @@
 }
 .mr_9 {
   margin-top: 9px;
-  margin-left: 246px
+  /* margin-left: 246px */
 }
 
 .mr_19{
