@@ -51,7 +51,7 @@
 <div class="col-md-8"></div>
 
  <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
-    <a class="fa fa-home homeclass" href="landingpage.php"></a>
+    <a class="fa fa-home" href="landingpage.php"></a>
 </div>
  <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
     <a class="navBarNameContactUs" href="contactus.php">Contact&nbsp;Us</a>
