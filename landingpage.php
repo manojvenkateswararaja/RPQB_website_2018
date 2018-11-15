@@ -149,7 +149,7 @@
     </div>
     <img src="assests/icon.png" srcset="assests/icon.png"
       class="landing_image" >
-    <button type="button" href="#" data-toggle="modal" data-target="#myModal" class=" btn btn-link explore_moreimg">Explore more ---->
+    <button type="button" href="#" data-toggle="modal" data-target="#myModal" style="margin-top: -522px;" class=" btn btn-link explore_moreimg">Explore more ---->
     </button>
     <!-- <a data-toggle="modal" href="#" data-target="#myModal" class="firstExplore">Explore more ----></a> 
   </div>
