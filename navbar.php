@@ -57,7 +57,7 @@
     <a class="navBarNameContactUs" href="contactus.php">Contact&nbsp;Us</a>
 </div>
  <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
-    <a class="navBarName pl-3" href="undermaintance.php">Career</a>
+    <a class="navBarName pl-4 pl-2" href="undermaintance.php">Career</a>
 </div>
  <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
     <a class="navBarNameBlog" href="blog.php">Blog</a>

@@ -200,7 +200,7 @@
   color: #000000;
 }
 .navBarNameContactUs {
-  /* margin-left:23px; */
+ 
   font-family: ProximaNovaRegular;
   font-size: 14px;
   font-style: normal;
@@ -210,7 +210,7 @@
   color: #000000;
 }
 .navBarNameBlog {
-  /* margin-left:19px; */
+  margin-left:19px;
   font-family: ProximaNovaRegular;
   font-size: 14px;
   font-style: normal;
