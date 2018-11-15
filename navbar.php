@@ -46,24 +46,26 @@
             </div>
        
             <div class="col-md-10 pad_right_0">
-                <div class="row custom_margin">
-                
-                    <div class="col-md-8"></div>
-                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <a class="fa fa-home homeclass" href="landingpage.php" ></a>
-                    </div>
-                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <a class="navBarNameContactUs" href="contactus.php">Contact&nbsp;Us</a>
-                    </div>
-                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <a class="navBarName pl-3" href="undermaintance.php">Career</a>
-                    </div>
-                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <a class="navBarNameBlog" href="blog.php">Blog</a>
-                    </div>
-    
-                
-                </div>
+            <div class="row custom_margin">
+
+<div class="col-md-8"></div>
+
+ <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
+    <a class="fa fa-home homeclass" href="landingpage.php"></a>
+</div>
+ <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
+    <a class="navBarNameContactUs" href="contactus.php">Contact&nbsp;Us</a>
+</div>
+ <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
+    <a class="navBarName pl-3" href="undermaintance.php">Career</a>
+</div>
+ <div class="collapse navbar-collapse col-md-1" id="navbarNavAltMarkup">
+    <a class="navBarNameBlog" href="blog.php">Blog</a>
+</div>
+
+
+
+</div>
                 <div class="border"></div>
                 <div>
                     <table class="mr_9">
