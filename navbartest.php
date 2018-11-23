@@ -102,11 +102,11 @@
                             aria-label="Toggle navigation"
                           > <span class="sr-only">(current)</span></a> -->
                           
-                        <a class="nav-item nav-link active" style="color:black" href="#">Product & Solutions </a>
-                        <a class="nav-item nav-link active" style="color:black" href="#">Whitepapers</a>
-                        <a class="nav-item nav-link active" style="color:black" href="#">Frameworks </a>
-                        <a class="nav-item nav-link active" style="color:black" href="#">Services </a>
-                        <a class="nav-item nav-link active" style="color:black" href="#">About&nbsp;Us </a>
+                        <a class="nav-item nav-link active" style="color:black" href="solutions.php">Product & Solutions </a>
+                        <a class="nav-item nav-link active" style="color:black" href="whitepaper.php">Whitepapers</a>
+                        <a class="nav-item nav-link active" style="color:black" href="framework.php">Frameworks </a>
+                        <a class="nav-item nav-link active" style="color:black" href="services.php">Services </a>
+                        <a class="nav-item nav-link active" style="color:black" href="aboutus.php">About&nbsp;Us </a>
                         <a class="nav-item nav-link active" style="color:black" href="#">info@rapidqube.com</a>
                         <a class="nav-item nav-link active" style="color:black" href="#">+91-22-2567-3235</a>
                         <!-- <a class="nav-item nav-link" href="#">Features</a>
