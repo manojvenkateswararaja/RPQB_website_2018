@@ -1,26 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <!--fontawesome incorporated-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <!--open sans font loading-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- social Media Buttons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/app.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<meta charset="UTF-8">
+<meta name="description" content="Rapidqube, RapidQube ,Rapidqube Digital">
+<meta name="author" content="">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+<link rel="icon" type="image/png" href="rq_favicon.png"/>
+<link href="assests/css/bootstrap.min.css" rel="stylesheet" >
+<link href="assests/css/slick.css" rel="stylesheet" />
+<link href="assests/css/style.css" rel="stylesheet" />
+<link href="assests/css/responsive.css" rel="stylesheet" />
+<link href="assets/css/responsive.css" rel="stylesheet" />
+<link href="assets/css/app.css" rel="stylesheet" />
 
-    <title>RapidQube-Contact Us</title>
+   
+    <title>Contact Us</title>
     <style>
         .form-group {
       position: relative;
@@ -108,79 +102,74 @@
       font-family: ProximaNovaSemiBold;
       color: #4a90e2;
   }
-  .addr{
-    margin-left: 272;
-    margin-top: -95;
-
-  }
     </style>
 </head>
 
 <body >
-    <?php include('navbar.php'); ?>
-    <div class="container heading pnSB mt-5 pl-5">
+    <?php include('navbartest.php'); ?>
+    
+    <div class="container heading pnSB mt-5 pl-5 mumbainame" >
         Contact Us
     </div>
     <div class="row mt-5 contacts_us_bg_image" >
             <div class="col mt-3 ml-5">
                     <ul class="tabs" style="list-style: none; ">
-                    <div class="addr">
-                    <button type="button" class="btn btn-link">
-                               <li class="active smallheading pnL" rel="#state2">Mumbai</li>
-                           </button>
-                           <br>
-                           <button type="button" class="btn btn-link" style="margin-left: 416;margin-top: -141;">
-                               <li class="smallheading pnL" rel="#state1">Chennai</li>
-
-                           </button>
-        
+                            <button type="button" class="btn btn-link" style="margin-left: 272;margin-top: -95;">
+                                <!-- <li class="active smallheading pnL mumbaistyle" rel="#state2">Mumbai</li> -->
                             </button>
-                            </div>
+                            <br>
+                            <!-- <button type="button" class="btn btn-link" style="margin-left: 416;margin-top: -141;">
+                                <li class="smallheading pnL" rel="#state1">Chennai</li>
+        
+                            </button> -->
                     </ul>
             </div>
-            <div class="col-md-10" >
-                <div class="col-md-9 ml-5 tab_container  shadowEffect">
-                        <h3 class="tab_drawer_heading city_name pnL" rel="#state2" role="tab">Mumbai</h3>
+            
+            <div class="col-md-10 entirecontact " >
+                <div class="col-md-9 ml-5 tab_container  shadowEffect contactheading">
+                        <h3 class="tab_drawer_heading city_name pnL " rel="#state2" role="tab">Mumbai</h3>
                         <div class="tab_content" id="state2">
                             <div class="row">
                                 <div class="col mt-3">
-                                        <span class="city_office_name pnSB  ml-5">Mumbai Office</span>
+                                        <span class="city_office_name pnSB  ml-5 mumname">Mumbai Office</span>
                                         <p class="solid_contact w_42 ml_13 mt-3"></p>
                                 </div>
-                                <div class="col-md-1"></div>
+                                <!-- <div class="col-md-1"></div>
                                 <div class="col ml-auto">
-                                        <p class="city_office_name pnSB mt-3  mr-5">OUR GLOBAL PRESENCE</p>
+                                        <p class="city_office_name pnSB mt-3  mr-5 globalstyle">OUR GLOBAL PRESENCE</p>
                                         <p class="solid_contact w_76  mt-3"></p>
-                                </div>
-                                
+                                </div> -->
+                                <div class="contactstyle">
                                 <div class="row">
                                     <div class="col-md-4">
-                                            <ul class="mt-3 city_address" style="list-style: none;padding-left: 1px;">
-                                            <li class="pnL" >&nbsp;415,&nbsp;Fourth&nbsp;Floor,</li>
-
-                                                   <li class="pnL" >The&nbsp;Corporate&nbsp;Center&nbsp;</li>
-
-                                                   <li class="pnL" >Near&nbsp;Nirmal&nbsp;Lifestyle,&nbsp;L.B.S&nbsp;Road,</li>
-
-                                                   <li class="pnL" >Mulund(West),&nbsp;Mumbai</li>
-
-                                                   <li class="pnL" >&nbsp;Maharashtra&nbsp;-&nbsp;400080.&nbsp;</li>
-
-                                                   <li class="pnL" >&nbsp;+91-22&nbsp;2567&nbsp;3235&nbsp;</li>
+                                            <ul class="mt-3 city_address">
+                                            
+                                                    <li class="pnL" >No,&nbsp;415,&nbsp;Fourth&nbsp;Floor,</li>
+                     
+                                                    <li class="pnL" >The&nbsp;Corporate&nbsp;Center&nbsp;</li>
+                     
+                                                    <li class="pnL" >Near&nbsp;Nirmal&nbsp;Lifestyle,&nbsp;L.B.S&nbsp;Road,</li>
+                     
+                                                    <li class="pnL" >Mulund(West),&nbsp;Mumbai</li>
+                     
+                                                    <li class="pnL" >&nbsp;Maharashtra&nbsp;-&nbsp;400080.&nbsp;</li>
+                     
+                                                    <li class="pnL" >&nbsp;+91-22&nbsp;2567&nbsp;3235&nbsp;</li>
                                                      <button type="button" class="btn btn-link">
-                                                        <li class="pnSB">info@rapidqube.com</li>
+                                                        <li class="pnSB contactinfo">info@rapidqube.com</li>
                                                      </button>
                                             </ul>
                                     </div>
+</div>
                                     <div class="col-md-1"></div>
-                                    <div class="col-md-4">
-                                            <img src="./assests/mumbai.png" alt="location lc_mumbai image" class="locationtabs_img map ml_-35">
+                                    <div class="contactimg1style">
+                                            <img src="./assests/mumbai.png" alt="location lc_mumbai image" class="locationtabs_img map ">
                                     </div>
                                 </div>
                                
                             </div>
                         </div>
-                        <h3 class="tab_drawer_heading city_name pnL" rel="#state1" role="tab">Chennai</h3>
+                        <!-- <h3 class="tab_drawer_heading city_name pnL" rel="#state1" role="tab">Chennai</h3>
                         <div class="tab_content" id="state1">
                                 <div class="row">
                                         <div class="col mt-3">
@@ -204,7 +193,7 @@
                                                             <li class="pnL" >Okkiyam&nbsp;Thoraipakkam,&nbsp;</li>
                              
                                                             <li class="pnL" >Chennai,&nbsp;Tamil&nbsp;Nadu&nbsp;-&nbsp;600097.</li>
-                                                          
+                             
                                                             <li class="pnL" >+91-22&nbsp;2567&nbsp;3235&nbsp;</li>
                                                              <button type="button" class="btn btn-link">
                                                                 <li class="pnSB">info@rapidqube.com</li>
@@ -218,7 +207,45 @@
                                         </div>
                             </div>
                         </div>
-            
+                        <h3 class="tab_drawer_heading city_name pnL" rel="#state1" role="tab">New Jersey</h3>
+                        <div class="tab_content" id="state1">
+                                <div class="row">
+                                        <div class="col mt-3">
+                                                <span class="city_office_name pnSB  ml-5">Chennai Office</span>
+                                                <p class="solid_contact w_42 ml_13 mt-3"></p>
+                                        </div>
+                                        <div class="col-md-1"></div>
+                                        <div class="col ml-auto">
+                                                <p class="city_office_name pnSB mt-3  mr-5">OUR GLOBAL PRESENCE</p>
+                                                <p class="solid_contact w_76  mt-3"></p>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                    <ul class="mt-3 city_address" style="list-style: none;padding-left: 1px;">
+                                                    
+                                                            <li class="pnL" >Tek&nbsp;Towers,11,Rajiv&nbsp;Gandhi&nbsp;IT</li>
+                             
+                                                            <li class="pnL" >Expressway,&nbsp;Mettukuppam,&nbsp;</li>
+                             
+                                                            <li class="pnL" >Okkiyam&nbsp;Thoraipakkam,&nbsp;</li>
+                             
+                                                            <li class="pnL" >Chennai,&nbsp;Tamil&nbsp;Nadu&nbsp;-&nbsp;600097.</li>
+                             
+                                                            <li class="pnL" >+91-22&nbsp;2567&nbsp;3235&nbsp;</li>
+                                                             <button type="button" class="btn btn-link">
+                                                                <li class="pnSB">info@rapidqube.com</li>
+                                                             </button>
+                                                    </ul>
+                                            </div>
+                                            <div class="col-md-1"></div>
+                                            <div class="col-md-4">
+                                                    <img src="./assests/Chennai.png" alt="location lc_mumbai image" class="locationtabs_img map ml_-35">
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+             -->
                         
                 </div>
 
@@ -263,16 +290,16 @@
                             <input type="email" class="form-control" id="exampleInputEmail1" required>
                             <span class="form-highlight"></span>
                             <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Your Name</label>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">First Name</label>
 
 
                         </div>
-                        <!-- <div class="form-group">
+                        <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" required>
                             <span class="form-highlight"></span>
                             <span class="form-bar"></span>
                             <label class="float-label regFormFonts" for="exampleInputEmail1">Last Name</label>
-                        </div> -->
+                        </div>
                         <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" required>
                             <span class="form-highlight"></span>
@@ -290,7 +317,7 @@
                             <input type="hidden" name="fld_name" id="fld_name">
                             <span class="form-highlight"></span>
                             <span class="form-bar"></span>
-                            <label class="float-label regFormFonts" for="exampleInputEmail1">Description</label>
+                            <label class="float-label regFormFonts" for="exampleInputEmail1">Country</label>
                         </div>
                         <div class="modal-footer d-flex justify-content-center">
                             <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default  buttonFonts "

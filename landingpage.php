@@ -137,21 +137,28 @@
 </head>
 
 <body>
+<div class="main_section">
     <?php include('navbar.php'); ?>
     
     
   <div class="container-fluid">
-    <div>
+  <div class="page_right_section">
+				<div class="banner banner_section">
+					<div class="banner_caption">
 
 <img src="assests/WeBCexpert.png" srcset="assests/WeBCexpert.png"
       class="BC_image" >
 
     </div>
+    <div class="main_section">
+    <div class="banner_section">
     <img src="assests/icon.png" srcset="assests/icon.png"
       class="landing_image" >
     <button type="button" href="#" data-toggle="modal" data-target="#myModal" style="margin-top: -522px;    margin-left: -35px;" class=" btn btn-link explore_moreimg">Explore more ---->
     </button>
     <!-- <a data-toggle="modal" href="#" data-target="#myModal" class="firstExplore">Explore more ----></a> 
+    </div>
+  </div>
   </div>
   
     
@@ -397,8 +404,8 @@
     </div>
 
   </div>
-
-  
+  </div>
+  </div>
 
   <script>
     // Mail Send

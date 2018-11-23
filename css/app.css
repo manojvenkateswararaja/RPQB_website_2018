@@ -7,6 +7,7 @@
   font-family: "ProximaNovaThin";
   src: url(../assests/fonts/Proxima_Nova_Thin_webfont.ttf);
 }
+
 @font-face {
   font-family: "ProximaNovaLightBold";
   src: url(../assests/fonts/Mark_Simonson_Proxima_Nova_Alt_Regular_webfont.ttf);
@@ -239,17 +240,33 @@
   font-size: 53px;
   font-weight: initial;
 }
-.blockchainBlock {
-}
+/* .blockchainBlock {
+} */
 .Group-21 {
   width: 1440px;
   height: 784px;
   object-fit: contain;
 }
+.partnership_heading {
+  /* width: 517px;
+    height: 43px; */
+    /* padding-left: 369px; */
+    margin-top: 85px;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  }
+  .agreecondition{
+    font-size: 12px;margin-left:27%;font-family:Helvetica;color: #353535;
+  }
 .heading {
   /* width: 517px;
     height: 43px; */
-
+    padding-left: 28px;
   font-size: 36px;
   font-weight: 600;
   font-style: normal;
@@ -259,7 +276,7 @@
   color: #000000;
 }
 .smallheading {
-  font-size: 18.2px;
+  font-size: 15px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -302,13 +319,13 @@
 /* frameworks and white paperes and produts css */
 .count_section {
   margin: 100px 0px;
-  margin-left: 110px;
-  margin-top: 130px;
+  /* margin-left: 24px;
+  margin-top: 130px; */
 }
 .count_list {
   list-style-type: none;
   display: inline-block;
-  margin-left: -10.5%;
+  /* margin-left: -1.5%; */
 }
 .blue_line_landing_page {
   width: 184px;
@@ -335,7 +352,7 @@
   border-image-slice: 1;
 }
 .count_no {
-  font-family: ProximaNovaSemiBold;
+  /* font-family: ProximaNovaSemiBold;
   font-size: 48px;
   font-weight: 600;
   font-style: normal;
@@ -345,10 +362,14 @@
   color: #000000;
   font-weight: 700;
   text-align: center;
-  padding-top: 17%;
+  padding-top: 17%; */
+
+  font-size:50px;
+	color:black;
+	font-weight:700;
 }
 .count_txt {
-  font-weight: 600;
+  /* font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -356,7 +377,9 @@
   color: #000000;
   font-size: 22px;
   text-align: center;
-  font-family: ProximaNovaSemiBold;
+  font-family: ProximaNovaSemiBold; */
+  color:black;
+	font-size:20px;
 }
 .box_no {
   width: 153px;
@@ -404,6 +427,9 @@
   cursor: pointer;
   display: inline-block;
   border-radius: 25px;
+}
+.chistyle{
+  margin-top: 86px;
 }
 .gradient-button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -500,6 +526,7 @@
 .map {
   width: 548px;
   height: 274px;
+  margin-left: 45px;
   opacity: 1.53;
 }
 .solid_contact {
@@ -557,6 +584,7 @@
 .black_color {
   color: #000000;
 }
+
 .banner_heading {
   /* padding-left:32%; */
   font-family: ProximaNovaSemiBold;
@@ -651,7 +679,7 @@
   float: left;
 }
 .expstyle{
-  margin-right: 141px
+  margin-right: 108px
 }
 .video_ico:hover {
   background: url(../assests/ic_play_blue.png) center center no-repeat;
@@ -961,6 +989,10 @@
   text-align: center;
   margin-top: 26px;
 }
+.imgframeworkstyle {
+  width: 100%;
+  height: 548px;
+ }
 .ml_5 {
   margin-left: 5px;
 }

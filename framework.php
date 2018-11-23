@@ -1,25 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <!--fontawesome incorporated-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <!--open sans font loading-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- social Media Buttons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./css/app.css">
-    <title>RapidQube-Solutions</title>
+<meta charset="UTF-8">
+<meta name="description" content="Rapidqube, RapidQube ,Rapidqube Digital">
+<meta name="author" content="">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+<link rel="icon" type="image/png" href="rq_favicon.png"/>
+<link href="assests/css/bootstrap.min.css" rel="stylesheet" >
+<link href="assests/css/slick.css" rel="stylesheet" />
+<link href="assests/css/style.css" rel="stylesheet" />
+<link href="assests/css/responsive.css" rel="stylesheet" />
+<link href="assets/css/responsive.css" rel="stylesheet" />
+<link href="assets/css/app.css" rel="stylesheet" />
+<title>Home</title>
     <style>
         .reset_btn {
 	font-size: 0px;
@@ -104,11 +97,11 @@
 </head>
 
 <body>
-        <?php include('navbar.php'); ?>
+        <?php include('navbartest.php'); ?>
         <div class="container mt-1 col-md-12">
             <div class="item">
                 <img src="assests/frame.jpeg" srcset="assests/frame.jpeg"
-                    class="shutterstock_324782423" style="width:100%;height: 548px;">
+                    class="imgwhitepaperstyle1">
                 <div class="text_wrapper text-block centered">
 
                     <h2 class="item--title ml_38 white_color banner_heading">Frameworks</h2>
@@ -127,73 +120,79 @@
             </div>
         </div>
     <div class="col-md-12" id="framework">
-        <div class="m-5 heading">
+        <!-- <div class="m-5 heading">
             FrameWorks
-        </div>
+        </div> -->
         <div class="m-5 container col-md-12 row">
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
                     <h5 class="card-title solutions_heading">Identity</h5>
-                    <p class="card-text Solutions_content_body">Digitizes and manages identity of individuals,
+                    <p class="card-text  Solutions_content_bodyidentity">Digitizes and manages identity of individuals,
                         organizations and physical real world assets.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+               </div>
                 </div>
             </div>
             <div class="col-md-1"></div>
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
                     <h5 class="card-title solutions_heading">Trade Finance</h5>
-                    <p class="card-text Solutions_content_body">Simplifies management, tracking and securing of trade
+                    <p class="card-text  Solutions_content_bodytrade">Simplifies management, tracking and securing of trade
                         transactions from order to payment.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
                 </div>
             </div>
             <div class="col-md-1"></div>
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
-                    <h5 class="card-title solutions_heading">Health Records</h5>
-                    <p class="card-text Solutions_content_body">An access control framework that ensures privacy of
+                    <h5 class="card-title solutions_heading ">Health Records</h5>
+                    <p class="card-text   Solutions_content_bodytrade ">An access control framework that ensures privacy of
                         health record.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
                 </div>
             </div>
         </div>
         <div class="m-5 container col-md-12 row">
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
-                    <h5 class="card-title solutions_heading">Legal</h5>
-                    <p class="card-text Solutions_content_body">Framework that ensures ownership of assets.</p>
+                    <h5 class="card-title solutions_heading solutions_headinglegal ">Legal</h5>
+                    <p class="card-text  Solutions_content_bodytrade">Framework that ensures ownership of assets.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
                 </div>
             </div>
             <div class="col-md-1"></div>
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
                     <h5 class="card-title solutions_heading">Lending</h5>
-                    <p class="card-text Solutions_content_body">A common framework that facilitates reward model,
+                    <p class="card-text  Solutions_content_bodytrade">A common framework that facilitates reward model,
                         equity model, lending model etc. of crowd funding.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+               </div>
                 </div>
             </div>
             <div class="col-md-1"></div>
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
                     <h5 class="card-title solutions_heading">Insurance</h5>
-                    <p class="card-text Solutions_content_body">Facilitates a live digital access across the value
+                    <p class="card-text    Solutions_content_bodytrade">Facilitates a live digital access across the value
                         chain of insurance services.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+               </div>
                 </div>
             </div>
         </div>
@@ -201,22 +200,24 @@
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
                     <h5 class="card-title solutions_heading">Compliance</h5>
-                    <p class="card-text Solutions_content_body">Facilitates immutable track of the steps required by
+                    <p class="card-text  Solutions_content_bodytrade">Facilitates immutable track of the steps required by
                         regulation.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+                </div>
                 </div>
             </div>
             <div class="col-md-1"></div>
             <div class="card col-md-3" style="width:24.4%;border:none;">
                 <div class="card-body">
                     <h5 class="card-title solutions_heading">Supply Chain</h5>
-                    <p class="card-text Solutions_content_body">A cost-effective and flexible model for distributed
+                    <p class="card-text  Solutions_content_bodytrade">A cost-effective and flexible model for distributed
                         supply chain network.</p>
                     <br>
-
+                    <div class="exp1style">
                     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+              </div>
                 </div>
             </div>
             <div class="col-md-1"></div>

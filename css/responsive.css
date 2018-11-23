@@ -149,7 +149,7 @@
 }
 @media screen and (max-width: 850px){
 	.page_left_section{display:none;}
-	.page_right_section{ padding-left:0; }
+	.page_right_section{ padding-left:16px; }
 	.banner_section.innerpage_banner .banner_caption{padding: 20px 40px 10px;}
 	.mobileheaer{ display:block; }
 	.banner_section:after{ background-size: contain;background-position: center bottom;width:90%;margin:auto;height:100%;right:0; }
@@ -169,7 +169,7 @@
 		padding:25px 0px;
 	}
 	.hamburger-ico{ margin-top:15px !important; }
-	.page{ margin-top:74px; }   
+	.page{ margin-top:15px; }   
 	
 }
 @media screen and (max-width: 767px){
@@ -374,5 +374,20 @@
 	.sliderfor-item .list-inline > li img{ max-width: 75%;}
 
 }
+
+@media (max-width: 320px){ 
+	.shadowEffect_landing_page{
+		position: relative;
+		width: 100%;
+		margin-left: 31px;
+		min-height: 1px;
+	}
+	.imgwhitepaperstyle{
+		width: 80%;
+    height: 470px;
+	}
+	
+}
+
 
 }
