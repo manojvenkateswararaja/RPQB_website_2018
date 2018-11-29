@@ -26,14 +26,14 @@
   </style>
 </head>
 <body>
-<?php include('test.php'); ?>
+<?php include('nav.php'); ?>
 <div class="container bg-overlay">
 <br>
 <br>
 <br>
 <br>
   <div class=" text-center">
-  <h1><b>Product & Solutions</b></h1>
+  <h1><b>Products & Solutions</b></h1>
 </div>
 </div>
 

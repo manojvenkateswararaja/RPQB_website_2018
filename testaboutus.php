@@ -32,7 +32,7 @@
 
 </head>
 <body>
-<?php include('test.php'); ?>
+<?php include('nav.php'); ?>
 <div class="jumbotron text-center">
 
 <img src="assests/banner 3.png" srcset="assests/banner 3.png"

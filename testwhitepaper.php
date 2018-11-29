@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
   .bg-overlay{
-  background-image: url("./assests/whitepaper1.png");
+  background-image: url("./assests/white.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -21,7 +21,7 @@
   </style>
 </head>
 <body>
-<?php include('test.php'); ?>
+<?php include('nav.php'); ?>
 
   <div class="container bg-overlay">
 <br>
@@ -29,7 +29,7 @@
 <br>
 <br>
   <div class=" text-center">
-  <h1><b>Whitepapers<b></h1>
+  <h1><b>Whitepapers</b></h1>
 </div>
 </div>
 

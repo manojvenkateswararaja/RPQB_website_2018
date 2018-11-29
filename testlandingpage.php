@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Service</title>
-
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -18,97 +13,20 @@
     height: 450px;
     padding-top: 50px;
 } */
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-
-.social {
-  margin: 20px 10px;
-  text-align: center;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    margin:6%;
 }
 
-.smGlobalBtn { /* global button class */
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border:2px solid #ddd; /* add border to the buttons */
-    box-shadow: 0 3px 3px #999;
-    padding: 0px;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font-size: 25px;
-    font-weight: normal;
-    line-height: 2em;
-    border-radius: 27px;
-    -moz-border-radius:27px;
-    -webkit-border-radius:27px;
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
 }
 
-/* facebook button class*/
-.facebookBtn{
-    background: #4060A5;
+.card-body {
+    padding:8px;
 }
 
-.facebookBtn:before{ /* use :before to add the relevant icons */
-    font-family: "FontAwesome";
-    content: "\f09a"; /* add facebook icon */
-}
-
-.facebookBtn:hover{
-    color: #4060A5;
-    background: #fff;
-    border-color: #4060A5; /* change the border color on mouse hover */
-}
-
-/* twitter button class*/
-.twitterBtn{
-    background: #00ABE3;
-}
-
-.twitterBtn:before{
-      font-family: "FontAwesome";
-      content: "\f099"; /* add twitter icon */
-      
-}
-
-.twitterBtn:hover{
-      color: #00ABE3;
-      background: #fff;
-      border-color: #00ABE3;
-}
-
-/* google plus button class*/
-.googleplusBtn{
-    background: #e64522;
-}
-
-.googleplusBtn:before{
-      font-family: "FontAwesome";
-      content: "\f0d5"; /* add googleplus icon */
-}
-
-.googleplusBtn:hover{
-      color: #e64522;
-      background: #fff;
-      border-color: #e64522;
-}
-
-/* linkedin button class*/
-.linkedinBtn{
-    background: #0094BC;
-}
-
-.linkedinBtn:before{
-      font-family: "FontAwesome";
-      content: "\f0e1"; /* add linkedin icon */
-}
-
-.linkedinBtn:hover{
-      color: #0094BC;
-      background: #fff;
-      border-color: #0094BC;
-}
 
 .bg-no-overlay {
   background-image: url("./assests/banner.jpg");
@@ -117,17 +35,10 @@
     background-position: center center;
     color: black;
     height: 450px;
+    margin-top: -28px;
     padding-top: 50px;
     width: 100%;
 }
-
-.navbar{
-  background-color:white;
-  height: 119px;
-    /* margin-top: -39px; */
-}
-
-
 
 </style>
 <!-- <div class="container bg-overlay">
@@ -140,10 +51,8 @@
 	</div>
 </div> -->
 
-</head>
- <body>
-
-<?php include('test.php'); ?>
+<br><br>
+<?php include('nav.php'); ?>
 <?php include('navbar.php'); ?>
 
 <div class="bg-no-overlay">
@@ -153,10 +62,15 @@
 		<h1>We are 
 <br><b>BLOCKCHAIN EXPERTS</b></h1>
 <p>We are digital natives. We ensure that from your initial idea<br> through to final implementation, we deliver our solutions<br> leveraging “best in class” digital technology to enhance your<br> business.</p>
+<a  href="testaboutus.php"  class="card-link">Explore more ----></a>
+        
         <br><br>
         <!-- <button type="button" class="btn btn-primary btn-lg">Get Started</button> -->
 	</div></div>
 </div>
+<br>
+<br>
+<br>
 
 <div class="container">
   <h2 style="text-align:center"><b>Our Specialization</b></h2>
@@ -204,7 +118,9 @@
 </div>
 <div class="container">
  
- 
+ <br>
+ <br>
+
   <div class="row">
   <div class="col-sm-3">
   </div>
@@ -237,22 +153,24 @@
   </div>
 </div>
 <div>
-<h1 class="text-center"> <b>Inside RapidQube</b></h1>
-</div>
-<div class="row col-md-12 background_image ">
+<br>
+<br>
+<h2 class="text-center"> <b>Inside RapidQube</b></h2>
+
+<div class="row col-md-12 background_image " style="margin-top: -47px;">
             <div class="row mt-5 col-md-12">
-                <div class="col-sm-2"></div>
+                <div class="col-sm-1"></div>
                 <div class="card col-md-4  shadowEffect_landing_page">
                 <img src="assests/blockchain_healthcare.jpg" class="img-responsive" style="height: 258px;width: 561px;">
                 <h5><b>Our Article&nbsp;About&nbsp;BlockChain&nbsp;And&nbsp;Health&nbsp;Care</b></h5>
-            <a href="blog.php" class="btn btn-link  pnSB "><h4>Read More ---&nbsp;></h4></a>
+            <a href="testblog.php" class="btn btn-link  pnSB "><h4>Read More ---&nbsp;></h4></a>
                    
                     
                     
 
                 </div>
                 <div class="pl-4"></div>
-                <div class="border col-md-4 shadowEffect_landing_page">
+                <div class="card col-md-4 shadowEffect_landing_page" style="height: 346px;">
             <a class="twitter-timeline" style="height:400%;" data-lang="en" data-width="100%" data-chrome="nofooter noborders noheader"
             data-height="260" data-theme="light" href="https://twitter.com/rapidqube">Tweets by
             RapidQube</a>
@@ -265,12 +183,15 @@
       </div>
                     
                 </div>
-              
+                </div>
                 <div class="row">
   <div class="col-sm-4">  
  
  
  </div>
+ <br>
+ <br>
+ <br>
  <div class="col-md-6">  
  <h2><b>Partnership & Collaboration</b></h2>
  
@@ -290,14 +211,14 @@
  
  </div>
  <div class="col-sm-3">  
- <h3>Technology&nbsp;Partnerships</h3>
+ <h4>Technology&nbsp;Partnerships</h4>
  
  </div>
  <div class="col-sm-3">  
- <h3>Industrial&nbsp;Collaboration</h3>
+ <h4>Industrial&nbsp;Collaboration</h4>
  </div>
  <div class="col-sm-3">  
- <h3>Members</h3>
+ <h4>Members</h4>
  </div>
  </div>
    
@@ -317,10 +238,13 @@
  </div>
  
  </div>
+ <br>
+ <br>
+ <br>
  <div class="col-sm-4"></div>
  <div class="col-sm-4">
   <button data-toggle="modal" data-target="#myModal" type="submit" id="send_btn" name="submit"  value="submit" class="img-responsive"
-             style="width: 355px; height: 75px;border-radius: 8px;margin-top: 27px;
+             style="width: 286px; height: 68px;border-radius: 8px;margin-top: 27px;
     color:white; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);"><h3>Start a Project</h3></button>
     </div>
  <br>
@@ -342,13 +266,13 @@
       <div class="col-md-5 support">
       <ul style="list-style: none;">
           <li class="footer_font_header"><b>RapidQube</b></li>
-          <br> <a href="aboutus.php">
+          <br> <a href="testaboutus.php">
             <li class="footer_font" style="color:#000000">About&nbsp;Us</li>
           </a>
-          <br> <a href="services.php">
+          <br> <a href="testserviceus.php">
             <li class="footer_font" style="color:#000000">Services</li>
           </a>
-          <br> <a href="product&solution.php">
+          <br> <a href="productsolution.php">
             <li class="footer_font" style="color:#000000">Solutions</li>
           </a>
         </ul>
@@ -357,13 +281,13 @@
       <div class="col-md-4 support">
         <ul style="list-style: none; ">
           <li class="footer_font_header "><b>Support</b></li>
-          <br> <a href="undermaintance.php">
+          <br> <a href="testundermaintance.php">
             <li class="footer_font " style="color:#000000">Help&nbsp;Center </li>
           </a>
-          <br> <a href="undermaintance.php">
+          <br> <a href="testundermaintance.php">
             <li class="footer_font "style="color:#000000">FAQ's</li>
           </a>
-          <br> <a href="contactus.php">
+          <br> <a href="testcontact.php">
             <li class="footer_font "style="color:#000000">Contact&nbsp;Us</li>
           </a>
         </ul>
@@ -373,44 +297,27 @@
       <div class="col-md-2">
         <ul style="list-style: none; ">
           <li class="footer_font_header "><b>News&nbsp;&&nbsp;Events</b></li>
-          <br> <a href="undermaintance.php">
+          <br> <a href="testundermaintance.php">
             <li class="footer_font " style="color:#000000">Consensus 2018 </li>
           </a>
-          <br> <a href="undermaintance.php">
+          <br> <a href="testundermaintance.php">
             <li class="footer_font " style="color:#000000">NEM&nbsp;Foundation&nbsp;2018</li>
           </a>
          
         </ul>
       </div>
-
-
- <div class="col-md-5 support">
-     
-      </div>
-      <div class="col-md-4 support">
-       <!-- <a href="https://www.facebook.com/rapidqube/"   class="fa fa-facebook"></a> 
-								 <a href="https://twitter.com/rapidqube" target="_blank" title="footer_media" class="fa fa-twitter"></a> 
-								 <a href="https://www.linkedin.com/company/rapidqube/" target="_blank" title="footer_media" class="fa fa-linkedin"></a> 
-                <a href="undermaintance.php" class="fa fa-google"></a>  -->
-     
-                <div id="social">
-			<a class="facebookBtn smGlobalBtn" target="_blank" href="https://www.facebook.com/rapidqube/" ></a>
-			<a class="twitterBtn smGlobalBtn" target="_blank" href="https://twitter.com/rapidqube" ></a>
-			<a class="linkedinBtn smGlobalBtn" target="_blank" href="https://www.linkedin.com/company/rapidqube/" ></a>
-      <a class="googleplusBtn smGlobalBtn" target="_blank" href="undermaintance.php" ></a>
-</div>
-   
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-2">
-       
-      </div>
-
-
-
-      <div class="" >
-        <div class="text-center">
-          
+      <div class="col-sm-3" >
+        <div class="col-sm-3">
+          <!-- <ul class="social_media pl-0 m-0 ml-auto"> -->
+								<span> <a href="https://www.facebook.com/rapidqube/" target="_blank" title="footer_media" class="fa fa-facebook"></a> </span>
+								<span> <a href="https://twitter.com/rapidqube" target="_blank" title="footer_media" class="fa fa-twitter"></a> </span>
+								<span> <a href="https://www.linkedin.com/company/rapidqube/" target="_blank" title="footer_media" class="fa fa-linkedin"></a> </span>
+                <span><a href="undermaintance.php" class="fa fa-google"></a></span> 
+              <!-- </ul> -->
+          <!-- <span><a href="https://www.facebook.com/rapidqube/" class="fa fa-facebook"></a></span>
+          <span><a href="https://twitter.com/rapidqube" class="fa fa-twitter"></a></a></span>
+          <span><a href="https://in.linkedin.com/company/rapidqube" class="fa fa-linkedin"></a></span>
+          <span><a href="landingpage.php" class="fa fa-google"></a></span> -->
         </div>
       </div>
     </div>
@@ -425,5 +332,4 @@
   </div>
   </div>
   </div>
-</body>
-</html>
+

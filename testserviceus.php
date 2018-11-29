@@ -26,23 +26,32 @@
   background-size: cover;
   background-position: center center;
   color: #fff;
-  width:100%;
+  /* width:100%; */
   height: 450px;
-  padding-top: 50px;
+  padding-top: 55px;
+
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  color: #fff;
+  height: 303px;
+    margin-top: -37px;
+    padding-top: 33px; */
 }
   </style>
 </head>
 <body>
-<?php include('test.php'); ?>
+<?php include('nav.php'); ?>
 
-<div class="container">
-<div class="bg-overlay">
-	<div class="row text-center">
-  <div class="row-sm-2">
-            <h2>Services</h2>
-            <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-          <p>
+<div class="container bg-overlay">
+<br>
+
+  <div class=" text-center">
+  <h2><b>Services</b></h2>
+  <div class="col-sm-2"></div>
+  <div class="col-md-9">
+  <h4>
             We have a unique depth in our services that differentiates us. We
             are curious. We look at every opportunity as a potential problem to
             solve. We grow our talent infront-end, middleware, and back-end
@@ -51,12 +60,33 @@
             Planning, Development and Testing inclusive of Infrastructure.We
             have delivered training at the University/ College and Corporate
             level in both India and the United States.
-          </p>
+          </h4>
+          </div>
+</div>
+</div>
+
+<!-- <div class="">
+<div class="bg-overlay">
+	<div class="row text-center">
+  <div class="row-sm-2">
+            <h2><b>Services</b></h2>
+            <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+          <h4>
+            We have a unique depth in our services that differentiates us. We
+            are curious. We look at every opportunity as a potential problem to
+            solve. We grow our talent infront-end, middleware, and back-end
+            technologies that we feel are appropriate. We can support our
+            customer’s requirements across delivery cycle verticals such as
+            Planning, Development and Testing inclusive of Infrastructure.We
+            have delivered training at the University/ College and Corporate
+            level in both India and the United States.
+          </h4>
           </div>
 </div>
 
 	</div>
-</div>
+</div> -->
   <!-- <div class="row">
       <div class="col-xg-4">
   <img
@@ -106,17 +136,87 @@
           </h5>
           <!-- ====================== -->
         
-          <div class="lg-1">
-  <div class="col-lg-1"><img
+          <!-- <div class="row">
+  <div class="col-xs-6 col-sm-4"><img
               src="assests/services/group-5.png"
               srcset="
                 assests/services/group-5@2x.png 2x,
                 assests/services/group-5@3x.png 3x
               "
-              class="img-responsive col-lg-2"
+              class="img-responsive"
             /></div>
-  <div class="col-md-1 col-sm-1">Predictive</div>
+  <div class="col-xs-6 col-sm-1">Predictive</div>
+  </div> -->
+ 
+  <div class="row">
+  <div class="col-md-4 ">
+  <img
+              src="assests/services/group-5.png"
+              srcset="
+                assests/services/group-5@2x.png 2x,
+                assests/services/group-5@3x.png 3x
+              "
+              class="Group-5"
+            />
+            <span >Predictive</<span>
+            
   </div>
+  <div class="col-md-4">
+  <img
+              src="assests/services/group-7.png"
+              srcset="
+                assests/services/group-6@2x.png 2x,
+                assests/services/group-6@3x.png 3x
+              "
+              class="Group-5"
+            />
+            <span >
+            Diagnostic
+            </span>
+  </div>
+  <div class="col-md-4">
+  <img
+              src="assests/services/group-6.png"
+              srcset="
+                assests/services/group-7@2x.png 2x,
+                assests/services/group-7@3x.png 3x
+              "
+               class="Group-5"
+            />
+            <span>
+              Descriptive
+            </span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+  <img
+              src="assests/services/group-8.png"
+              srcset="
+                assests/services/group-8@2x.png 2x,
+                assests/services/group-8@3x.png 3x
+              "
+              class="Group-5"
+            />
+            <span>
+              Prescriptive
+            </span>
+  </div>
+  <div class="col-md-4">
+  <img
+              src="assests/services/group-9.png"
+              srcset="
+                assests/services/group-9@2x.png 2x,
+                assests/services/group-9@3x.png 3x
+              "
+              class="Group-5 "
+            />
+            <span
+              >Search-based
+            </span>
+  </div>
+ 
+</div>
        
     
         <!-- ================= -->
@@ -198,18 +298,20 @@
             &nbsp;Infrastructure&nbsp;Management&nbsp;service&nbsp;portfolio&nbsp;
             includes:&nbsp;
           </h5>
+          <!-- ============== -->
+         
           <div class="row">
-          <div class="col-sm-4">
-          <img
+  <div class="col-md-3">
+  <img
               src="assests/group-10.png"
               srcset="assests/group-10@2x.png 2x, assests/group-10@3x.png 3x"
               class="Group-5"
             />
-            <span>Service&nbsp;desk</span>
-        </div>
-
-        <div class="col-sm-4">
-         <img
+            <span >Service&nbsp;desk</<span>
+            
+  </div>
+  <div class="col-md-4">
+  <img
               src="assests/services/group-12.png"
               srcset="
                 assests/services/group-12@2x.png 2x,
@@ -217,56 +319,59 @@
               "
               class="Group-5"
             />
-            <span>Cloud&nbsp;Services</span>
-        </div>
-</div>
-
-<div class="row  sm-2">
-        <div class="col-sm-4">
-        <img
+            <span >
+            Cloud&nbsp;Services
+            </span>
+  </div>
+  
+  <div class="row-md-2">
+  <img
               src="assests/services/group-11.png"
               srcset="
                 assests/services/group-11@2x.png 2x,
                 assests/services/group-11@3x.png 3x
               "
-              class="img-responsive"
+              class="Group-5"
             />
-            <span class="ml-1">Enterprise&nbsp;Network&nbsp;Services&nbsp;</span>
-        </div>
-        <div class="col-sm-4">
-            <img
+            <span>
+            Enterprise&nbsp;Network&nbsp;Services&nbsp;
+            </span>
+  </div>
+</div>
+<br>
+<div class="row-sm-11">
+  <div class="col-md-6">
+  <img
               src="assests/services/group-13.png"
               srcset="
                 assests/services/group-13@2x.png 2x,
                 assests/services/group-13@3x.png 3x
               "
-              class="img-responsive"
+              class="Group-5"
             />
-            <span class="ml-1"
-              >System&nbsp;Integration&nbsp;Services</span
-            >
-          </div>
+            <span>
+            System&nbsp;Integration&nbsp;Services
+            </span>
+  </div>
 
-       </div>
-
-<div class="row mt-3">
-          <div class="col-sm-4">
-            <img
+  <div class="col-md">
+  <img
               src="assests/services/group-14.png"
               srcset="
                 assests/services/group-14@2x.png 2x,
                 assests/services/group-14@3x.png 3x
               "
-              class="img-responsive"
+              class="Group-5"
             />
-            <span class="ml-1"
-              >Infrastructure&nbsp;Engineering&nbsp;Services</span
-            >
-          </div>
-        </div>
+            <span
+              >Infrastructure&nbsp;Engineering&nbsp;Services
+            </span>
+  </div>
+ 
+</div>
 
-
-    </div>
+          <!-- ==================== -->
+              </div>
    <div class="col-sm-2">
   
 

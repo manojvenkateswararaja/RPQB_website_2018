@@ -16,7 +16,7 @@
   </style>
 </head>
 <body>
-<?php include('test.php'); ?>
+<?php include('nav.php'); ?>
 <div class="container">
   <h2><b>Blog</b></h2>
  

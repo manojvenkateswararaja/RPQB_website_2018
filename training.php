@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<?php include('test.php'); ?>
+<?php include('nav.php'); ?>
 <div class=" text-center">
 
   <img src="assests/training.png" srcset="assests/training.png"
@@ -122,7 +122,7 @@ You would understand the basic technology, where it can be put to use, different
             <p >UmaShankar Somasekar</p>
     </div>
     <div class="col-sm-2">
-    <img href="#" data-toggle="modal" data-target="#myModal" src="assests/aruna_trainingImg.png" srcset="assests/aruna_trainingImg.png" class="NEM mt-3">
+    <img href="#" data-toggle="modal" data-target="#myModal" src="assests/Aruna.png" srcset="assests/Aruna.png" class="NEM mt-3">
             <p>Aruna Narayanan</p>
     </div>
   </div>
@@ -130,7 +130,7 @@ You would understand the basic technology, where it can be put to use, different
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Course Curriculum</h3>
+      <h3><b>Course Curriculum</b></h3>
       <p>  Blockchain Concepts <br><br>
 How does Blockchain work?​<br><br>
 An insight into some industrial Blockchain platforms<br><br>
