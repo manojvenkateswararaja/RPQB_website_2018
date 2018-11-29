@@ -51,7 +51,6 @@
 	</div>
 </div> -->
 
-<br><br>
 <?php include('nav.php'); ?>
 <?php include('navbar.php'); ?>
 
