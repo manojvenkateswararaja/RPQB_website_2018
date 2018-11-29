@@ -58,11 +58,15 @@
             <div class="form-group">
             <input type="hidden" name="fld_name" id="fld_name" value="Quick Enquiry">
             </div>
-            <div class="modal-footer d-flex justify-content-center">
+            <div >
            
-              <button  type="submit" id="send_btn" name="submit"  value="submit" class="btn btn-default send_btn  buttonFonts "
+              <!-- <button  type="submit" id="send_btn" name="submit"  value="submit" class="btn btn-default send_btn  buttonFonts "
                 style="width: 265px; height: 61px;border-radius: 8px; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);"><h3>Submit</h3></button>
-              <input type="reset" name="" class="reset_btn">
+              <input type="reset" name="" class="reset_btn"> -->
+
+<button  type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default send_btn  buttonFonts "
+                style="width: 266px; color:white; height: 51px; border-radius: 4px; background-image: linear-gradient(114deg, #422bb2, #9d58cc);">Submit</button>
+
             </div>
             <!-- <a href="whitepaper.php">Link</a> -->
         </div>

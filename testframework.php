@@ -13,7 +13,7 @@
   <div class="text-center">
 <img src="assests/framework.png" srcset="assests/framework.png"
                    class="img-responsive" width="100%">
-                   <h2 class="mt-4">FrameWorks</h2>
+                   <!-- <h2 class="mt-4">FrameWorks</h2> -->
 </div>
 <br>
 

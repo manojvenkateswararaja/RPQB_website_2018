@@ -12,9 +12,9 @@
     <!--open sans font loading-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- social Media Buttons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./css/app.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -22,9 +22,7 @@
     <title>About Us</title>
     
     <link rel="icon" type="image/png" href="rq_favicon.png" />
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/slick.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -99,7 +97,7 @@
       <br><br><br><br>
         <h3><img src="assests/noun-vision-995437.svg" class="img-responsive">
         Our Vision</h3>
-        <p>ur Vision is to become the incubator for
+        <p>Our Vision is to become the incubator for
                             developing successful future ready business solutions by innovative use of next generation
                             disruptive technology and automation.</p>
       </div>
@@ -143,11 +141,11 @@
                         of
                         the most renowned names in financial services. He is a hands on Strategist and technology
                         evangelist. He handles and organizes all the numbers to fund RapidQube.</p>
-                    <div class="row ">
-                        <div class="col ">
+                    <div class="row mt-5">
+                        <div class="col-md-6">
                                 <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                         </div>
-                        <div class="col">
+                        <div class="col-md-15">
                             <a href="https://twitter.com/rapidqube"><img src="assests/Group 11.png"></a>
                         </div>
                     </div>
@@ -166,27 +164,33 @@
                         technology, has a deep understanding and connect with the digital eco-system. He can always
                         be found tinkering with ideas and strategies. A 24/7 person, he is a very well known
                         technologist across the Community. He is the Managing Principal @ RapidQube fueling growth.</p>
-                    <div class="row ">
-                        <div class="col ">
+                    <div class="row mt-5">
+                        <div class="col-md-5">
                             <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                         </div>
-                        <div class="col">
+                        <div class="col-md-7">
                             <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
                         </div>
                     </div>
-                    
-                    
-                </div>
-                <div id="carouselExampleIndicators" class="carousel slide">
+    </div>
+     <!-- //========== -->
+     <div class="carousel-inner" role="listbox">
+     
+</div>
+    <!-- //================= -->
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-12">
+                <div id="myCarousel" class="carousel slide">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li class="item1"></li>
+                <li class="item1"></li>
             </ol>
-            <div class="carousel-inner background_image">
-                <div class="carousel-item active">
-                    <div class="row mt-5 col-md-12">
-
-                        <div class="col-md-3 col-sm-3 col-lg-3  text-center blue_light_effect  shadowEffect">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="row mt-5">
+                        <div class="">
+                        <div class="col-md-4 col-sm-3 col-lg-4  text-center blue_light_effect  shadowEffect">
                             <img src="assests/img-mohanraj.png" srcset="assests/img-mohanraj@2x.png 2x, assests/img-mohanraj@3x.png 3x"
                                 class="mt-3">
                             <p class="aboutus1_heading_name mt-4 ">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</p>
@@ -203,12 +207,12 @@
                             </div>
 
 
-                            <div class="container mt-5  ">
-                                <div class="row">
-                                    <div class="col ">
+                            <div class="mt-5">
+                                <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-md-6">
                                         <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
                                     </div>
                                 </div>
@@ -217,7 +221,7 @@
 
 
 
-                        <div class="col-md-3 col-sm-3 col-lg-3 ml-auto text-center blue_light_effect shadowEffect">
+                        <div class="col-md-4 col-sm-3 col-lg-4 ml-auto text-center blue_light_effect shadowEffect">
                             <img src="assests/img_Muthu.png" class=" mt-3">
                             <p class="aboutus1_heading_name mt-4 ">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Chief Technology Officer</p>
@@ -235,12 +239,12 @@
                             </div>
 
 
-                            <div class="container mt-4 ">
-                                <div class="row">
-                                    <div class="col ">
+                            <div >
+                                <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-md-6">
                                         <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png"></a>
                                     </div>
                                 </div>
@@ -248,7 +252,7 @@
                         </div>
 
 
-                        <div class="col-md-3 col-sm-3 col-lg-3 ml-auto text-center blue_light_effect shadowEffect">
+                        <div class="col-md-4 col-sm-3 col-lg-4 ml-auto text-center blue_light_effect shadowEffect">
                             <img src="assests/img_umashankar copy.png" class=" mt-3">
                             <p class="aboutus1_heading_name mt-4 ">UmaShankar&nbsp;S</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Head&nbsp;-&nbsp;Development</p>
@@ -263,22 +267,24 @@
                                     his
                                     main strength.</p>
                             </div>
-                            <div class="container mt-5">
-                                <div class="row">
-                                    <div class="col ">
+                            <div >
+                                <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-md-6">
                                         <a href="https://twitter.com/rapidqube"><img src="assests/Group 11.png"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row mt-5 col-md-12">
-                        <div class="col-md-3 col-sm-3 col-lg-3 blue_light_effect text-center shadowEffect">
+                <div class="item">
+                    <div class="row mt-5 ">
+                        <div class="col-md-8 col-md-6 col-lg-4 blue_light_effect text-center shadowEffect">
                             <img src="assests/img-christopher.png" srcset="assests/img-christopher@2x.png 2x, assests/img-christopher@3x.png 3x"
                                 class=" mt-3">
                             <p class="aboutus1_heading_name mt-4 ">&nbsp;Christopher&nbsp;Day</p>
@@ -300,12 +306,12 @@
                             </div>
 
 
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col ">
+                            <div class="mt-5">
+                                <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png" class="linkimg1style"></a>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-md-6">
                                         <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png" class="twitimg1style"></a>
                                     </div>
                                 </div>
@@ -314,7 +320,7 @@
 
 
 
-                        <div class="col-md-3 col-sm-3 col-lg-3 ml-auto blue_light_effect text-center shadowEffect">
+                        <div class="col-sm-2 col-md-3 col-lg-4 ml-auto blue_light_effect text-center shadowEffect">
                             <img src="assests/img-rushikesh.png" srcset="assests/img-rushikesh@2x.png 2x, assests/img-rushikesh@3x.png 3x"
                                 class=" mt-3">
                             <p class="aboutus1_heading_name mt-4 ">Rushikesh&nbsp;Purohit</p>
@@ -328,12 +334,12 @@
                                     potential in North America. Rushi’s expertise ranges across the technology map
                                     from legacy modernization to Web 3.0 and everything in between.</p>
                             </div>
-                             <div class="container">
+                             <div >
                                 <div class="row">
-                                    <div class="col ">
+                                    <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png" class="linkimg1style"></a>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-md-6">
                                         <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png" class="twitimg1style"></a>
                                     </div>
                                 </div>
@@ -341,7 +347,7 @@
                         </div>
 
 
-                        <div class="col-md-3 col-sm-3 col-lg-3 blue_light_effect text-center ml-auto shadowEffect">
+                        <div class="col-md-4 col-md-6 col-lg-4 blue_light_effect text-center ml-auto shadowEffect ">
                             <img src="assests/img_vikram copy.png" class=" mt-3">
                             <p class="aboutus1_heading_name mt-4 ">Vikram&nbsp;Viswanathan</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Architect</p>
@@ -354,12 +360,12 @@
                                     implementations that aligns with their strategic visions and goals thereby
                                     delivering industry specific performance driven solutions.</p>
                             </div>
-                            <div class="container">
+                            <div class=" mt-5">
                                 <div class="row">
-                                    <div class="col ">
+                                    <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png" class="linkimg1style"></a>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-md-6">
                                         <a href="https://twitter.com/rapidqube/"><img src="assests/Group 11.png" class="twitimg1style"></a>
                                     </div>
                                 </div>
@@ -369,14 +375,24 @@
                 </div>
 
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+</div>
+            <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="fa fa-angle-left mr_86" style="background-color:#ffffff;" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="fa fa-angle-right ml_73" style="background-color:#ffffff;"
                     aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Next</span> -->
+
+                 <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
             </a>
         </div>
     </div>
@@ -387,6 +403,38 @@
             </div>
         </div>
 
+<script>
+$(document).ready(function(){
+    //Activate Carousel
+    $("#myCarousel").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
 
+
+
+    // $(".item3").click(function(){
+    //     $("#myCarousel").carousel(2);
+    // });
+    // $(".item4").click(function(){
+    //     $("#myCarousel").carousel(3);
+    // });
+    
+    //Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+
+  
+});
+</script>
 </body>
 </html>

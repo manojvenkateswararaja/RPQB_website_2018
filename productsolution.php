@@ -12,16 +12,40 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <style>
+  .bg-overlay{
+  background-image: url("./assests/ps3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  width:100%;
+  height: 450px;
+  padding-top: 50px;
+}
+  </style>
 </head>
 <body>
 <?php include('test.php'); ?>
-<div >
+<div class="container bg-overlay">
+<br>
+<br>
+<br>
+<br>
+  <div class=" text-center">
+  <h1><b>Product & Solutions</b></h1>
+</div>
+</div>
+
+
+
+
+<!-- <div >
 <img src="assests/ps3.jpg" srcset="assests/ps3.jpg"
                     class="img-responsive" width="120%">   
                     <h2 class="mt-4 text-center">Product & Solutions</h2>
 </div>
-  <br>
+  <br> -->
 <div class="container">
   <div class="row">
       <div class="col-sm-4">

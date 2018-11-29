@@ -2,11 +2,6 @@
 <html lang="en">
 <head>
   <title>TrainingV2</title>
-  <!-- <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -164,7 +159,7 @@ Enterprise adoption challenges ​</p>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-        <form name="email_form" action="registerinserttable.php" class="email_form" id="email_form" method="POST" autocomplete="off">
+        <form name="email_form" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EGUBQN69GLV3A" class="email_form" id="email_form" method="POST" autocomplete="off">
 
  <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> -->
 

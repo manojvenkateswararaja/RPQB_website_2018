@@ -7,14 +7,30 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<style>
+  .bg-overlay{
+  background-image: url("./assests/whitepaper1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  width:100%;
+  height: 450px;
+  padding-top: 50px;
+}
+  </style>
 </head>
 <body>
 <?php include('test.php'); ?>
-  <div class="text-center">
-                <img srcset="assests/whitepaper.png"
-                    class="img-responsive" width="100%" height="80%">
-                    <!-- <h2 class="mt-4">Whitepapers</h2>           -->
+
+  <div class="container bg-overlay">
+<br>
+<br>
+<br>
+<br>
+  <div class=" text-center">
+  <h1><b>Whitepapers<b></h1>
+</div>
 </div>
 
 <div class="container">

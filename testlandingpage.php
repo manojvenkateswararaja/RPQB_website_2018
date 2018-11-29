@@ -1,100 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Landing page</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <link rel="icon" type="image/png" href="rq_favicon.png"/>
-<link href="assests/css/bootstrap.min.css" rel="stylesheet" >
-<link href="assests/css/slick.css" rel="stylesheet" />
-<link href="assests/css/style.css" rel="stylesheet" />
-<link href="assets/css/app.css" rel="stylesheet" />
+  <title>Service</title>
 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 <style>
-.footer {
-   /* position: fixed; */
-   left: 0;
-   bottom: 0;
-   width: 107%;
-   background-color: #f2f9fa;
-   color: black;
-   text-align: center;
+
+/* .bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+} */
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.social {
+  margin: 20px 10px;
+  text-align: center;
 }
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+
+.bg-no-overlay {
+  background-image: url("./assests/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    height: 450px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.navbar{
+  background-color:white;
+  height: 119px;
+    /* margin-top: -39px; */
+}
+
+
+
 </style>
+<!-- <div class="container bg-overlay">
+	<div class="row text-center">
+		<h1>This is a beautiful background image<br> with a transparent overlay.</h1>
+        <h4>You can just use the "<strong>.bg-overlay</strong>" class on any container/element,<br>
+        and specify the image you want to use and its height.</h4>
+        <br><br>
+        <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+	</div>
+</div> -->
+
 </head>
+ <body>
 
-<body>
-<nav class="navbar navbar-expand-md  navbar-light bg-light"  style="background-color: #ffffff;
-                box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.13);width:110%;height:10%">
+<?php include('test.php'); ?>
+<?php include('navbar.php'); ?>
 
-<a class="navbar-brand pl-2 pl-4" href="#"> <img class="img-responsive" src="assests/rapidqube-logo-2.png"></a>
-<div class="col-md-10 pad_right_0">
-            <div class="row custom_margin">
-<div class="col-md-8"></div>
- <div class="collapse navbar-collapse col-md-1" id="collapsibleNavbar">
-    <a class="fa fa-home navBarhome" style="color:black" href="landingpage.php"></a>
+<div class="bg-no-overlay">
+<div class="col-sm-1"></div>
+    <div class="row col-md-4">
+    <div class="col-sm">
+		<h1>We are 
+<br><b>BLOCKCHAIN EXPERTS</b></h1>
+<p>We are digital natives. We ensure that from your initial idea<br> through to final implementation, we deliver our solutions<br> leveraging “best in class” digital technology to enhance your<br> business.</p>
+        <br><br>
+        <!-- <button type="button" class="btn btn-primary btn-lg">Get Started</button> -->
+	</div></div>
 </div>
- <div class="collapse navbar-collapse col-md-1" id="collapsibleNavbar">
-    <a class="navBarNameContactUs" style="color:black" href="contactus.php">Contact&nbsp;Us</a>
-</div>
- <div class="collapse navbar-collapse col-md-1" id="collapsibleNavbar">
-    <a class="navBarName pl-2 " style="color:black" href="undermaintance.php">Career</a>
-</div>
- <div class="collapse navbar-collapse blog " id="collapsibleNavbar">
-    <a class="navBarNameBlog pl-4" style="color:black" href="blog.php">Blog</a>
-</div>
-</div>
-<div class="border"></div>
-                <div class="border"></div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  aria-controls="collapsibleNavbar"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse pl-4 pl-3" id="collapsibleNavbar">
-  <ul class="navbar-nav">
-      <li class="nav-item">
-       <a class="nav-link pl-2 pl-4" style="color:black" href="#">Product & Solutions</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black" href="#">Whitepapers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black" href="#">Frameworks</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black"href="#">Services</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black"href="#">Training</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black" href="#">About&nbsp;Us </a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black" href="#">info@rapidqube.com</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black" href="#">+91-22-2567-3235</a>
-      </li>    
-    </ul>
-  </div>  
- 
-</nav>
-<br>
-<div>
 
-<img src="assests/banner.jpg" srcset="assests/banner.jpg"
-                        class="img-responsive" style="margin-left: 24px;width=100%">
-
-             
-</div>
-  
 <div class="container">
   <h2 style="text-align:center"><b>Our Specialization</b></h2>
  
@@ -139,65 +202,88 @@
     </div>
   </div>
 </div>
-<div class="footer_margin"></div>
-<div class="count_section text-center">
-					<ul class="count">
-						<li class="count_list px-sm-2 px-md-5 px-lg-5 px-xl-5">
-							<a href="solutions.php#section_sol_1" title="White Papers" class="d-block" style="text-decoration: none;">
-								<h1 class="count_no"> 3+ </h1>
-								<p class="count_txt">Whitepapers</p>
-							</a>
-						</li>
-						<li class="count_list px-sm-2 px-md-5 px-lg-5 px-xl-5">
-							<a href="solutions.php#section_sol_2" title="Products &amp; Solutions" class="d-block" style="text-decoration: none;">
-								<h1 class="count_no"> 79+ </h1>
-								<p class="count_txt">Products &amp; Solutions</p>
-							</a>
-						</li>
-						<li class="count_list px-sm-2 px-md-5 px-lg-5 px-xl-5">
-							<a href="solutions.php#section_sol_3" title="Frameworks" class="d-block" style="text-decoration: none;">
-								<h1 class="count_no"> 8+ </h1>
-								<p class="count_txt">Frameworks</p>
-							</a>
-						</li>
-					</ul>
-				</div>
+<div class="container">
+ 
+ 
+  <div class="row">
+  <div class="col-sm-3">
+  </div>
+    <div class="col-sm-2">
+      <div class="thumbnail">
+       
+      <h1 class="text-center"><b> 3+</b> </h1>
+								<p class="text-center"><b>Whitepapers</b></p>
+         
+      
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="thumbnail" style="height: 110px">
+      
+      <h1 class="text-center"><b> 79+ </b></h1>
+								<p class="text-center"><b>Products &amp; Solutions</b></p>
+         
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="thumbnail">
+      <h1 class="text-center"><b> 8+</b> </h1>
+								<p class="text-center"><b>Frameworks</b></p>
+        
+        
+      </div>
+    </div>
+   
+  </div>
+</div>
 <div>
-<h1 style="text-align:center"> <b>Inside RapidQube</b></h1>
+<h1 class="text-center"> <b>Inside RapidQube</b></h1>
 </div>
 <div class="row col-md-12 background_image ">
             <div class="row mt-5 col-md-12">
-                
-                <div class="col-md-3 col-sm-3 col-lg-3 col-md-offset-2 text-center ml_14 mr-auto blue_light_effect shadowEffect leadername1style">
-                <img src="assests/blockchain_healthcare.jpg" class="img-responsive">
-                <h4>Our Article&nbsp;About&nbsp;BlockChain&nbsp;And&nbsp;Health&nbsp;Care</h4>
-            <a href="blog.php" class="btn btn-link  pnSB ">Read More ---&nbsp;></a>
+                <div class="col-sm-2"></div>
+                <div class="card col-md-4  shadowEffect_landing_page">
+                <img src="assests/blockchain_healthcare.jpg" class="img-responsive" style="height: 258px;width: 561px;">
+                <h5><b>Our Article&nbsp;About&nbsp;BlockChain&nbsp;And&nbsp;Health&nbsp;Care</b></h5>
+            <a href="blog.php" class="btn btn-link  pnSB "><h4>Read More ---&nbsp;></h4></a>
                    
                     
                     
 
                 </div>
-                <br>
-                <div class="col-md-4 shadowEffect_landing_page">
+                <div class="pl-4"></div>
+                <div class="border col-md-4 shadowEffect_landing_page">
             <a class="twitter-timeline" style="height:400%;" data-lang="en" data-width="100%" data-chrome="nofooter noborders noheader"
-            data-height="260" data-theme="light" href="https://twitter.com/rapidqube"><h4>Tweets by
-            RapidQube</h4></a>
+            data-height="260" data-theme="light" href="https://twitter.com/rapidqube">Tweets by
+            RapidQube</a>
             <br>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <h4>Twitter Handler @Rapdiqube </h4>
-            <!-- <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB "> Our Achivements ---> </a> 
+          <h5><b>Twitter Handler @Rapdiqube</b> </h5>
+            <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB "><h4> View more ---> </h4></a>
             <br>
             <br>
       </div>
-                    </div>
-                    
                     
                 </div>
-
-        <div class="container">
-  <div class="page-header">
-    <h1 style="text-align: center;">Partnership&nbsp;&&nbsp;Collaborations</h1>      
-  </div>
+              
+                <div class="row">
+  <div class="col-sm-4">  
+ 
+ 
+ </div>
+ <div class="col-md-6">  
+ <h2><b>Partnership & Collaboration</b></h2>
+ 
+ </div>
+ <div class="col-md-4">  
+ 
+ </div>
+ 
+ </div>
+   
+</div>
+      
+ 
   <div class="row">
   <div class="col-sm-2">  
  
@@ -237,97 +323,107 @@
              style="width: 355px; height: 75px;border-radius: 8px;margin-top: 27px;
     color:white; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);"><h3>Start a Project</h3></button>
     </div>
- 
-<div class="project_start">
-      <div class="col-md-4 col-sm-4 col-lg-4 ml-4"></div>
-      <div class="col ml-1 ml-5">
-            <a class="gradient-button gradient-button-4" style="color: #ffffff; " data-toggle="modal" data-target="#myModal">
-                    </a>
-      </div>
-      </div>
-      <div class="col-md-5 col-sm-5 col-lg-5"></div>
-  </div>
-</div>
-<div class="footer pale_bg_color footstyle" style="width: 103%;height:10%;">
+ <br>
+ <div>
+ </div>
+    <div class="footer pale_bg_color footstyle" style="width: 103%;height:10%;">
     <!-- <div class="col-md-10 col-sm-10 col-lg-10 ">      
     </div> -->
     <div class="commentimg"> 
       <a href="#" data-toggle="modal" data-target="#myModal">
         <img  src="assests/group-8.png"  srcset="assests/group-8@2x.png 2x, assests/group-8@3x.png 3x"
-      class="Group-8 float-right mr-5" style="margin-top: -3%;" ></a></div>
+      class="Group-8 float-right mr-5" ></a></div>
     <div class="container row">
       <div class="col-lg-3 col-sm-4 col-md-6 "></div>
-      <div class="col-md-1 col-sm-1 col-lg-1 ">
-        <ul style="list-style: none;">
-          <li class="footer_font_header"><h3><b>RapidQube</b></h3></li>
-          <br> <a href="aboutus.php">
-            <li class="footer_font" style="color:#000000"><h4>About&nbsp;Us</h4></li>
-          </a>
-          <br> <a href="services.php">
-            <li class="footer_font" style="color:#000000"><h4>Services</h4></li>
-          </a>
-          <br> <a href="product&solution.php">
-            <li class="footer_font" style="color:#000000"><h4>Solutions</h4></li>
-          </a>
-        </ul>
-        <br>
+      <div class="col-sm-2">
+      
       </div>
       <br>
-      <div class="col-md-1"></div>
-      <div class="col-md-1 support">
+      <div class="col-md-5 support">
+      <ul style="list-style: none;">
+          <li class="footer_font_header"><b>RapidQube</b></li>
+          <br> <a href="aboutus.php">
+            <li class="footer_font" style="color:#000000">About&nbsp;Us</li>
+          </a>
+          <br> <a href="services.php">
+            <li class="footer_font" style="color:#000000">Services</li>
+          </a>
+          <br> <a href="product&solution.php">
+            <li class="footer_font" style="color:#000000">Solutions</li>
+          </a>
+        </ul>
+        <br>
+      </div>
+      <div class="col-md-4 support">
         <ul style="list-style: none; ">
-          <li class="footer_font_header "><h3><b>SUPPORT</b></h3></li>
+          <li class="footer_font_header "><b>Support</b></li>
           <br> <a href="undermaintance.php">
-            <li class="footer_font " style="color:#000000"><h4>Help&nbsp;Center </h4></li>
+            <li class="footer_font " style="color:#000000">Help&nbsp;Center </li>
           </a>
           <br> <a href="undermaintance.php">
-            <li class="footer_font "style="color:#000000"><h4>FAQ's</h4></li>
+            <li class="footer_font "style="color:#000000">FAQ's</li>
           </a>
           <br> <a href="contactus.php">
-            <li class="footer_font "style="color:#000000"><h4>Contact&nbsp;Us</h4></li>
+            <li class="footer_font "style="color:#000000">Contact&nbsp;Us</li>
           </a>
         </ul>
         <br>
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-2 newsevents_footer">
-        <ul>
-          <li class="footer_font_header newsfooter"><h3><b>News&nbsp;&&nbsp;Events</b></h3></li>
+      <div class="col-md-2">
+        <ul style="list-style: none; ">
+          <li class="footer_font_header "><b>News&nbsp;&&nbsp;Events</b></li>
           <br> <a href="undermaintance.php">
-            <li class="footer_font newsfooterfont" style="color:#000000"><h4>Consensus 2018</h4> </li>
+            <li class="footer_font " style="color:#000000">Consensus 2018 </li>
           </a>
           <br> <a href="undermaintance.php">
-            <li class="footer_font newsfooterfont" style="color:#000000"><h4>NEM&nbsp;Foundation&nbsp;2018</h4></li>
+            <li class="footer_font " style="color:#000000">NEM&nbsp;Foundation&nbsp;2018</li>
           </a>
          
         </ul>
       </div>
-      <div class="comments" style="padding-left: 28px;">
-        <div class="social">
-          <!-- <ul class="social_media pl-0 m-0 ml-auto"> -->
-								<span> <a href="https://www.facebook.com/rapidqube/" target="_blank" title="footer_media" class="fa fa-facebook"></a> </span>
-								<span> <a href="https://twitter.com/rapidqube" target="_blank" title="footer_media" class="fa fa-twitter"></a> </span>
-								<span> <a href="https://www.linkedin.com/company/rapidqube/" target="_blank" title="footer_media" class="fa fa-linkedin"></a> </span>
-                <span><a href="undermaintance.php" class="fa fa-google"></a></span> 
-              <!-- </ul> -->
-          <!-- <span><a href="https://www.facebook.com/rapidqube/" class="fa fa-facebook"></a></span>
-          <span><a href="https://twitter.com/rapidqube" class="fa fa-twitter"></a></a></span>
-          <span><a href="https://in.linkedin.com/company/rapidqube" class="fa fa-linkedin"></a></span>
-          <span><a href="landingpage.php" class="fa fa-google"></a></span> -->
+
+
+ <div class="col-md-5 support">
+     
+      </div>
+      <div class="col-md-4 support">
+       <!-- <a href="https://www.facebook.com/rapidqube/"   class="fa fa-facebook"></a> 
+								 <a href="https://twitter.com/rapidqube" target="_blank" title="footer_media" class="fa fa-twitter"></a> 
+								 <a href="https://www.linkedin.com/company/rapidqube/" target="_blank" title="footer_media" class="fa fa-linkedin"></a> 
+                <a href="undermaintance.php" class="fa fa-google"></a>  -->
+     
+                <div id="social">
+			<a class="facebookBtn smGlobalBtn" target="_blank" href="https://www.facebook.com/rapidqube/" ></a>
+			<a class="twitterBtn smGlobalBtn" target="_blank" href="https://twitter.com/rapidqube" ></a>
+			<a class="linkedinBtn smGlobalBtn" target="_blank" href="https://www.linkedin.com/company/rapidqube/" ></a>
+      <a class="googleplusBtn smGlobalBtn" target="_blank" href="undermaintance.php" ></a>
+</div>
+   
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
+       
+      </div>
+
+
+
+      <div class="" >
+        <div class="text-center">
+          
         </div>
       </div>
     </div>
     <div class="footer_margin">
       <p class="solid mt-5" style="margin-left: 10%;width: 80%;"></p>
     </div>
-    <div class="agree">
-      <h4>By continuing past this page,
-        you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. © 2018 </h4>
+    <div class="text-center">
+      <p>By continuing past this page,
+        you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. © 2018 </p>
     </div>
 
   </div>
   </div>
   </div>
-
 </body>
 </html>

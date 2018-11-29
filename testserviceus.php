@@ -20,25 +20,28 @@
   width: 100%;
   padding: 20px;
 }
+.bg-overlay{
+  background-image: url("./assests/services.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  width:100%;
+  height: 450px;
+  padding-top: 50px;
+}
   </style>
 </head>
 <body>
 <?php include('test.php'); ?>
 
 <div class="container">
-  <div class="row">
-      <div class="col-xg-4">
-  <img
-          src="assests/banner 2.png"
-          srcset="
-            assests/banner 2.png,
-            assests/banner 2.png
-          "
-          class="img-responsive"
-        />
-
-        <div class="row-sm-4">
+<div class="bg-overlay">
+	<div class="row text-center">
+  <div class="row-sm-2">
             <h2>Services</h2>
+            <div class="col-sm-2"></div>
+    <div class="col-sm-8">
           <p>
             We have a unique depth in our services that differentiates us. We
             are curious. We look at every opportunity as a potential problem to
@@ -50,6 +53,22 @@
             level in both India and the United States.
           </p>
           </div>
+</div>
+
+	</div>
+</div>
+  <!-- <div class="row">
+      <div class="col-xg-4">
+  <img
+          src="assests/banner 2.png"
+          srcset="
+            assests/banner 2.png,
+            assests/banner 2.png
+          "
+          class="img-responsive"
+        /> -->
+
+    
 </div>  
 </div>
 </div>
@@ -85,82 +104,22 @@
             &nbsp;Our&nbsp;services&nbsp;range&nbsp;across&nbsp;the&nbsp;following&nbsp;
             areas&nbsp;of&nbsp;Analytics:
           </h5>
+          <!-- ====================== -->
         
-    
-          <div class="row">
-          <div class="col-sm-4 pl-2">
-          <img
+          <div class="lg-1">
+  <div class="col-lg-1"><img
               src="assests/services/group-5.png"
               srcset="
                 assests/services/group-5@2x.png 2x,
                 assests/services/group-5@3x.png 3x
               "
-              class="img-responsive"
-            />
-            <span   >
-              Predictive
-            </span>
-</div>  
-            <div class="col-sm-4">
-            <img
-              src="assests/services/group-7.png"
-              srcset="
-                assests/services/group-6@2x.png 2x,
-                assests/services/group-6@3x.png 3x
-              "
-              class="img-responsive"
-            />
-            <span>
-            Diagnostic
-            </span>
-
-          </div>
-
-          <div class="col-sm-4">
-            <img
-              src="assests/services/group-6.png"
-              srcset="
-                assests/services/group-7@2x.png 2x,
-                assests/services/group-7@3x.png 3x
-              "
-               class="img-responsive"
-            />
-            <span class="col-sm-4">
-              Descriptive
-            </span>
+              class="img-responsive col-lg-2"
+            /></div>
+  <div class="col-md-1 col-sm-1">Predictive</div>
+  </div>
+       
     
-    </div>
-</div>
-<div class="row">
-<div class="col-sm-4 pl-2">
-<img
-              src="assests/services/group-8.png"
-              srcset="
-                assests/services/group-8@2x.png 2x,
-                assests/services/group-8@3x.png 3x
-              "
-              class="Group-5"
-            />
-            <span>
-              Prescriptive
-            </span>
-
-          </div>
-          <div class="col-sm-4">
-          <img
-              src="assests/services/group-9.png"
-              srcset="
-                assests/services/group-9@2x.png 2x,
-                assests/services/group-9@3x.png 3x
-              "
-              class="Group-5 searchimages"
-            />
-            <span
-              >Search-based
-            </span>
-    
-    </div>
-</div>
+        <!-- ================= -->
     </div>
   </div>
 </div>
@@ -312,27 +271,31 @@
   
 
    </div>
-   <div class="col-sm-4">
+   <div class="container">
+  <div class="row">
+    <div class="col-lg-4">
    <img
-          src="assests/shutterstock-331398086-copy.png"
+          src="assests/infra.png"
           srcset="
-            assests/shutterstock-331398086-copy@2x.png 2x,
-            assests/shutterstock-331398086-copy@3x.png 3x
+            assests/infra.png ,
+            assests/infra.png
           "
           class="img-responsive"
         />
    </div>
   </div>
+  </div>
+  </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-lg-4">
     <img
-          src="assests/services/shutterstock-331398086-copy-4.png"
+          src="assests/services/edu.png"
           srcset="
-            assests/shutterstock-331398086-copy-4@2x.png 2x,
-            assests/shutterstock-331398086-copy-4@3x.png 3x
+            assests/edu.png ,
+            assests/edu.png
           "
           class="img-responsive"
         />
