@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Service</title>
+<title>
+ RapidQube
+</title>
+<link rel="icon" href="assests/rapidqube-logo-2.png" type="image">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -48,10 +51,10 @@
 <br>
 
   <div class=" text-center">
-  <h2><b>Services</b></h2>
+  <h1 style="font-family:ProximaNova-Semibold"><b>Services</b></h1>
   <div class="col-sm-2"></div>
-  <div class="col-md-9">
-  <h4>
+  <div class="col-md-8">
+  <h4 style="font-family:ProximaNova-Regular">
             We have a unique depth in our services that differentiates us. We
             are curious. We look at every opportunity as a potential problem to
             solve. We grow our talent infront-end, middleware, and back-end
@@ -117,8 +120,8 @@
     </div>
     <div class="col-sm-2"></div>
     <div class="col-sm-6">
-      <h3><b>Business Intelligence & Analytics</b></h3>
-      <p>RapidQube has the capability to provide solutions in best-in-class
+      <h3 style="font-family:ProximaNova-Semibold"><b>Business Intelligence & Analytics</b></h3>
+      <p style="font-family:ProximaNova-Regular;font-size:17px">RapidQube has the capability to provide solutions in best-in-class
           Business Intelligence (BI) & visualization commercial off-the-shelf
           (COTS) products. Our development team can transform any desktop view
           into a mobile view as required. Mobility access for people on the move
@@ -130,7 +133,7 @@
           generate actionable insights from data collected. Data driven
           decisions need to create sustainable business impact.
         </p>
-        <h5> </b>
+        <h5 style="font-family:ProximaNova-Regular;font-size:17px"> </b>
             &nbsp;Our&nbsp;services&nbsp;range&nbsp;across&nbsp;the&nbsp;following&nbsp;
             areas&nbsp;of&nbsp;Analytics:
           </h5>
@@ -227,14 +230,14 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <h3><b> Business Consulting</b></h3>
-      <p>Our leadership team possesses a unique blend of real-world experience.
+      <h3 style="font-family:ProximaNova-Semibold"><b> Business Consulting</b></h3>
+      <p style="font-family:ProximaNova-Regular;font-size:17px">Our leadership team possesses a unique blend of real-world experience.
           We will ensure that BOTH the people and technology changes needed for
           business transformation are identified and shared.</p>
-      <p> Using our expertise, we will help define both “the tactical and
+      <p style="font-family:ProximaNova-Regular;font-size:17px"> Using our expertise, we will help define both “the tactical and
           strategic” using synergistic change management programs to address
           both.</p>
-          <p>We will look across the business, technology, and customer ecosystems
+          <p style="font-family:ProximaNova-Regular;font-size:17px">We will look across the business, technology, and customer ecosystems
           at all the underlying components (people, digital technologies,
           business processes, and tools) to understand and recommend appropriate
           strategies and tactics (leveraging digital technologies) to succeed.</p>
@@ -267,9 +270,9 @@
     </div>
     <div class="col-sm-2"></div>
     <div class="col-sm-6">
-    <h3><b>Technology Consulting</b>
+    <h3 style="font-family:ProximaNova-Semibold"><b>Technology Consulting</b>
         </h3>
-        <p>
+        <p style="font-family:ProximaNova-Regular;font-size:17px">
           In the new digital economy, we assist organizations across industry
           verticals to adapt. We help them look at potentially disruptive
           next-gen technologies such as Robotic Process Automation (RPA),
@@ -286,8 +289,8 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <h3> <b> Infrastructure Management</b></h3>
-      <p>The ongoing digital disruptions across industries has given rise to a
+      <h3 style="font-family:ProximaNova-Semibold"> <b> Infrastructure Management</b></h3>
+      <p style="font-family:ProximaNova-Regular;font-size:17px">The ongoing digital disruptions across industries has given rise to a
           new, hybrid infrastructure approach to environments that requires
           significant expertise to sort out. Without a clear path, environments
           can become overly complex and not business focused. We feel that
@@ -408,15 +411,15 @@
 
 <div class="col-sm-2"></div>
     <div class="col-sm-6">
-      <h3><b>Education</b></h3>        
-      <p> We feel that as technologies change, the approach towards education
+      <h3 style="font-family:ProximaNova-Semibold"><b>Education</b></h3>        
+      <p style="font-family:ProximaNova-Regular;font-size:17px"> We feel that as technologies change, the approach towards education
           also needs to change.</p>
-      <p> RapidQube has delivered Fortune 500 (India/ Webinar), IIT Bombay
+      <p style="font-family:ProximaNova-Regular;font-size:17px"> RapidQube has delivered Fortune 500 (India/ Webinar), IIT Bombay
           (India), and Connecticut (UCONN, CCSU) University level blockchain
           educational sessions (not for credit) to date. Our goal is to spread
           the word about the technology, its capabilities, and ensure that
           colleges, universities, and global businesses are benefitting from it.</p>
-          <p> We hosted over 200 hours of industry specific Use Case/ solution
+          <p style="font-family:ProximaNova-Regular;font-size:17px"> We hosted over 200 hours of industry specific Use Case/ solution
           discussions. Each of these sessions required research, development,
           and presentation specific fine-tuning to ensure that the message was
           appropriate.
@@ -447,7 +450,7 @@
               "
               class="img-responsive"
             />
-            <span >
+            <span style="font-family:ProximaNova-Regular;font-size:17px" >
               Help You Define Blockchain Technology In Your Own Words
             </span>
           </li>
@@ -460,7 +463,7 @@
               "
               class="img-responsive"
             />
-            <span class="mt-4"
+            <span class="mt-4" style="font-family:ProximaNova-Regular;font-size:17px"
               >Understand How Blockchain Could Potentially Impact Your Business
               And Industry</span
             >
@@ -474,7 +477,7 @@
               "
               class="img-responsive"
             />
-            <span class=" ml-3">
+            <span class=" ml-3" style="font-family:ProximaNova-Regular;font-size:17px">
               Write A Thought Leadership Piece Regarding Use Cases And Industry
               Potential Of Blockchain &nbsp;Technology</span
             >
@@ -488,7 +491,7 @@
               "
               class="img-responsive"
             />
-            <span class=" ml-3 servicescontent"
+            <span class=" ml-3 servicescontent" style="font-family:ProximaNova-Regular;font-size:17px"
               >Explain Blockchain Technology To Your Clients, Friends, Business
               Colleagues
             </span>
@@ -502,7 +505,7 @@
               "
               class="img-responsive"
             />
-            <span class=" ml-3">
+            <span class=" ml-3" style="font-family:ProximaNova-Regular;font-size:17px">
               Identify Which Aspects Of Blockchain Technology Seem Most
               Important To You And Why
             </span>

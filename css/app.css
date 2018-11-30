@@ -733,16 +733,13 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 /* Social Media Buttons */
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-  color: #000000;
-  margin-top: -32px;
-    margin-bottom: -25px;
-    margin-left: 4px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: #000000;
 }
 
 .homeclass{
@@ -891,7 +888,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
   transform: translate(-50%, -50%);
 }
 .Solutions_content_body {
-  font-family: ProximaNovaRegular;
+  font-family: ProximaNova-Regular;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -1161,7 +1158,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
   color: #000000;
 }
 .aboutus1_heading_desc {
-  font-family: ProximaNovaRegular;
+  font-family: ProximaNova-Regular;
   font-size: 14.2px;
   font-weight: 600;
   font-style: normal;

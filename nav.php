@@ -29,29 +29,31 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
+      <a href="testlandingpage.php">
     <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: -14px;">
+  </a>
     </div>
   
     <ul class="nav navbar-nav navbar-right mt-2">
        <a href="testlandingpage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
         
-        <a href="testcontact.php" style="color:black" class="col-sm-4">Contact&nbsp;Us</a>
-        <a href="testundermaintance.php" style="color:black" class="col-sm-3">Career</a>
-        <a href="testblog.php" style="color:black" class="col-sm-2">Blog</a>
+        <a href="testcontact.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-4">Contact&nbsp;Us</a>
+        <a href="testundermaintance.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-3">Career</a>
+        <a href="testblog.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-2">Blog</a>
       </ul>
       <br>
       <hr style="margin-top: 10px;">
      <div class="pl-2">
     <div class="collapse navbar-collapse nav navbar-right" id="myNavbar" style="margin-top:-28px">
       <ul class="nav navbar-nav navbar-right mt-2">
-        <li><a href="productsolution.php" style="color:black" > <h4>Product & Solutions</h4></a></li>
-        <li><a href="testwhitepaper.php" style="color:black"><h4>Whitepapers</h4></a></li>
-        <li><a href="testframework.php" style="color:black"><h4>Frameworks</h4></a></li>
-        <li><a href="testserviceus.php" style="color:black"><h4>Services</h4></a></li>
-        <li><a href="training.php" style="color:black"><h4>Training</h4></a></li>
-        <li><a href="testaboutus.php" style="color:black"><h4>About&nbsp;Us</h4> </a></li>
-        <li><a href="#" style="color:black"><h4>info@rapidqube.com</h4></a></li>
-        <li><a href="#" style="color:black"><h4>+91-22-2567-3235</h4></a></li>
+        <li><a href="productsolution.php" style="color:black ;font-family:ProximaNova-Regular;font-size:15px" > Products & Solutions</a></li>
+        <li><a href="testwhitepaper.php" style="color:black; font-family:ProximaNova-Regular;font-size:15px">Whitepapers</a></li>
+        <li><a href="testframework.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Frameworks</a></li>
+        <li><a href="testserviceus.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Services</a></li>
+        <li><a href="training.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Training</a></li>
+        <li><a href="testaboutus.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">About&nbsp;Us </a></li>
+        <li><a href="#" style="color:black;font-family:ProximaNova-Regular;font-size:15px">info@rapidqube.com</a></li>
+        <li><a href="#" style="color:black;font-family:ProximaNova-Regular;font-size:15px">+91-22-2567-3235</a></li>
       </ul>
     </div>
   </div> 
@@ -86,7 +88,7 @@
      <div class="pl-2">
     <div class="collapse navbar-collapse nav navbar-right" id="myNavbar1">
       <ul class="nav navbar-nav navbar-right mt-2">
-        <li><a href="productsolution.php" style="color:black">Product & Solutions</a></li>
+        <li><a href="productsolution.php" style="color:black">Products & Solutions</a></li>
         <li><a href="testwhitepaper.php" style="color:black">Whitepapers</a></li>
         <li><a href="testframework.php" style="color:black">Frameworks</a></li>
         <li><a href="testserviceus.php" style="color:black">Services</a></li>

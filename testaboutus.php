@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About us</title>
+<title>
+ RapidQube
+</title>
+<link rel="icon" href="assests/rapidqube-logo-2.png" type="image">
   <meta charset="utf-8">
  
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,15 +21,15 @@
     <link rel="stylesheet" href="./css/app.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <title>About Us</title>
+  
+   
     
     <link rel="icon" type="image/png" href="rq_favicon.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <style>
   .bg-overlay{
   background-image: url("./assests/white.jpg");
@@ -50,10 +53,10 @@
 <br>
 <br>
   <div class="text-center">
-  <h1><b>About Us</b></h1>
+  <h1 style="font-family:ProximaNova-Semibold"><b>About Us</b></h1>
   <div class="col-sm-2"></div>
   <div class="col-md-9">
-  <h4>
+  <h4 style="font-family:ProximaNova-Regular">
   We are digital natives. We ensure that from your initial idea through to final implementation, we deliver our solutions leveraging “best in class” digital technology to enhance your business.
           </h4>
           </div>
@@ -63,18 +66,19 @@
 <br><br><br><br>
 <div class="container">
   <div class="row">
-      <div class="col-md-6 mt_6">
-        <h3><b>Transforming Business Paradigms</b></h3>
-        <p>RapidQube has the capability to provide solutions
+      <div class="col-md-5 mt_6">
+        <h3 style="font-family:ProximaNova-Semibold"><b>Transforming Business Paradigms</b></h3>
+        <p style="font-family:ProximaNova-Regular;font-size:17px">RapidQube has the capability to provide solutions
                             in best-in-class Business Intelligence (BI) & visualization commercial off-the-shelf (COTS)
                             products. Our development team can transform any desktop view into a mobile view as
                             required. Mobility access for people on the move enhances quicker decision making.</p>
-        <p>With the advent of "Internet of everything" and the
+        <p style="font-family:ProximaNova-Regular;font-size:17px">With the advent of "Internet of everything" and the
                             subsequent exponential explosion of data, it has become a “front and center” imperative for
                             organizations to derive more meaningful information and generate actionable insights from
                             data collected. Data driven decisions need to create sustainable business impact.</p>
       </div>
-    <div class="col-md-6 mt_6">
+      <div class="col-sm-2"></div>
+    <div class="col-md-5 mt_6">
      
     <img src="assests/shrine.jpg" srcset="assests/shrine.jpg"
                         class="img-responsive">
@@ -85,11 +89,11 @@
 <br><br><br>
 <div class="container">
   <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5">
       <br><br>
-        <h3><img src="assests/noun-about-us-316051.svg" class="img-responsive">
+        <h3 style="font-family:ProximaNova-Semibold"><img src="assests/noun-about-us-316051.svg" class="img-responsive">
         <b>Who we are</b></h3>
-        <p>We are Digital natives. We have full stack
+        <p style="font-family:ProximaNova-Regular;font-size:17px">We are Digital natives. We have full stack
                             developers. The digital landscape is always a moving target. We help you stay ahead of that
                             target through our business relationships and creative minds in everything from platform
                             selection to integration to delivery and follow on consulting. We engage with thought
@@ -97,11 +101,11 @@
                             practices and ensure that you benefit from that latest thinking.</p>
       </div>
     
-    
-    <div class="col-md-6">
+    <div class="col-sm-2"></div>
+    <div class="col-md-5">
     <br>  <br>
-      <h3><img src="assests/noun-challenge-1873994.svg" class="img-responsive"><b> What we do</b></h3>        
-      <p>RapidQube solves our clients' toughest challenges
+      <h3 style="font-family:ProximaNova-Semibold"><img src="assests/noun-challenge-1873994.svg" class="img-responsive"><b> What we do</b></h3>        
+      <p style="font-family:ProximaNova-Regular;font-size:17px">RapidQube solves our clients' toughest challenges
                             by providing unmatched services using our customized solution frameworks.Throughout that
                             process we create long-term relationships with our clients by being responsive, relevant
                             and consistently delivering value. We also know that Better, Cheaper, and Faster hasn’t
@@ -114,20 +118,20 @@
 <br><br><br>
 <div class="container">
   <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5">
       <br><br><br><br>
-        <h3><img src="assests/noun-vision-995437.svg" class="img-responsive">
+        <h3 style="font-family:ProximaNova-Semibold"><img src="assests/noun-vision-995437.svg" class="img-responsive">
         <b>Our Vision</b></h3>
-        <p>Our Vision is to become the incubator for
+        <p style="font-family:ProximaNova-Regular;font-size:17px">Our Vision is to become the incubator for
                             developing successful future ready business solutions by innovative use of next generation
                             disruptive technology and automation.</p>
       </div>
-   
+      <div class="col-sm-2"></div>
       <br>
-    <div class="col-md-6 mt_6">
+    <div class="col-md-5 mt_6">
    
-      <h3><img src="assests/noun-focus-1532465.svg" class="img-responsive"><b>Our Mission</b></h3>        
-      <p>Our Mission is to help our clients achieve and
+      <h3 style="font-family:ProximaNova-Semibold"><img src="assests/noun-focus-1532465.svg" class="img-responsive"><b>Our Mission</b></h3>        
+      <p style="font-family:ProximaNova-Regular;font-size:17px">Our Mission is to help our clients achieve and
                             exceed their digital technology adaptation goals and make digital technology become a
                             pillar of their business growth and profitability. We seek to accomplish this through
                             creation and superior execution of fully customized, robust and scalable next generation,
@@ -142,7 +146,7 @@
             <div class=" row col-md-12">    
                 <div class="col-md-3 ml-5"></div>
                 <div class="col-md-6 text-center">
-                   <h3><b> Leadership & Management Team</b></h3>
+                   <h3 style="font-family:ProximaNova-Semibold"><b> Leadership & Management Team</b></h3>
                 </div>
 
             </div>
@@ -154,7 +158,7 @@
                 <div class="col-md-3 col-sm-3 col-lg-3 col-md-offset-2 text-center ml_14 mr-auto blue_light_effect shadowEffect leadername1style">
                     <img src="assests/img-lokesh.png" srcset="assests/img-lokesh@2x.png 2x, assests/img-lokesh@3x.png 3x"
                         class="img_lokesh  mt-3 img-fluid" alt="Responsive image">
-                    <p class="aboutus1_heading_name mt-4 ">Lokesh Reddi </p>
+                    <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Lokesh Reddi </p>
                     <p class="aboutus1_heading_desc  mt_2 ">Co-founder</p>
                     <p class="card-text Solutions_content_body leadername1about" style="text-align: justify;">Lokesh is an angel
                         investor and serial
@@ -162,7 +166,7 @@
                         of
                         the most renowned names in financial services. He is a hands on Strategist and technology
                         evangelist. He handles and organizes all the numbers to fund RapidQube.</p>
-                    <div class="row mt-5">
+                    <div class="row mt-5" style="margin-top: 34px;">
                         <div class="col-md-6">
                                 <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
                         </div>
@@ -178,7 +182,7 @@
                 <div class="col-md-3 col-sm-3 col-lg-3 col-md-offset-2 text-center ml_5 mr-auto blue_light_effect shadowEffect">
                     <img src="assests/img-raghunadh.png" srcset="assests/img-raghunadh@2x.png 2x, assests/img-raghunadh@3x.png 3x"
                         class="img_raghunadh  mt-3">
-                    <p class="aboutus1_heading_name mt-4 ">Raghunadh&nbsp;Vaddadi</p>
+                    <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Raghunadh&nbsp;Vaddadi</p>
                     <p class="aboutus1_heading_desc  mt_2 ">Co-founder</p>
                     <p class="Solutions_content_body leadername2about" style="text-align: justify;">Raghu is an early adapter
                         to Block chain
@@ -211,13 +215,14 @@
                 <div class="item active">
                     <div class="row mt-5">
                         <div class="">
-                        <div class="col-md-4 col-sm-3 col-lg-4  text-center blue_light_effect  shadowEffect">
+                        <div class="col-md-3  text-center blue_light_effect  shadowEffect">
                             <img src="assests/img-mohanraj.png" srcset="assests/img-mohanraj@2x.png 2x, assests/img-mohanraj@3x.png 3x"
                                 class="mt-3">
-                            <p class="aboutus1_heading_name mt-4 ">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</p>
+                            <p class="aboutus1_heading_name mt-4 "style="font-family: serif;">&nbsp;&nbsp;Mohanraj&nbsp;P&nbsp;B</p>
                             <p class="aboutus1_heading_desc  mt_2 ">&nbsp;Chief&nbsp;Digital Strategist</p>
                             <div class="container-fluid">
-                                <p class="Solutions_content_body leadername3about mt-4" style="text-align: justify;">Mohan is an
+                                <p class="Solutions_content_body leadername3about mt-4" style="text-align: justify;font-family: ProximaNova-Regular;
+    font-size: 18px;">Mohan is an
                                     early adopter of Technology
                                     disruptions, has a critical role as he handles most of our solutions and
                                     offerings. He has
@@ -228,7 +233,7 @@
                             </div>
 
 
-                            <div class="mt-5">
+                            <div class="mt-5" style="margin-top: 66px;">
                                 <div class="col-md-12">
                                     <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
@@ -240,11 +245,11 @@
                             </div>
                         </div>
 
+<div class="col-sm-1"></div>
 
-
-                        <div class="col-md-4 col-sm-3 col-lg-4 ml-auto text-center blue_light_effect shadowEffect">
+                        <div class="col-md-3 text-center blue_light_effect shadowEffect">
                             <img src="assests/img_Muthu.png" class=" mt-3">
-                            <p class="aboutus1_heading_name mt-4 ">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
+                            <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Chief Technology Officer</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body leadername3about" style="text-align: justify;">Muthu
@@ -271,11 +276,11 @@
                                 </div>
                             </div>
                         </div>
+<div class="col-sm-1"></div>
 
-
-                        <div class="col-md-4 col-sm-3 col-lg-4 ml-auto text-center blue_light_effect shadowEffect">
+                        <div class="col-md-3 text-center blue_light_effect shadowEffect">
                             <img src="assests/img_umashankar copy.png" class=" mt-3">
-                            <p class="aboutus1_heading_name mt-4 ">UmaShankar&nbsp;S</p>
+                            <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Umashankar&nbsp;S</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Head&nbsp;-&nbsp;Development</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body leadername3about mt-4" style="text-align: justify;">Uma is at
@@ -288,7 +293,7 @@
                                     his
                                     main strength.</p>
                             </div>
-                            <div >
+                            <div style="margin-top: 66px;">
                                 <div class="col-md-12">
                                     <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png"></a>
@@ -305,10 +310,10 @@
                 </div>
                 <div class="item">
                     <div class="row mt-5 ">
-                        <div class="col-md-8 col-md-6 col-lg-4 blue_light_effect text-center shadowEffect">
+                        <div class="col-md-3 blue_light_effect text-center shadowEffect">
                             <img src="assests/img-christopher.png" srcset="assests/img-christopher@2x.png 2x, assests/img-christopher@3x.png 3x"
                                 class=" mt-3">
-                            <p class="aboutus1_heading_name mt-4 ">&nbsp;Christopher&nbsp;Day</p>
+                            <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">&nbsp;Christopher&nbsp;Day</p>
                             <p class="aboutus1_heading_desc  mt_2 ">&nbsp;Business&nbsp;Advisor</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body leadername3about mt-4" style="text-align: justify;">Chris is a
@@ -338,13 +343,13 @@
                                 </div>
                             </div>
                         </div>
+<div class="col-sm-1"></div>
 
 
-
-                        <div class="col-sm-2 col-md-3 col-lg-4 ml-auto blue_light_effect text-center shadowEffect">
+                        <div class="col-md-3 blue_light_effect text-center shadowEffect">
                             <img src="assests/img-rushikesh.png" srcset="assests/img-rushikesh@2x.png 2x, assests/img-rushikesh@3x.png 3x"
                                 class=" mt-3">
-                            <p class="aboutus1_heading_name mt-4 ">Rushikesh&nbsp;Purohit</p>
+                            <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Rushikesh&nbsp;Purohit</p>
                             <p class="aboutus1_heading_desc  mt_2 ">&nbsp;Business&nbsp;Advisor</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body leadername3about" style="text-align: justify;">Rushi comes
@@ -366,11 +371,11 @@
                                 </div>
                             </div>
                         </div>
+<div class="col-sm-1"></div>
 
-
-                        <div class="col-md-4 col-md-6 col-lg-4 blue_light_effect text-center ml-auto shadowEffect ">
+                        <div class="col-md-3 blue_light_effect text-center ml-auto shadowEffect ">
                             <img src="assests/img_vikram copy.png" class=" mt-3">
-                            <p class="aboutus1_heading_name mt-4 ">Vikram&nbsp;Viswanathan</p>
+                            <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Vikram&nbsp;Viswanathan</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Architect</p>
                             <div class="container-fluid">
                                 <p class="Solutions_content_body leadername3about mt-4" style="text-align: justify;">Vikram has
@@ -381,7 +386,7 @@
                                     implementations that aligns with their strategic visions and goals thereby
                                     delivering industry specific performance driven solutions.</p>
                             </div>
-                            <div class=" mt-5">
+                            <div class=" mt-5" style="margin-top: 63px;">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <a href="https://www.linkedin.com/company/rapidqube/"><img src="assests/Group 10.png" class="linkimg1style"></a>

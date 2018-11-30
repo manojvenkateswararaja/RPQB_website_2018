@@ -19,7 +19,7 @@
 
             <div class="form-group">
             <label class="float-label regFormFonts"   for="exampleInputEmail1">Your Email</label>
-              <input type="text" class="form-control" name="name"  id="email">
+              <input type="text" class="form-control" name="name"  id="email" required>
               
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
@@ -28,7 +28,7 @@
             </div>
             <div class="form-group">
             <label class="float-label regFormFonts"  for="exampleInputEmail1">Your Name</label>
-              <input type="text" class="form-control" name="f_name" id="f_name">
+              <input type="text" class="form-control" name="f_name" id="f_name" required>
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
             
@@ -38,21 +38,21 @@
            
             <div class="form-group">
             <label class="float-label regFormFonts"  name="company" id="company" for="exampleInputEmail1">Company</label>
-              <input type="text" class="form-control" name="company" id="company" id="exampleInputEmail1">
+              <input type="text" class="form-control" name="company" id="company" id="exampleInputEmail1" required>
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
              
             </div>
             <div class="form-group">
             <label class="float-label regFormFonts" name="program" for="exampleInputEmail1">Phone Number</label>
-              <input type="text" class="form-control" name="program" id="phone" id="exampleInputEmail1">
+              <input type="text" class="form-control" name="program" id="phone" id="exampleInputEmail1" required>
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
              
             </div>
             <div class="form-group">
             <label class="float-label regFormFonts" name="details" for="exampleInputEmail1">Description</label>
-              <input type="text" class="form-control" name="details" id="details" id="exampleInputEmail1">
+              <input type="text" class="form-control" name="details" id="details" id="exampleInputEmail1" required>
               
               <span class="form-highlight"></span>
               <span class="form-bar"></span>
