@@ -22,7 +22,8 @@
 </head>
 <body>
 <?php include('nav.php'); ?>
-<div class="container bg-overlay">
+<?php include('navbar.php'); ?>
+<div class="container bg-overlay"  style="width: 100%;margin-top: -20px;">
 <br>
 <br>
 <br>
@@ -42,19 +43,19 @@
 
   <div class="row">
     <div class="col-sm-4">
-      <h3>Identity</h3>
+      <h3><b>Identity</b></h3>
       <p>Digitizes and manages identity of individuals,
                         organizations and physical real world assets.</p>
      <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
     <div class="col-sm-4">
-    <h3>Trade Finance</h3>
+    <h3><b>Trade Finance</b></h3>
       <p>Simplifies management, tracking and securing of trade
                         transactions from order to payment.</p>
        <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
     <div class="col-sm-4">
-    <h3>Health Records</h3>        
+    <h3><b>Health Records</b></h3>        
       <p>An access control framework that ensures privacy of
                         health record.</p>
     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
@@ -65,18 +66,18 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-    <h3>Legal</h3>        
+    <h3><b>Legal</b></h3>        
       <p>Framework that ensures ownership of assets.</p>
     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
     <div class="col-sm-4">
-    <h3>Lending</h3>        
+    <h3><b>Lending</b></h3>        
       <p>A common framework that facilitates reward model,
                         equity model, lending model etc. of crowd funding.</p>
     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
     <div class="col-sm-4">
-    <h3>Insurance</h3>        
+    <h3><b>Insurance</b></h3>        
       <p>Facilitates a live digital access across the value
                         chain of insurance services.</p>
     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
@@ -87,13 +88,13 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Compliance</h3>
+      <h3><b>Compliance</b></h3>
       <p>Facilitates immutable track of the steps required by
                         regulation.</p>
    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
     <div class="col-sm-4">
-      <h3>Supply Chain</h3>
+      <h3><b>Supply Chain</b></h3>
       <p>A cost-effective and flexible model for distributed
                         supply chain network.</p>
        <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>

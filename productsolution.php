@@ -27,13 +27,23 @@
 </head>
 <body>
 <?php include('nav.php'); ?>
-<div class="container bg-overlay">
+<div class="container bg-overlay" style="width: 100%;">
 <br>
 <br>
 <br>
 <br>
   <div class=" text-center">
   <h1><b>Products & Solutions</b></h1>
+  <h4>ISO defines software quality as a structured set
+                       of
+                       individual quality characteristics focusing on Functionality, Reliability, Usability,
+                       Efficiency,
+                       Maintainability, and Portability. We keep those tenets “front and center” throughout our
+                       solution
+                       lifecycle. As innovators, designers, developers and strategists, our client work defines us. In
+                       today's marketplace, the practice of innovation isn't just about creating new solutions, it's
+                       about
+                       discovering completely new markets and customers.</h4>
 </div>
 </div>
 

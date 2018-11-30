@@ -23,7 +23,7 @@
 <body>
 <?php include('nav.php'); ?>
 
-  <div class="container bg-overlay">
+  <div class="container bg-overlay " style="width: 100%;margin-top: -20px;">
 <br>
 <br>
 <br>
@@ -37,7 +37,7 @@
 
   <div class="row">
     <div class="col-sm-4">
-      <h3>Off-Chain Smart Contract</h3>
+      <h3><b>Off-Chain Smart Contract</b></h3>
       <p>Smart Contracts should surpass their limitations and
                         evolve to changing architectural standards that are needed for blockchains to scale
                         significantly while retaining their decentralized principles.</p>
@@ -46,7 +46,7 @@
      <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
     <div class="col-sm-4">
-    <h3>Connected Health</h3>
+    <h3><b>Connected Health</b></h3>
       <p>Development of fundamental design changes for
                         Electronic Health Records (EHRs) and Patient Health Records (PHRs) has been constrained
                         traditionally through a longstanding focus on compliance.</p>
@@ -55,7 +55,7 @@
        <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
     <div class="col-sm-4">
-    <h3>GDPR Architecture</h3>        
+    <h3><b>GDPR Architecture</b></h3>        
       <p>The General Data Protection Regulation (GDPR) regulates
                         the export of personal data outside the EU. The regulation has provisions for individual
                         control over one’s own data that includes many rights to the individual to manage personal data
@@ -71,7 +71,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-    <h3>Real Estate Solution</h3>        
+    <h3><b>Real Estate Solution</b></h3>        
       <p>Financial-Settlement Speed, Payment Automation,
                         Contract Enforceability, Dispute Reduction, Cash Flow Improvements.</p>
                         <p>Expense Reduction-Legal, Payment Automation, Dispute

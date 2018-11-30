@@ -44,7 +44,7 @@
 <body>
 <?php include('nav.php'); ?>
 
-<div class="container bg-overlay">
+<div class="container bg-overlay"  style="width: 100%;margin-top: -20px;">
 <br>
 
   <div class=" text-center">
@@ -117,7 +117,7 @@
     </div>
     <div class="col-sm-2"></div>
     <div class="col-sm-6">
-      <h3>Business Intelligence & Analytics</h3>
+      <h3><b>Business Intelligence & Analytics</b></h3>
       <p>RapidQube has the capability to provide solutions in best-in-class
           Business Intelligence (BI) & visualization commercial off-the-shelf
           (COTS) products. Our development team can transform any desktop view
@@ -227,7 +227,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <h3> Business Consulting</h3>
+      <h3><b> Business Consulting</b></h3>
       <p>Our leadership team possesses a unique blend of real-world experience.
           We will ensure that BOTH the people and technology changes needed for
           business transformation are identified and shared.</p>
@@ -267,7 +267,7 @@
     </div>
     <div class="col-sm-2"></div>
     <div class="col-sm-6">
-    <h3>Technology Consulting
+    <h3><b>Technology Consulting</b>
         </h3>
         <p>
           In the new digital economy, we assist organizations across industry
@@ -286,7 +286,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <h3>  Infrastructure Management</h3>
+      <h3> <b> Infrastructure Management</b></h3>
       <p>The ongoing digital disruptions across industries has given rise to a
           new, hybrid infrastructure approach to environments that requires
           significant expertise to sort out. Without a clear path, environments
@@ -408,7 +408,7 @@
 
 <div class="col-sm-2"></div>
     <div class="col-sm-6">
-      <h3>Education</h3>        
+      <h3><b>Education</b></h3>        
       <p> We feel that as technologies change, the approach towards education
           also needs to change.</p>
       <p> RapidQube has delivered Fortune 500 (India/ Webinar), IIT Bombay

@@ -27,23 +27,44 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <style>
+  .bg-overlay{
+  background-image: url("./assests/white.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  width:100%;
+  height: 450px;
+  padding-top: 50px;
+}
+  </style>
   
 
 </head>
 <body>
 <?php include('nav.php'); ?>
-<div class="jumbotron text-center">
-
-<img src="assests/banner 3.png" srcset="assests/banner 3.png"
-                class="img-responsive" >
-               
+<div class="container bg-overlay " style="width: 100%;margin-top: -20px;">
+<br>
+<br>
+<br>
+<br>
+  <div class="text-center">
+  <h1><b>About Us</b></h1>
+  <div class="col-sm-2"></div>
+  <div class="col-md-9">
+  <h4>
+  We are digital natives. We ensure that from your initial idea through to final implementation, we deliver our solutions leveraging “best in class” digital technology to enhance your business.
+          </h4>
+          </div>
+ 
 </div>
-  <br>
+</div>
+<br><br><br><br>
 <div class="container">
   <div class="row">
       <div class="col-md-6 mt_6">
-        <h3>Transforming Business Paradigms</h3>
+        <h3><b>Transforming Business Paradigms</b></h3>
         <p>RapidQube has the capability to provide solutions
                             in best-in-class Business Intelligence (BI) & visualization commercial off-the-shelf (COTS)
                             products. Our development team can transform any desktop view into a mobile view as
@@ -67,7 +88,7 @@
       <div class="col-md-6">
       <br><br>
         <h3><img src="assests/noun-about-us-316051.svg" class="img-responsive">
-        Who we are</h3>
+        <b>Who we are</b></h3>
         <p>We are Digital natives. We have full stack
                             developers. The digital landscape is always a moving target. We help you stay ahead of that
                             target through our business relationships and creative minds in everything from platform
@@ -79,7 +100,7 @@
     
     <div class="col-md-6">
     <br>  <br>
-      <h3><img src="assests/noun-challenge-1873994.svg" class="img-responsive"> What we do</h3>        
+      <h3><img src="assests/noun-challenge-1873994.svg" class="img-responsive"><b> What we do</b></h3>        
       <p>RapidQube solves our clients' toughest challenges
                             by providing unmatched services using our customized solution frameworks.Throughout that
                             process we create long-term relationships with our clients by being responsive, relevant
@@ -96,7 +117,7 @@
       <div class="col-md-6">
       <br><br><br><br>
         <h3><img src="assests/noun-vision-995437.svg" class="img-responsive">
-        Our Vision</h3>
+        <b>Our Vision</b></h3>
         <p>Our Vision is to become the incubator for
                             developing successful future ready business solutions by innovative use of next generation
                             disruptive technology and automation.</p>
@@ -105,7 +126,7 @@
       <br>
     <div class="col-md-6 mt_6">
    
-      <h3><img src="assests/noun-focus-1532465.svg" class="img-responsive">Our Mission</h3>        
+      <h3><img src="assests/noun-focus-1532465.svg" class="img-responsive"><b>Our Mission</b></h3>        
       <p>Our Mission is to help our clients achieve and
                             exceed their digital technology adaptation goals and make digital technology become a
                             pillar of their business growth and profitability. We seek to accomplish this through

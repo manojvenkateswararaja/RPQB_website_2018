@@ -68,7 +68,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
+      <a href="testlandingpage.php">
     <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: 13px;width: 79px;">
+    </a>
     </div>
   
     <ul class="nav navbar-nav navbar-right mt-2">
@@ -98,6 +100,7 @@
   </div>
   <hr style="margin-top: 1px;">
 </nav>
+
   </div>
 </body>
 </html>
