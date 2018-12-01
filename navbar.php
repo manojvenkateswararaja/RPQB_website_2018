@@ -6,8 +6,9 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-        <h4 class="modal-title w-100 heading"><b>Quick Enquiry</b></h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title w-100 heading"><b>Quick Enquiry</b></h3>
+          
         </div>
         <div class="modal-body">
         <form name="email_form" action="testlandingpage.php" class="email_form" id="email_form" method="POST" autocomplete="off">

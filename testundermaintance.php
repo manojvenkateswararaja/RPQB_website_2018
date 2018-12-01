@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <style>
-  /* body { text-align: center; padding: 150px; } */
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
+    <meta charset="UTF-8">
+    <title>
+ RapidQube
+</title>
+<link rel="icon" href="assests/rapidqube-logo-2.png" type="image">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      
+    </style>
 </head>
-<body>
+<body class="text-center">
 <?php include('nav.php'); ?>
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="testcontact.php">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-        <p>&mdash; The Team</p>
+<div class="container" style="margin-top: 196px;">
+    <div class="col-xs-12">
+        <div class="vertical-align-center">
+            <div class="jumbotron">
+                <h1 style="font-family:ProximaNova-Semibold">This site is currently on maintenance</h1>
+                <h2 style="font-family:ProximaNova-Semibold">We’ll be back soon!</h2>
+                <br><br>
+                <p style="font-family:ProximaNova-Regular">
+                    <a href="testcontact.php" class="btn btn-primary btn-lg">
+                        <span class="glyphicon glyphicon-phone-alt"></span>&nbsp;Contact Us
+                   
+                    </a>
+                </p>
+            </div>
+        </div>
     </div>
-</article>
-
+</div>
 </body>
 </html>
-
-<!-- <a href="mailto:#">contact us</a> -->

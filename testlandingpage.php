@@ -128,7 +128,7 @@
     background-position: center center;
     color: black;
     height: 450px;
-    margin-top: -28px;
+    margin-top: 137px;
     padding-top: 50px;
     width: 100%;
 }
@@ -161,7 +161,7 @@
 	</div></div>
 </div>
 <br>
-<hr>
+<hr style="border-color: #00000057;">
 
 <div class="container">
   <h2 style="text-align:center;font-family:ProximaNova-Semibold"><b>Our Specialization</b></h2>
@@ -205,7 +205,7 @@
   </div>
 </div>
 <br>
-<hr>
+<hr style="border-color: #00000057;">
 <div class="container">
  
 <div class="counter">
@@ -215,7 +215,7 @@
             <div class="col-md-4">
                 <div class="card">
               
-                    <p class="counter-count" style="color:black">3</p>
+                    <p class="counter-count" style="color:black">4</p>
                     <p class="employee-p">Whitepapers</p>
                 </div>
             </div>
@@ -243,7 +243,7 @@
 </div>
 <div>
 
-<hr>
+<hr style="border-color: #00000057;">
 <h2 class="text-center" style="font-family:ProximaNova-Semibold"> <b>Inside RapidQube</b></h2>
 </div><br>
 <div class="row col-md-12 background_image " style="margin-top: -47px;">
@@ -258,7 +258,9 @@
                     
 
                 </div>
-                <div class="pl-4"></div>
+                
+                <div class="pl-4">
+                </div>
                 <div class="card col-md-4 shadowEffect_landing_page" style="height: 346px;">
             <a class="twitter-timeline" style="height:400%;" data-lang="en" data-width="100%" data-chrome="nofooter noborders noheader"
             data-height="260" data-theme="light" href="https://twitter.com/rapidqube">Tweets by
@@ -269,20 +271,21 @@
             <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB "><h5 style="font-family:ProximaNova-Semibold"> View more ---> </h5></a>
             <br>
             <br>
+            <!-- <hr style="border-color: #00000057;"> -->
       </div>
                     
                 </div>
                 </div>
+               
+               
                 <div class="row">
   <div class="col-sm-4">  
  
  
  </div>
- <br>
- <br>
- <br>
- <div class="col-md-6">  
- <h2 style="font-family:ProximaNova-Semibold"><b>Partnership & Collaboration</b></h2>
+
+ <div class="col-md-5 text-center">  
+ <h2 style="font-family:ProximaNova-Semibold; font-size:26px"><b>Partnership & Collaboration</b></h2>
  
  </div>
  <div class="col-md-4">  
@@ -299,14 +302,14 @@
  
  
  </div>
- <div class="col-sm-3">  
- <h4 style="font-family:ProximaNova-Semibold">Technology&nbsp;Partnerships</h4>
+ <div class="col-sm-3 text-center">  
+ <h4 class="text-center" style="font-family:ProximaNova-Semibold">Technology&nbsp;Partnerships</h4>
  
  </div>
- <div class="col-sm-3">  
+ <div class="col-sm-3 text-center">  
  <h4 style="font-family:ProximaNova-Semibold">Industrial&nbsp;Collaboration</h4>
  </div>
- <div class="col-sm-3">  
+ <div class="col-sm-3 text-center">  
  <h4 style="font-family:ProximaNova-Semibold">Members</h4>
  </div>
  </div>
@@ -349,7 +352,7 @@
         <img  src="assests/group-8.png"  srcset="assests/group-8@2x.png 2x, assests/group-8@3x.png 3x"
       class="Group-8 float-right mr-5" ></a></div>
       </div>
-      <hr>
+      <hr style="border-color: #00000057;">
     <div class="container row" style="background:#E7EEF3">
      
      <div style="margin-top:28px">

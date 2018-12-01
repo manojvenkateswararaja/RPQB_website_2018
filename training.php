@@ -30,7 +30,7 @@
 <?php include('nav.php'); ?>
 
 
-<div class="container bg-overlay"  style="width: 100%;margin-top: -20px;">
+<div class="container bg-overlay"  style="width: 100%;margin-top: 133px;">
 <br>
 
   <div class="col">

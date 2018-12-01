@@ -26,8 +26,8 @@
 <body>
 <?php include('navbar.php'); ?>
 <?php include('nav.php'); ?>
-
-  <div class="container bg-overlay " style="width: 100%;margin-top: -20px;">
+<br><br><br><br>
+  <div class="container bg-overlay " style="width: 100%;margin-top: 53px;">
 <br>
 <br>
 <br>

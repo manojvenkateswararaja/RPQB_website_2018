@@ -9,7 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+  
   <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -20,7 +22,7 @@
 </head>
 <body>
 <?php include('nav.php'); ?>
-<div class="container">
+<div class="container" style="margin-top: 142px;">
   <h2 style="font-family:ProximaNova-Semibold"><b>Blog</b></h2>
  
   <div id="myCarousel" class="carousel slide">
@@ -36,8 +38,7 @@
       <div class="item active">
       <div class="col-md-5">
           <div id="demo1">
-                                                <img src="./assests/blockchain_healthcare.jpg" class="ml-3"
-                                                alt="Card image cap" style="width:460px;height: 231px;">
+                                                <img src="./assests/blockchain_healthcare.jpg" class="img-responsive" style="height: 239px;width: 100%;">
                                                 <h2 style="font-family:ProximaNova-Semibold"><b>Blockchain in Health Care</b></h2>
                                                 
                                                         <p style="font-family:ProximaNova-Regular;font-size:17px" >
@@ -105,12 +106,12 @@
                                 
                                                 </div>
                                                 
-      </div>
+      </div><br>
       <div class="col-md-2"></div>
-      <div class="item">
-      <div class="col-md-5 ml-auto">
-                                                <img src="./assests/Blockchain-Technology_pic.png" class="ml-3"
-                                                alt="Card image cap" style="width:460px;height: 231px;">
+      <div class="container col-md-5 ml-auto">
+  <div id="demo1">
+  <div class="">
+                                                <img src="./assests/Blockchain-Technology_pic.png" class="img-responsive" >
                                                 <h2 style="font-family:ProximaNova-Semibold"><b>Blockchain technology  in 2018</b></h2>
                                                                    
                                                                         <!-- <h5 class="card-title">Card title</h5> -->
@@ -126,11 +127,15 @@
                                                                             also have
                                                                             sales and business development offices in Connecticut and New Jersey
                                                                         </p>
-                                                                        <button class="btn  btn-link mr_67" type="button" data-toggle="collapse" data-target="#blog2"
+                                                                        <button class="btn  btn-link mr_67" type="button" data-toggle="collapse" data-target="#demo"
                                                                             aria-expanded="false" aria-controls="blog2">
                                                                             <img src="/assests/group-19.svg">
                                                                         </button>
-                                                                        <div class="collapse" id="blog2">
+  <!-- <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button> -->
+ 
+</div>
+  <div id="demo" class="collapse">
+  
                                                                             <p style="font-family:ProximaNova-Regular;font-size:17px">
                                                                                 We have existing intellectual as well as personal relationships with
                                                                                 known “thought
@@ -150,15 +155,14 @@
                                                                                 varied business verticals as well as enhance existing business
                                                                                 solutions.
                                                                                 <button class="btn  btn-link mr_67" type="button" data-toggle="collapse"
-                                                                                    data-target="#blog2" aria-expanded="false" aria-controls="blog2">
+                                                                                    data-target="#demo" aria-expanded="false" aria-controls="blog2">
                                                                                     Explore Less ---->
                                                                                 </button>
-                                                                            </p>
-                                
-                                                                        </div>
-                                                                    </div>
-                                        </div>
-      </div>
+    <!-- <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">Simple collapsible1</button> -->
+  </div>
+</div>
+
+                                   
     
      
     </div>

@@ -34,13 +34,13 @@
 <?php include('nav.php'); ?>
 
   
-<div class="container "  style="margin-top: -45px;">
+<div class="container "  style="margin-top: 142px;">
   <h2 style="font-family:ProximaNova-Semibold"><b>Contact Us</b></h2>
  <div class="img-responsive" style="background-image: url(../assests/Contact_Us_Page_2.png); background-repeat: no-repeat; background-size: cover; background-position: center ;">
  <div class="row">
  <div class="col-sm-1"></div>
  <div class="col-sm"><br>  
-  <div class="card-deck sm" style="margin-top: -59px;">
+  <div class="card-deck sm" style="margin-top: -54px;">
     <div class="card" >
     <div class="row">
    

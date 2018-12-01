@@ -19,7 +19,7 @@
 </head>
 <body>
 <div class="navbar1">
-<nav class="navbar navbar-inverse visible-lg" style="background-color:#ffffff!important;border:none !important;margin-top: 26px;">
+<nav class="navbar navbar-inverse navbar-fixed-top visible-lg" style="background-color:#ffffff!important;border:none !important;height: 133px;">
 <!-- website navbar -->
   <div class="container-fluid ">
     <div class="navbar-header">
@@ -30,11 +30,11 @@
         <span class="icon-bar"></span>                        
       </button>
       <a href="testlandingpage.php">
-    <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: -14px;">
+    <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: 26px;">
   </a>
     </div>
   
-    <ul class="nav navbar-nav navbar-right mt-2">
+    <ul class="nav navbar-nav navbar-right mt-2" style="margin-top: 36px;">
        <a href="testlandingpage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
         
         <a href="testcontact.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-4">Contact&nbsp;Us</a>
@@ -42,10 +42,10 @@
         <a href="testblog.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-2">Blog</a>
       </ul>
       <br>
-      <hr style="margin-top: 10px;">
+      <hr style="margin-top: 50px;border-color: #101010;">
      <div class="pl-2">
-    <div class="collapse navbar-collapse nav navbar-right" id="myNavbar" style="margin-top:-28px">
-      <ul class="nav navbar-nav navbar-right mt-2">
+    <div class="collapse navbar-collapse nav navbar-right" id="myNavbar" style="margin-top:-12px">
+      <ul class="nav navbar-nav mt-2">
         <li><a href="productsolution.php" style="color:black ;font-family:ProximaNova-Regular;font-size:15px" > Products & Solutions</a></li>
         <li><a href="testwhitepaper.php" style="color:black; font-family:ProximaNova-Regular;font-size:15px">Whitepapers</a></li>
         <li><a href="testframework.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Frameworks</a></li>
@@ -58,10 +58,10 @@
     </div>
   </div> 
   </div>
-  <hr style="margin-top: 1px;">
+  <hr style="margin-top: 1px;border-color: #101010;">
 </nav>
   <!-- mobile navbar -->
-<nav class="navbar navbar-inverse visible-xs "  style="background-color:#ffffff!important;border:none !important">
+<nav class="navbar navbar-inverse navbar-fixed-top visible-xs "  style="background-color:#ffffff!important;border:none !important">
   <div class="container-fluid ">
     <div class="navbar-header">
     
@@ -76,7 +76,7 @@
     </div>
   
     <ul class="nav navbar-nav navbar-right mt-2">
-    <hr style="margin-top: 1px;">
+    <hr style="margin-top: 1px; border-color: #101010;">
        <a href="testlandingpage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
         
         <a href="testcontact.php" style="color:black" class="col-sm-4">Contact&nbsp;Us</a>
@@ -100,7 +100,7 @@
     </div>
   </div>
   </div>
-  <hr style="margin-top: 1px;">
+  <hr style="margin-top: 1px; border-color: #101010;">
 </nav>
 
   </div>

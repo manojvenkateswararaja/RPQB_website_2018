@@ -16,6 +16,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   
   <style>
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    margin:5%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.card-body {
+    padding:10px;
+}
+.seletcBoxHeading{
+  color: #333;
+  font-family:ProximaNova-Semibold
+}
+.seletcBoxContents{
+  color: #000000;
+  font-family:ProximaNova-Semibold;
+  font-size:16px
+}
   .bg-overlay{
   background-image: url("./assests/ps3.jpg");
   background-repeat: no-repeat;
@@ -23,18 +45,20 @@
   background-position: center center;
   color: #fff;
   width:100%;
-  height: 450px;
+  height: 521px;
   padding-top: 50px;
+  margin-top: 133px;
 }
   </style>
 </head>
 <body>
 <?php include('nav.php'); ?>
+<?php include('navbar.php'); ?>
 <div class="container bg-overlay" style="width: 100%;">
 <br>
 <br>
 <br>
-<br>
+
   <div class=" text-center">
   <h1 style="font-family:ProximaNova-Semibold"><b>Products & Solutions</b></h1>
   <div class="col-sm-2"></div>
@@ -105,11 +129,51 @@
                         <p style="font-family:ProximaNova-Regular;font-size:17px">Risk management through stronger auditability and
                         counterparty ties.</p>
       </div>
-      <br>
-    <div class="col-sm-5">
-      <h3></h3>
-      <p></p>
-    </div>
+     
+      <div class="col-sm-1"></div>
+    <div class="col-sm-3">
+    <button class="btn btn-link dropdown-toggle "
+                                        data-toggle="dropdown" style="color: #333;font-family:ProximaNova-Semibold"> <h3 style="font-family:ProximaNova-Semibold"><b>Few more</b>
+                                        <span class="caret"></span> </h3></button>
+                                        
+                                        <!-- <div class="col-sm-2"></div> -->
+                                    <div class="dropdown-menu card col-sm-12" style="margin-left: 12px;">
+                                    <div class="container" >
+                                        <ul class="none">
+                                            <h3><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading"><b>Agriculture</b></a></h3>
+                                           
+                                           
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rice
+                                                    Chain</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Cotton
+                                                    Chain</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Farm
+                                                    to Fork</a></li>
+                                           
+                                            <h3><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading"><b>Automobile</b></a></h3>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Updates</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
+                                                    Messaging</a></li>
+                                           
+                                            <h3><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxHeading"><b>Banking</b></a></h3>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Bill Discounting / Financing</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Mortgage</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Rapid
+                                                    Cheque</a></li>
+                                           
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Banking
+                                                    &amp; NBFS</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">Omnichannel
+                                                    Support</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#myModal" class="seletcBoxContents">p2p
+                                                    Payment</a></li>
+                                        </ul>
+                                    </div>
+    </div>  </div>
+    <div class="col-sm-1"></div>
     <div class="col-sm-4">
     <img src="assests/group-7.svg" class="img-responsive">
     </div>
