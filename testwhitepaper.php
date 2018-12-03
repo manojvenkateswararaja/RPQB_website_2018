@@ -5,6 +5,8 @@
  RapidQube
 </title>
 <link rel="icon" href="assests/rapidqube-logo-2.png" type="image">
+<link rel="stylesheet" type="text/css" href="plugins/sweetalert/sweetalert.css">
+<script type="text/javascript" src="plugins/sweetalert/sweetalert.min.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -143,7 +145,7 @@
             <input type="hidden" name="fld_name" id="fld_name" value="Quick Enquiry">
             </div>
             <div class="modal-footer d-flex justify-content-center">
-              <button type="submit" id="send_btn" name="submit" value="submit" class="btn btn-default send_btn  buttonFonts  enqsubmitstyle"
+              <button type="submit" onclick= "return sweet()" id="send_btn" name="submit" value="submit" class="btn btn-default send_btn  buttonFonts  enqsubmitstyle"
                 >Submit</button>
               <input type="reset" name="" class="reset_btn">
             </div>
@@ -157,6 +159,10 @@
       </div>
     </div>
   </div>
-
+<script>
+function sweet (){
+        swal("Good job!");
+        }
+</script>
 </body>
 </html>

@@ -268,7 +268,7 @@
             <br>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <h5 style="font-family:ProximaNova-Semibold;font-size: 13;"><b>Twitter Handler @Rapdiqube</b> </h5>
-            <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB "><h5 style="font-family:ProximaNova-Semibold"> View more ---> </h5></a>
+            <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB " target="_blank" ><h5 style="font-family:ProximaNova-Semibold"> View more ---> </h5></a>
             <br>
             <br>
             <!-- <hr style="border-color: #00000057;"> -->

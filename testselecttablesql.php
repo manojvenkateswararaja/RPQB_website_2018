@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "Rpqb$2018";
-$dbname = "rapidqube";
+$dbname = "testingtable";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -10,7 +10,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-$sql = "SELECT id, username, email, company, phone, details  FROM EnquiryForm";
+
+$sql = "SELECT id, email, username, companyname,phonenumber,details,reg_date  FROM enquiry";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -24,15 +25,16 @@ if ($result->num_rows > 0) {
         
         <th>Id</th>
         
-        <th>Name</th>
-        
-        <th>Company</th>
-        
         <th>Email</th>
+        
+        <th>UserName</th>
+        
+        <th>CompanyName</th>
 
-        <th>Phone Number</th>
+        <th>phonenumber</th>
 
-        <th>Description</th>
+        <th>details</th>
+        <th>Reg_date</th>
         
         </tr>";
         
@@ -50,11 +52,14 @@ if ($result->num_rows > 0) {
         
           echo "<td>" . $row['username'] . "</td>";
         
-          echo "<td>" . $row['company'] . "</td>";
+          echo "<td>" . $row['companyname'] . "</td>";
 
-          echo "<td>" . $row['phone'] . "</td>";
+          echo "<td>" . $row['phonenumber'] . "</td>";
 
           echo "<td>" . $row['details'] . "</td>";
+
+          echo "<td>" . $row['reg_date'] . "</td>";
+          
         
           echo "</tr>";
         }

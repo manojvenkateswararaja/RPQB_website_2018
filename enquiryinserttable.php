@@ -10,6 +10,8 @@ if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
  
+
+
 // Escape user inputs for security
 $user_name = mysqli_real_escape_string($link, $_REQUEST['f_name']);
 $company = mysqli_real_escape_string($link, $_REQUEST['company']);

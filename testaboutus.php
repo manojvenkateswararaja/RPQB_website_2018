@@ -97,7 +97,7 @@
                             developers. The digital landscape is always a moving target. We help you stay ahead of that
                             target through our business relationships and creative minds in everything from platform
                             selection to integration to delivery and follow on consulting. We engage with thought
-                            leaders from IIT and other prestigious schools in India to understand trends and best
+                            leaders from various institutions and other prestigious schools in India to understand trends and best
                             practices and ensure that you benefit from that latest thinking.</p>
       </div>
     
@@ -252,8 +252,7 @@
                             <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Chief Technology Officer</p>
                             <div class="container-fluid">
-                                <p class="Solutions_content_body leadername3about" style="text-align: justify;">Muthu
-                                    is a seasoned professional on
+                                <p class="Solutions_content_body leadername3about" style="text-align: justify;">Muthu is a seasoned professional on
                                     delivering complex projects for various large customers in his long stint
                                     with the
                                     IT services majors. He specializes in delivery, architecting solutions and
@@ -432,15 +431,15 @@
 <script>
 $(document).ready(function(){
     //Activate Carousel
-    $("#myCarousel").carousel();
+    // $("#myCarousel").carousel();
     
     // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
+    // $(".item1").click(function(){
+    //     $("#myCarousel").carousel(0);
+    // });
+    // $(".item2").click(function(){
+    //     $("#myCarousel").carousel(1);
+    // });
 
 
 
@@ -452,12 +451,12 @@ $(document).ready(function(){
     // });
     
     //Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
+    // $(".left").click(function(){
+    //     $("#myCarousel").carousel("prev");
+    // });
+    // $(".right").click(function(){
+    //     $("#myCarousel").carousel("next");
+    // });
 
   
 });

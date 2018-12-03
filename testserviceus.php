@@ -54,7 +54,7 @@
   <h1 style="font-family:ProximaNova-Semibold"><b>Services</b></h1>
   <div class="col-sm-2"></div>
   <div class="col-md-8">
-  <h4 style="font-family:ProximaNova-Regular">
+  <h4 style="font-family:ProximaNova-Regular;text-align: justify;">
             We have a unique depth in our services that differentiates us. We
             are curious. We look at every opportunity as a potential problem to
             solve. We grow our talent infront-end, middleware, and back-end
