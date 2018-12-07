@@ -1,204 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <title>
  RapidQube
 </title>
 <link rel="icon" href="assests/rapidqube-logo-2.png" type="image">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+<style>
+.blogShort{ border-bottom:1px solid #ddd;}
+.add{background: #333; padding: 10%; height: 300px;}
+
+.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0; 
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #34ca78; 
+    color: #fff; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #37D980;   
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+
+.btn-blog {
+    color: #ffffff;
+    background-color: #37d980;
+    border-color: #37d980;
+    border-radius:0;
+    margin-bottom:10px
+}
+.btn-blog:hover,
+.btn-blog:focus,
+.btn-blog:active,
+.btn-blog.active,
+.open .dropdown-toggle.btn-blog {
+    color: white;
+    background-color:#34ca78;
+    border-color: #34ca78;
+}
+ h3{color:#34ca78;}
+ .margin10{margin-bottom:10px; margin-right:10px;}
+</style>
+  <?php include('nav.php'); ?>
+  <br><br><br><br><br><br><br><br>
   
 
-  
-  <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-  </style>
-</head>
-<body>
-<?php include('nav.php'); ?>
-<div class="container" style="margin-top: 142px;">
-  <h2 style="font-family:ProximaNova-Semibold"><b>Blog</b></h2>
- 
-  <div id="myCarousel" class="carousel slide">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li class="item1"></li>
-      <li class="item2"></li>
-      
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-      <div class="col-md-5">
-          <div id="demo1">
-                                                <img src="./assests/blockchain_healthcare.jpg" class="img-responsive" style="height: 239px;width: 100%;">
-                                                <h2 style="font-family:ProximaNova-Semibold"><b>Blockchain in Health Care</b></h2>
-                                                
-                                                        <p style="font-family:ProximaNova-Regular;font-size:17px" >
-                                                                RapidQube Digital Solutions Pvt Ltd. is a 2016 start-up
+
+<div class="container">
+<!-- <div class="col-sm-1"></div> -->
+<h2 style="font-family:ProximaNova-Semibold"><b>Blogs</b></h2>
+                 <div class="col-md-12 blogShort">
+                     <h3><b>Blockchain in Health Care</b></h3>
+                     <div class="col-md-4 blogShort">
+                     <img src="./assests/blockchain_healthcare.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                     </div>
+                        
+                     <article><p>
+                     RapidQube Digital Solutions Pvt Ltd. is a 2016 start-up
                                                                 focusing on next generation, disruptive technology
                                                                 solutions leveraging a range of blockchain platforms
                                                                 and the associated front-end, middleware and back-end technologies that
                                                                 bring a
                                                                 complete blockchain ecosystem to life. We are global by design. Our main
                                                                 office is in
-                                                                Mumbai along with an architecture hub & development center in Chennai. We
-                                                                also have
-                                                                sales and business development offices in Connecticut and New Jersey
-                                                            </p>
-                                               
-                                                <button class="btn  btn-link ml_67" type="button" data-toggle="collapse" data-target="#blog1"
-                                                aria-expanded="false" aria-controls="blog1">
-                                                <img src="/assests/group-19.svg">
-                                            </button>
-</div>
-                                            <div class="collapse " id="blog1">
-                                                    <p style="font-family:ProximaNova-Regular;font-size:17px">
+                                                                Mumbai along with an architecture hub & development center.
+                                                        <p>
                                                         That raises the question of how Blockchain can be a selling point to
                                                         5million users when the awareness about this emerging technology is
                                                         just happening and more importantly, what is the USP of availing global
                                                         health care services (or any other service) from a BlockChain
-                                                        application?</p>
-                                                    <p style="font-family:ProximaNova-Regular;font-size:17px">
-                                                        Is BlockChain going to be a mere data repository of live data with some
-                                                        high degree of security & protection or will it remain as a reference
-                                                        point only or would such Blockchain applications truly allow the user
-                                                        to do a real-time transaction wherein s/he can witness the process and
-                                                        all the stakeholders accord their concurrence & acceptance to the
-                                                        success of the transaction? These are questions that need to be
-                                                        answered for a wider adoption of Blockchain as a technology backbone in
-                                                        corporate applications.</p>
-                                                    <p style="font-family:ProximaNova-Regular;font-size:17px">
-                                                        So, from a corporate sector view of the adoption of Blockchain, the
-                                                        challenge is to convince the sector on the added layers of security the
-                                                        technology brings in and the suitability of adoption of Blockchain for
-                                                        specific areas of business which can not only add security but can help
-                                                        in elevating the end user experience.</p>
-                                                    <p style="font-family:ProximaNova-Regular;font-size:17px">
-                                                        Here in India, the Central Government and most of the State Governments
-                                                        are promoting BlockChain Technology among various Govt establishments &
-                                                        departments but there seem to be a lack of awareness on the
-                                                        possibilities of this technology. The concern for them is that this
-                                                        technology is something very new, something which is not proven and
-                                                        validated internationally and have to show the credentials of being the
-                                                        securest way to store and access data. So, the need is for a clearer
-                                                        and transparent IT Strategy on adoption of Blockchain and educate the
-                                                        users on the benefits of the same.</p>
-                                                    <p style="font-family:ProximaNova-Regular;font-size:17px">
-                                                        As a proponent of the capabilities of Blockchain and RapidQube, I can
-                                                        request the readers of my views to visit www.rapidqube.com to
-                                                        experience a broader overview of BlockChain Technology along with
-                                                        validated Use Cases and Tested Applications. Do reach out to us in case
-                                                        of queries.
-                                                        <button class="btn  btn-link mr_67" type="button" data-toggle="collapse"
-                                                        data-target="#blog1" aria-expanded="false" aria-controls="blog1">
-                                                        Explore Less ---->
-                                                    </button>
-                                                    
-                                                    </p>
-                                
-                                                </div>
-                                                
-      </div><br>
-      <div class="col-md-2"></div>
-      <div class="container col-md-5 ml-auto">
-  <div id="demo1">
-  <div class="">
-                                                <img src="./assests/Blockchain-Technology_pic.png" class="img-responsive" >
-                                                <h2 style="font-family:ProximaNova-Semibold"><b>Blockchain technology  in 2018</b></h2>
-                                                                   
-                                                                        <!-- <h5 class="card-title">Card title</h5> -->
-                                                                        <p style="font-family:ProximaNova-Regular;font-size:17px">
-                                                                            RapidQube Digital Solutions Pvt Ltd. is a 2016 start-up
-                                                                            focusing on next generation, disruptive technology
-                                                                            solutions leveraging a range of blockchain platforms
-                                                                            and the associated front-end, middleware and back-end technologies that
-                                                                            bring a
-                                                                            complete blockchain ecosystem to life. We are global by design. Our main
-                                                                            office is in
-                                                                            Mumbai along with an architecture hub & development center in Chennai. We
-                                                                            also have
-                                                                            sales and business development offices in Connecticut and New Jersey
-                                                                        </p>
-                                                                        <button class="btn  btn-link mr_67" type="button" data-toggle="collapse" data-target="#demo"
-                                                                            aria-expanded="false" aria-controls="blog2">
-                                                                            <img src="/assests/group-19.svg">
-                                                                        </button>
-  <!-- <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button> -->
- 
+                                                        application?
+                                                        </p>
+                         </p></article>
+                     <a class="btn btn-blog pull-right marginBottom10" style="background-color:#0F055D" href="BlogBag.php">READ MORE</a> 
+                 </div>
+                 <div class="col-sm-1"></div>
+                  <div class="col-md-12 blogShort">
+                     <h3><b>Aadhaar - Offline authentications assisted by Blockchain</b></h3>
+                     <div class="col-md-4 blogShort">
+                     <img src="./assests/adhaar.jpg" alt="post img" style="height: 247px;" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                     </div>
+                     <article><p>
+                     “Can I verify who you say you are?” is the most common question used by businesses for validating customers in the real world.
+
+“How can I trust you will handle my personal details with utmost privacy?” is the question back to these businesses from real people.
+                         </p>
+                         <p>
+                         How do we have a decentralised system that satisfies the authentication needs of businesses and the privacy needs of individuals?
+
+Unique IDentification Authority of India (UIDAI), an agency established by the Government of India has been successful in collecting and storing securely the personal details and biometrics of 1.25 billion residents with a unique ID, Aadhaar. It offered online, real-time authentication by multiple means (fingerprint, iris and OTP) to businesses and government agencies. 
+
+                         </p>
+                         
+                         
+                         </article>
+                     <a class="btn btn-blog pull-right marginBottom10" style="background-color:#0F055D" href="BlogRamC.php">READ MORE</a> 
+                 </div>
+                 
+                  <div class="col-md-12 blogShort">
+                     <h3><b>Changing the world with Blockchain</b></h3>
+                     
+                    <div class="col-md-4 blogShort">
+                     <img src="./assests/PrasannaBlog.jpeg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                     </div>
+                     <article><p>
+                     Ever since Bitcoin, the world of cryptocurrency had grown rapidly. Investors particularly from financial background shown immense interest in creating new cryptocurrencies and launching ICO. For a period of time, almost every single day there was at least one ICO launch in the market. Open source blockchain platforms such as Ethereum, NEM etc helped these investors to launch ICOs without any hassle.
+                         </p>
+                         <p>
+                         During the tail end of 2015, it was the early days of Hyperledger from Linux foundation, Blockchain technology caught my eye and ignited vigorous study on it, until then i was working on retail solutions building mobile apps and ecommerce products. 
+                         </p>
+                         </article>
+                     <a class="btn btn-blog pull-right marginBottom10" style="background-color:#0F055D" href="BlogPrasanna.php">READ MORE</a> 
+                 </div>
+                 
+               <div class="col-md-12 gap10"></div>
+             </div>
 </div>
-  <div id="demo" class="collapse">
-  
-                                                                            <p style="font-family:ProximaNova-Regular;font-size:17px">
-                                                                                We have existing intellectual as well as personal relationships with
-                                                                                known “thought
-                                                                                leaders” at IIT Bombay and MS University of Baroda. We regularly
-                                                                                collaborate with
-                                                                                them to better understand how we can help organizations across
-                                                                                industries adapt to
-                                                                                the digital shift through robust use of analytics, rapid solution
-                                                                                product
-                                                                                development, and reduced time-to-market and total cost of ownership.
-                                                                                Our leadership team and advisors consist of experienced global IT
-                                                                                services and
-                                                                                solutions executives that are well versed in today’s dynamic IT
-                                                                                environment. Our
-                                                                                goal is to continue to push the boundaries of the blockchain ecosystem
-                                                                                across
-                                                                                varied business verticals as well as enhance existing business
-                                                                                solutions.
-                                                                                <button class="btn  btn-link mr_67" type="button" data-toggle="collapse"
-                                                                                    data-target="#demo" aria-expanded="false" aria-controls="blog2">
-                                                                                    Explore Less ---->
-                                                                                </button>
-    <!-- <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">Simple collapsible1</button> -->
-  </div>
-</div>
-
-                                   
-    
-     
-    </div>
-
-    <!-- Left and right controls -->
-    
-    
-  </div>
-</div>
-
-<script>
-$(document).ready(function(){
-    // Activate Carousel
-    $("#myCarousel").carousel();
-    
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
-   
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
-
-    $("#myCarousel").on('slide.bs.carousel', function () {
-           
-    });
-});
-</script>
-
-</body>
-</html>
+<?php include('footer.php'); ?>

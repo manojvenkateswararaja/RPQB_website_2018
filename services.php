@@ -449,8 +449,7 @@
         </p>
 
         <p class="card-text  Solutions_content_bodytradeservice mt-4">
-          RapidQube has delivered Fortune 500 (India/ Webinar), IIT Bombay
-          (India), and Connecticut (UCONN, CCSU) University level blockchain
+          RapidQube has delivered Fortune 500 (India/ Webinar), and Connecticut (UCONN, CCSU) University level blockchain
           educational sessions (not for credit) to date. Our goal is to spread
           the word about the technology, its capabilities, and ensure that
           colleges, universities, and global businesses are benefitting from it.

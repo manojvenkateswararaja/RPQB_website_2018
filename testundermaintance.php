@@ -18,7 +18,7 @@
     <div class="col-xs-12">
         <div class="vertical-align-center">
             <div class="jumbotron">
-                <h1 style="font-family:ProximaNova-Semibold">This site is currently on maintenance</h1>
+                <h1 style="font-family:ProximaNova-Semibold">This site is currently under maintenance</h1>
                 <h2 style="font-family:ProximaNova-Semibold">We’ll be back soon!</h2>
                 <br><br>
                 <p style="font-family:ProximaNova-Regular">

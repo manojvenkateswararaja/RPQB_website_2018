@@ -12,6 +12,7 @@
 .icon-bar{
   color:black
 }
+   
     /* .navbar-inverse{
       background-color:"white";
     } */
@@ -29,24 +30,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a href="testlandingpage.php">
+      <a href="testhomepage.php">
     <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: 26px;">
   </a>
     </div>
   
     <ul class="nav navbar-nav navbar-right mt-2" style="margin-top: 36px;">
-       <a href="testlandingpage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
+       <a href="testhomepage.php" style="color:black"  class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
         
         <a href="testcontact.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-4">Contact&nbsp;Us</a>
-        <a href="testundermaintance.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-3">Career</a>
+        <a href="career.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-3">Career</a>
         <a href="testblog.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-2">Blog</a>
       </ul>
       <br>
-      <hr style="margin-top: 50px;border-color: #101010;">
+      <hr style="margin-top: 50px;">
      <div class="pl-2">
     <div class="collapse navbar-collapse nav navbar-right" id="myNavbar" style="margin-top:-12px">
       <ul class="nav navbar-nav mt-2">
-        <li><a href="productsolution.php" style="color:black ;font-family:ProximaNova-Regular;font-size:15px" > Products & Solutions</a></li>
+        <li><a href="productsolution.php" class="active" style="color:black ;font-family:ProximaNova-Regular;font-size:15px" > Products & Solutions</a></li>
         <li><a href="testwhitepaper.php" style="color:black; font-family:ProximaNova-Regular;font-size:15px">Whitepapers</a></li>
         <li><a href="testframework.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Frameworks</a></li>
         <li><a href="testserviceus.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Services</a></li>
@@ -58,7 +59,7 @@
     </div>
   </div> 
   </div>
-  <hr style="margin-top: 1px;border-color: #101010;">
+  <hr style="margin-top: 1px;border-color: #10101045;">
 </nav>
   <!-- mobile navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top visible-xs "  style="background-color:#ffffff!important;border:none !important">
@@ -70,17 +71,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a href="testlandingpage.php">
+      <a href="testhomepage.php">
     <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: 13px;width: 79px;">
     </a>
     </div>
   
     <ul class="nav navbar-nav navbar-right mt-2">
-    <hr style="margin-top: 1px; border-color: #101010;">
-       <a href="testlandingpage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
+    <hr style="margin-top: 1px; ">
+       <a href="testhomepage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
         
         <a href="testcontact.php" style="color:black" class="col-sm-4">Contact&nbsp;Us</a>
-        <a href="testundermaintance.php" style="color:black" class="col-sm-3">Career</a>
+        <a href="career.php" style="color:black" class="col-sm-3">Career</a>
         <a href="testblog.php" style="color:black" class="col-sm-2">Blog</a>
       </ul>
       <br>
@@ -100,7 +101,7 @@
     </div>
   </div>
   </div>
-  <hr style="margin-top: 1px; border-color: #101010;">
+  <hr style="margin-top: 1px; border-color: #10101045;">
 </nav>
 
   </div>

@@ -29,7 +29,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
   <style>
   .bg-overlay{
   background-image: url("./assests/white.jpg");
@@ -41,6 +45,51 @@
   height: 450px;
   padding-top: 50px;
 }
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ .social-fb:hover {
+     color: #3B5998;
+ }
+ .social-tw:hover {
+     color: #4099FF;
+ }
+ .social-gp:hover {
+     color: #d34836;
+ }
+.social-em:hover {
+     color: #f39c12;
+ }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: #000000;
+}
+
+
   </style>
   
 
@@ -56,9 +105,9 @@
   <h1 style="font-family:ProximaNova-Semibold"><b>About Us</b></h1>
   <div class="col-sm-2"></div>
   <div class="col-md-9">
-  <h4 style="font-family:ProximaNova-Regular">
+  <p style="font-family:ProximaNova-Regular;font-size: 17px;">
   We are digital natives. We ensure that from your initial idea through to final implementation, we deliver our solutions leveraging “best in class” digital technology to enhance your business.
-          </h4>
+          </p>
           </div>
  
 </div>
@@ -119,7 +168,7 @@
 <div class="container">
   <div class="row">
       <div class="col-md-5">
-      <br><br><br><br>
+      <br>
         <h3 style="font-family:ProximaNova-Semibold"><img src="assests/noun-vision-995437.svg" class="img-responsive">
         <b>Our Vision</b></h3>
         <p style="font-family:ProximaNova-Regular;font-size:17px">Our Vision is to become the incubator for
@@ -127,8 +176,8 @@
                             disruptive technology and automation.</p>
       </div>
       <div class="col-sm-2"></div>
-      <br>
-    <div class="col-md-5 mt_6">
+     
+    <div class="col-md-5">
    
       <h3 style="font-family:ProximaNova-Semibold"><img src="assests/noun-focus-1532465.svg" class="img-responsive"><b>Our Mission</b></h3>        
       <p style="font-family:ProximaNova-Regular;font-size:17px">Our Mission is to help our clients achieve and
@@ -252,7 +301,7 @@
                             <p class="aboutus1_heading_name mt-4 " style="font-family: serif;">Muthuprakash&nbsp;Ravindran&nbsp;&nbsp;</p>
                             <p class="aboutus1_heading_desc  mt_2 ">Chief Technology Officer</p>
                             <div class="container-fluid">
-                                <p class="Solutions_content_body leadername3about" style="text-align: justify;">Muthu is a seasoned professional on
+                                <p class="Solutions_content_body leadername3about" style="text-align: justify;">Muthuprakash is a seasoned professional on
                                     delivering complex projects for various large customers in his long stint
                                     with the
                                     IT services majors. He specializes in delivery, architecting solutions and
@@ -420,13 +469,17 @@
     </a>
             </a>
         </div>
+        
     </div>
 
-                <div class="col-md-2">
-
-                </div>
+              
             </div>
+
+
+
+            
         </div>
+   
 
 <script>
 $(document).ready(function(){
@@ -434,12 +487,12 @@ $(document).ready(function(){
     // $("#myCarousel").carousel();
     
     // Enable Carousel Indicators
-    // $(".item1").click(function(){
-    //     $("#myCarousel").carousel(0);
-    // });
-    // $(".item2").click(function(){
-    //     $("#myCarousel").carousel(1);
-    // });
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
 
 
 
@@ -451,15 +504,17 @@ $(document).ready(function(){
     // });
     
     //Enable Carousel Controls
-    // $(".left").click(function(){
-    //     $("#myCarousel").carousel("prev");
-    // });
-    // $(".right").click(function(){
-    //     $("#myCarousel").carousel("next");
-    // });
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
 
   
 });
 </script>
+
 </body>
+
 </html>

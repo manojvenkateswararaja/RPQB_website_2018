@@ -7,29 +7,23 @@
 <link rel="icon" href="assests/rapidqube-logo-2.png" type="image">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
- 
- 
- 
+
   <style>
-  .bg-overlay{
-  background-image: url("./assests/fw.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  width:100%;
-  height: 450px;
-  padding-top: 50px;
+
+.mailto{
+  display:block;
+  width:100px;
+  height:20px;
+  color:white
 }
 
 .social:hover {
@@ -77,94 +71,86 @@
 }
 
 
-  </style>
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    margin:6%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.card-body {
+    padding:8px;
+}
+</style>
+
+ 
 </head>
 <body>
+
 <?php include('nav.php'); ?>
-<?php include('navbar.php'); ?>
-<div class="container bg-overlay"  style="width: 100%;margin-top: 133px;">
-<br>
-<br>
-<br>
-<br>
-  <div class=" text-center">
-  <h1 style="font-family:ProximaNova-Semibold"><b>Frameworks</b></h1>
-</div>
-</div>
-  <!-- <div class="text-center">
-<img src="assests/framework.png" srcset="assests/framework.png"
-                   class="img-responsive" width="100%"> -->
-                   <!-- <h2 class="mt-4">FrameWorks</h2> -->
-<!-- </div> -->
-<br>
 
-<div class="container">
+  
+<div class="container "  style="margin-top: 142px;">
+  <h2 style="font-family:ProximaNova-Semibold"><b>Career</b></h2>
+ <div class="img-responsive" style="background-image: url(../assests/Contact_Us_Page_2.png); background-repeat: no-repeat; background-size: cover; background-position: center ;">
+ <div class="row">
+ <!-- <div class="col-sm-1"></div> -->
+ <div class="card col-md-6" style="margin-top: 24px;"><br>  
+  <!-- <div class="card-deck sm" style="margin-top: -54px;"> -->
+   
+   
+   <!-- <div class="col-sm-4">
+   
+   </div> -->
+                                <div class="text-center">
+                                <br>   
+                                        <h4 class="pl-4 ml-4" style="font-family:ProximaNova-Semibold"><b>Mumbai Office</b></h4>
+                                     
+                                </div>
+                               
+                                
+      <div class="card-body text-center">
+        <p class="card-text" style="font-family:ProximaNova-Regular;font-size:17px">No,&nbsp;415,&nbsp;Fourth&nbsp;Floor,</p>
+        <p class="card-text" style="font-family:ProximaNova-Regular;font-size:17px">The&nbsp;Corporate&nbsp;Center&nbsp;</p>
+        <p class="card-text" style="font-family:ProximaNova-Regular;font-size:17px">Near&nbsp;Nirmal&nbsp;Lifestyle,&nbsp;L.B.S&nbsp;Road,</p>
+        <p class="card-text" style="font-family:ProximaNova-Regular;font-size:17px">Mulund(West),&nbsp;Mumbai</p>
+        <p class="card-text" style="font-family:ProximaNova-Regular;font-size:17px">&nbsp;Maharashtra&nbsp;-&nbsp;400080.&nbsp;</p>
+        <p class="pnL"  style="font-family:ProximaNova-Regular;font-size:17px">&nbsp;+91-22&nbsp;2567&nbsp;3235&nbsp;</p>
+                                                     <button type="button" class="btn btn-link">
+                                                        <p class="pnSBp" style="font-family:ProximaNova-Regular;font-size:17px">info@rapidqube.com</p>
+                                                     </button>
+                                                      </div>
+             
+      </div>
+      <div class="card col-sm-3">
+       <div class="card-body text-center">
+  <label class="control-label" for="filebutton">Upload your resume</label>
+  <div class="controls">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+  <br>
+  
+  <button id="singlebutton" style="background-color:#050363;border-color: #46b8da00;" name="singlebutton" class="btn btn-info"><a class="mailto" href="mailto:logeshdas21@gmail.com">Upload</a></button>
+</div>
 
-  <div class="row">
-    <div class="col-sm-4">
-      <h3 style="font-family:ProximaNova-Semibold"><b>Identity</b></h3>
-      <p style="font-family:ProximaNova-Regular;font-size:17px">Digitizes and manages identity of individuals,
-                        organizations and physical real world assets.</p>
-     <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
+<!-- Button -->
+<div >
+  <label class="control-label" for="singlebutton"></label>
+  
+</div>
+    </div>
     </div>
     
-    <div class="col-sm-4">
-    <h3 style="font-family:ProximaNova-Semibold"><b>Trade Finance</b></h3>
-      <p style="font-family:ProximaNova-Regular;font-size:17px">Simplifies management, tracking and securing of trade
-                        transactions from order to payment.</p>
-       <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
     </div>
-    <div class="col-sm-4">
-    <h3 style="font-family:ProximaNova-Semibold"><b>Health Records</b></h3>        
-      <p style="font-family:ProximaNova-Regular;font-size:17px">An access control framework that ensures privacy of
-                        health record.</p>
-    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-    </div>
-  </div>
-</div>
-<br>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-    <h3 style="font-family:ProximaNova-Semibold"><b>Legal</b></h3>        
-      <p style="font-family:ProximaNova-Regular;font-size:17px">Framework that ensures ownership of assets.</p>
-    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-    </div>
-    <div class="col-sm-4">
-    <h3 style="font-family:ProximaNova-Semibold"><b>Lending</b></h3>        
-      <p style="font-family:ProximaNova-Regular;font-size:17px">A common framework that facilitates reward model,
-                        equity model, lending model etc. of crowd funding.</p>
-    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-    </div>
-    <div class="col-sm-4">
-    <h3 style="font-family:ProximaNova-Semibold"><b>Insurance</b></h3>        
-      <p style="font-family:ProximaNova-Regular;font-size:17px">Facilitates a live digital access across the value
-                        chain of insurance services.</p>
-    <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-    </div>
-  </div>
-</div>
-<br>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3 style="font-family:ProximaNova-Semibold"><b>Compliance</b></h3>
-      <p style="font-family:ProximaNova-Regular;font-size:17px">Facilitates immutable track of the steps required by
-                        regulation.</p>
-   <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-    </div>
-    <div class="col-sm-4">
-      <h3 style="font-family:ProximaNova-Semibold"><b>Supply Chain</b></h3>
-      <p style="font-family:ProximaNova-Regular;font-size:17px">A cost-effective and flexible model for distributed
-                        supply chain network.</p>
-       <a data-toggle="modal" href="#" data-target="#myModal" class="card-link">Explore more ----></a>
-    </div>
-    <div class="col-sm-4">
-    <img src="assests/group-8.svg" class="img-responsive">
-    </div>
-  </div>
-
-
+   
+   
+    
+    
 <div class="footer pale_bg_color footstyle" style="width: 103%;height:10%;">
     <!-- <div class="col-md-10 col-sm-10 col-lg-10 ">      
     </div> -->
@@ -256,11 +242,16 @@ Maharashtra - 400080.
   </div>
   </div>
   </div>
-
-
-
+    
 </div>
-
+<!-- <script>
+function myFunction() {
+    var x = document.getElementById("myFile");
+    x.disabled = true;
+}
+</script> -->
 
 </body>
 </html>
+
+
