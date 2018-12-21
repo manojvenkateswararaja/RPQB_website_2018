@@ -28,7 +28,7 @@
   background-position: center center;
   color: #fff;
   width:100%;
-  height: 450px;
+  height: 300px;
   padding-top: 50px;
 }
 

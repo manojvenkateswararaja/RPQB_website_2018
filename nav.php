@@ -12,7 +12,9 @@
 .icon-bar{
   color:black
 }
-   
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
+    background-color: #333;
+}
     /* .navbar-inverse{
       background-color:"white";
     } */
