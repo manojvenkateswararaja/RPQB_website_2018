@@ -4,16 +4,16 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script data-require="jquery" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script data-require="bootstrap@*" data-semver="3.1.1" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   <style>
 
 .icon-bar{
   color:black
-}
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
-    background-color: #333;
 }
     /* .navbar-inverse{
       background-color:"white";
@@ -32,24 +32,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a href="testhomepage.php">
+      <a href="testlandingpage.php">
     <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: 26px;">
   </a>
     </div>
   
     <ul class="nav navbar-nav navbar-right mt-2" style="margin-top: 36px;">
-       <a href="testhomepage.php" style="color:black"  class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
+       <a href="testlandingpage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
         
         <a href="testcontact.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-4">Contact&nbsp;Us</a>
-        <a href="career.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-3">Career</a>
+        <a href="testundermaintance.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-3">Career</a>
         <a href="testblog.php" style="color:black;font-family:ProximaNova-Regular;font-size:14px" class="col-sm-2">Blog</a>
       </ul>
       <br>
-      <hr style="margin-top: 50px;">
+      <hr style="margin-top: 50px;border-color: #101010;">
      <div class="pl-2">
     <div class="collapse navbar-collapse nav navbar-right" id="myNavbar" style="margin-top:-12px">
-      <ul class="nav navbar-nav mt-2">
-        <li><a href="productsolution.php" class="active" style="color:black ;font-family:ProximaNova-Regular;font-size:15px" > Products & Solutions</a></li>
+      <ul class="nav navbar-nav">
+        <li><a href="productsolution.php" style="color:black ;font-family:ProximaNova-Regular;font-size:15px" > Products & Solutions</a></li>
         <li><a href="testwhitepaper.php" style="color:black; font-family:ProximaNova-Regular;font-size:15px">Whitepapers</a></li>
         <li><a href="testframework.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Frameworks</a></li>
         <li><a href="testserviceus.php" style="color:black;font-family:ProximaNova-Regular;font-size:15px">Services</a></li>
@@ -61,7 +61,19 @@
     </div>
   </div> 
   </div>
-  <hr style="margin-top: 1px;border-color: #10101045;">
+  <script>
+  //  $(".nav li").on("click", function() {
+  //   $(".nav li").removeClass("active");
+  //   $(this).addClass("active");
+  // });
+  </script>
+  <style>
+  .nav li:hover{
+    background-color:silver;
+  }
+ 
+  </style>
+  <hr style="margin-top: 1px;border-color: #101010;">
 </nav>
   <!-- mobile navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top visible-xs "  style="background-color:#ffffff!important;border:none !important">
@@ -73,17 +85,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a href="testhomepage.php">
+      <a href="testlandingpage.php">
     <img class="img-responsive" src="assests/rapidqube-logo-2.png" style="margin-top: 13px;width: 79px;">
     </a>
     </div>
   
     <ul class="nav navbar-nav navbar-right mt-2">
-    <hr style="margin-top: 1px; ">
-       <a href="testhomepage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
+    <hr style="margin-top: 1px; border-color: #101010;">
+       <a href="testlandingpage.php" style="color:black" class="col-sm-2"><span class="glyphicon glyphicon-home "></span></a>
         
         <a href="testcontact.php" style="color:black" class="col-sm-4">Contact&nbsp;Us</a>
-        <a href="career.php" style="color:black" class="col-sm-3">Career</a>
+        <a href="testundermaintance.php" style="color:black" class="col-sm-3">Career</a>
         <a href="testblog.php" style="color:black" class="col-sm-2">Blog</a>
       </ul>
       <br>
@@ -103,7 +115,7 @@
     </div>
   </div>
   </div>
-  <hr style="margin-top: 1px; border-color: #10101045;">
+  <hr style="margin-top: 1px; border-color: #101010;">
 </nav>
 
   </div>
