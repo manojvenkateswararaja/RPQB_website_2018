@@ -15,6 +15,18 @@
 .icon-bar{
   color:black
 }
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #232323b0;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
     /* .navbar-inverse{
       background-color:"white";
     } */
