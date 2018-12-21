@@ -5,7 +5,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-<script src="/path/to/textcounter.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 <title>
  RapidQube
@@ -149,11 +148,11 @@
 <?php include('navbar.php'); ?>
 
 <div class="bg-no-overlay">
-<!-- <div class="col-sm-1"></div> -->
-    <div class="col-md-4">
+<div class="col-sm-1"></div>
+    <div class="row col-md-4">
     <div class="col-sm">
 		<h1 style="font-family:ProximaNova-Semibold">We are 
-<br><b>BLOCKCHAIN EXPERTS</b></h1>
+<br><b>Digital Transformation Experts having expertise in Blockchain, Big Data, AI, IOT, Machine Learning. </b></h1>
 <p style="font-family:ProximaNova-Regular">We are digital natives. We ensure that from your initial idea<br> through to final implementation, we deliver our solutions<br> leveraging “best in class” digital technology to enhance your<br> business.</p>
 <a  href="testaboutus.php"  class="card-link">Explore more ----></a>
         
@@ -162,7 +161,7 @@
 	</div></div>
 </div>
 <br>
-<hr style="border-color: #00000014;">
+<hr style="border-color: #00000057;">
 
 <div class="container">
   <h2 style="text-align:center;font-family:ProximaNova-Semibold"><b>Our Specialization</b></h2>
@@ -206,7 +205,7 @@
   </div>
 </div>
 <br>
-<hr style="border-color: #00000014;">
+<hr style="border-color: #00000057;">
 <div class="container">
  
 <div class="counter">
@@ -244,7 +243,7 @@
 </div>
 <div>
 
-<hr style="border-color: #00000014;">
+<hr style="border-color: #00000057;">
 <h2 class="text-center" style="font-family:ProximaNova-Semibold"> <b>Inside RapidQube</b></h2>
 </div><br>
 <div class="row col-md-12 background_image " style="margin-top: -47px;">
@@ -272,7 +271,7 @@
             <a href="https://twitter.com/rapidqube" class="btn btn-link pnSB " target="_blank" ><h5 style="font-family:ProximaNova-Semibold"> View more ---> </h5></a>
             <br>
             <br>
-            <!-- <hr style="border-color: #00000014;"> -->
+            <!-- <hr style="border-color: #00000057;"> -->
       </div>
                     
                 </div>
@@ -280,9 +279,12 @@
                
                
                 <div class="row">
-  
+  <div class="col-sm-4">  
+ 
+ 
+ </div>
 
- <div class="col-md-12 text-center">  
+ <div class="col-md-5 text-center">  
  <h2 style="font-family:ProximaNova-Semibold; font-size:26px"><b>Partnership & Collaboration</b></h2>
  
  </div>
@@ -295,7 +297,7 @@
 </div>
       
  
-  <!-- <div class="row">
+  <div class="row">
   <div class="col-sm-2">  
  
  
@@ -310,7 +312,7 @@
  <div class="col-sm-3 text-center">  
  <h4 style="font-family:ProximaNova-Semibold">Members</h4>
  </div>
- </div> -->
+ </div>
    
 </div>
 <div class="container">
@@ -329,18 +331,17 @@
  
  </div>
  
- <div class="container">
+ 
  <div class="col-sm-4"></div>
  <div class="col-sm-4">
   <button data-toggle="modal" data-target="#myModal" type="submit" id="send_btn" name="submit"  value="submit" class="img-responsive"
              style="width: 286px; height: 68px;border-radius: 32px;margin-top: 27px;
     color:white; background-image: linear-gradient(76deg, #06cbec, #0c7bd2);font-size:24px">Start a Project</button>
     </div>
- 
- <div class="col-sm-4">
+ <br>
+ <div>
  </div>
- </div>
-
+ <br><br><br>
     <div class="footer pale_bg_color footstyle" style="width: 103%;height:10%;">
     <!-- <div class="col-md-10 col-sm-10 col-lg-10 ">      
     </div> -->
@@ -351,22 +352,12 @@
         <img  src="assests/group-8.png"  srcset="assests/group-8@2x.png 2x, assests/group-8@3x.png 3x"
       class="Group-8 float-right mr-5" ></a></div>
       </div>
-      <hr style="border-color: #00000014;">
+      <hr style="border-color: #00000057;">
     <div class="container row" style="background:#E7EEF3">
      
      <div style="margin-top:28px">
       
-      <div class="col-md-3">
-      
-      <p style="font-family:ProximaNova-Semibold;font-size: 15px;"><b>Registered Office:</b></p>
-      <p style="font-family:ProximaNova-Regular">415, Fourth Floor, The Corporate Center, 
-Near Nirmal Lifestyle, L.B.S
-Road, Mulund(West), Mumbai
-Maharashtra - 400080. 
-      
-      </p>
-      
-      </div>
+      <div class="col-md-3"></div>
       <div class="col-md-2 support">
       <ul style="list-style: none;">
           <li class="footer_font_header" style="font-family:ProximaNova-Semibold;font-size: 15px;"><b>RapidQube</b></li>
