@@ -57,10 +57,10 @@
         <a class="nav-link pl-2 pl-4" style="color:black" href="#">About&nbsp;Us </a>
       </li>    
       <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black" href="#">info@rapidqube.com</a>
+        <a class="nav-link pl-2 pl-4" style="color:black">info@rapidqube.com</a>
       </li>    
       <li class="nav-item">
-        <a class="nav-link pl-2 pl-4" style="color:black" href="#">+91-22-2567-3235</a>
+        <a class="nav-link pl-2 pl-4" style="color:black" >+91-22-2567-3235</a>
       </li>    
     </ul>
   </div>  

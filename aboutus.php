@@ -508,5 +508,7 @@
     <br>
     <br>
 </body>
+<footer class="footer">
+</footer>
 
 </html>

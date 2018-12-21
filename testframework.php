@@ -263,4 +263,6 @@ Maharashtra - 400080.
 
 
 </body>
+<footer class="footer">
+</footer>
 </html>

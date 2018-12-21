@@ -316,4 +316,6 @@ function sweet (){
         }
 </script>
 </body>
+<footer class="footer">
+</footer>
 </html>

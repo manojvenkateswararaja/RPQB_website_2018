@@ -443,4 +443,6 @@ Maharashtra - 400080.
 
 </div>
 </body>
+<footer class="footer">
+</footer>
 </html>

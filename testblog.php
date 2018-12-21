@@ -134,4 +134,6 @@ Unique IDentification Authority of India (UIDAI), an agency established by the G
                <div class="col-md-12 gap10"></div>
              </div>
 </div>
+<footer class="footer">
+</footer>
 <?php include('footer.php'); ?>

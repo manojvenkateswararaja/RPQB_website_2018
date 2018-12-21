@@ -153,7 +153,7 @@
     <div class="col-sm">
 		<h1 style="font-family:ProximaNova-Semibold">We are 
 <br><b>Digital Transformation Experts having expertise in Blockchain, Big Data, AI, IOT, Machine Learning. </b></h1>
-<p style="font-family:ProximaNova-Regular">We are digital natives. We ensure that from your initial idea<br> through to final implementation, we deliver our solutions<br> leveraging “best in class” digital technology to enhance your<br> business.</p>
+<p style="font-family:ProximaNova-Regular;font-size: 16px;">We are digital natives. We ensure that from your initial idea<br> through to final implementation, we deliver our solutions<br> leveraging “best in class” digital technology to enhance your<br> business.</p>
 <a  href="testaboutus.php"  class="card-link">Explore more ----></a>
         
         <br><br>
@@ -422,7 +422,8 @@
   </div>
   </div>
   </div>
-
+  <footer class="footer">
+</footer>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
         
